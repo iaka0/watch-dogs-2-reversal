@@ -1,0 +1,2836 @@
+0x351ebb8	InPossession
+0x351ec18	SubPartInPossession
+0x3537138	LetsFixSeamless
+0x3537160	OnlineSession
+0x3537238	MatchMaking
+0x3537470	BountyHunterMission
+0x3537978	DriverSessionFlow
+0x3537990	MatchingSession
+0x35379a0	MatchmakingMetaSession
+0x35379c8	MetaSessionManager
+0x353cba8	CGroupLayer
+0x353cc10	CUngroupLayer
+0x353f8b0	DXGI_ERROR_SESSION_DISCONNECTED
+0x356d2d0	The bark will be play on master and on replica in multiplayer session.
+0x3590cd8	CPlayerHandsUpLayerStateDef
+0x3590e48	CPlayerHandsUpLayerState
+0x3590e68	BeforeMergeParent CPlayerHandsUpLayerState
+0x35973a0	K:\Code\OnlineSession/Core/StormCore/StormDataContainerRegistry.inl
+0x35b4548	bFriendInvasionEnabled
+0x35b4580	bBountyHunterEnabled
+0x35b4598	bBountyTargetEnabled
+0x35b45c8	bSeamlessCoopMissionsEnabled
+0x35b4600	Rules to unlock all seamless and pvp
+0x35b4670	Rules to unlock seamless dedsec events and neutral encounter
+0x35b46b0	availabilityrulegroupSeamlessNeutralActivitiesAvailabilityRule
+0x35b4730	If the player did an invasion through contact list, it unlocks seamless pvp
+0x35b4780	progressiontagInvasionPlayedOnceProgressionTag
+0x35b4810	Matchmaking
+0x35b4820	fMatchmakingActivityAvailabilityCheckTimeout
+0x35b4850	fMatchmakingTimeout
+0x35b4868	fMatchmakingPhaseBountyOnMeForgingEvidenceDuration
+0x35b48a0	fMatchmakingPhase1ModeSpecificTextDuration
+0x35b48d0	fMatchmakingPhase2ScanningTextDuration
+0x35b48f8	fMatchmakingPhase3ExpandingTextDuration
+0x35b4a38	bPullRequestBountyHunterInCoopEnabled
+0x35b4a60	bPullRequestBountyTargetInCoopEnabled
+0x35b4ae8	fBountyHunterSettingChangeForcedDuration
+0x35b4b18	fMatchmakingFriendsTimeout
+0x35b78a7	?AvailabilityMatchingSessionConfig
+0x35b78e8	HackingVictimMatchingSessionConfig
+0x35b7910	CoopHookMatchingSessionConfig
+0x35b79d0	BountyMatchingSessionConfig
+0x35b79f0	DebugMatchingSessionConfig
+0x35b7a10	FriendMatchingSessionConfig
+0x35b7a30	GameSessionInfoMatchingSessionConfig
+0x35b7a58	HackingIntruderMatchingSessionConfig
+0x35b7a80	ActivityContextMatchingSessionConfig
+0x35b7ac0	CoopMissionOwnerMatchingSessionConfig
+0x35b7ae8	HackingMatchingSessionConfig
+0x35b7b08	DebugMetalMatchingSessionConfig
+0x35b7b48	BaseMatchingSessionConfig
+0x35b7b68	CoopMissionPlayerMatchingSessionConfig
+0x35b7b90	InstigatedBountyHunterMatchingSessionConfig
+0x35b7bc0	FieldOfViewMatchingSessionConfig
+0x35b7be8	CHackingMatchingSessionModuleConfig
+0x35b7c40	InstigatedBountyMatchingSessionConfig
+0x35b7c68	BountyTargetMatchingSessionConfig
+0x35b7ca8	BountyHunterMatchingSessionConfig
+0x35b7cd0	CoopMissionMatchingSessionConfig
+0x35b7cf8	BaseMatchingSessionScorerConfig
+0x35b7d18	DebugMagnetMatchingSessionConfig
+0x35b7d3c	Bounty
+0x35bb330	lb_replaceBountyScore
+0x35bb3b0	ReplaceBountyMedal
+0x35bcba0	[{ "name": "m_endModeReason", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 5>", "max_size": "5"},{ "name": "m_escapeFriendlyPhaseStarted", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_huntersKilledCount", "type": "storm::DataNumber<ndS32, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "33"},{ "name": "m_protectorData", "type": "CNewBountyTargetProtectorContainer", "max_size": "sizeof(CNewBountyTargetProtector)", "value": "
+0x35bcd90	"},{ "name": "m_protectorKilledCount", "type": "storm::DataNumber<ndS32, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "33"},{ "name": "m_startedHunters", "type": "CNetVector<CBountyHunterDataContainer, 3>", "max_size": "3*sizeof(CBountyHunterData)"
+0x35bcea0	", "array_item_type": "CBountyHunterDataContainer", "capacity": "3", "value": [
+0x35bcef0	]},{ "name": "m_targetIdentity", "type": "CBountyTargetIdentityContainer", "max_size": "sizeof(CBountyTargetIdentity)", "value": "
+0x35bd190	CBountyHunterSavedState
+0x35bd1f8	iLastTimeBountyPlayedAsTarget
+0x35bd218	bHasDoneABountyPullRequest
+0x35bd238	bTargetBountyLeaderboardTutorialWasDisplayed
+0x35bd268	bHunterBountyLeaderboardTutorialWasDisplayed
+0x35bd298	iBountyHunterCompleteCount
+0x35bee68	fBountyHunterSettingBlockRemainingTim
+0x35bf020	When two players are too far in pvp event seamless, there are disconnected
+0x35bf130	fSeamlessActivityPropositionDuration
+0x35bf3e0	Duration during which two damage on a friendly player will kick out the local player out of session
+0x35bf7b8	Duration of matchmaking HUD at start of a coop mission
+0x35bf9e8	CBaseMatchingSessionConfig
+0x35bfab8	CActivityContextMatchingSessionConfig
+0x35bfb80	Bounty Target
+0x35bfb90	Bounty Target Instigated
+0x35bfbb0	Bounty Hunter
+0x35bfbc0	Bounty Hunter Instigated
+0x35bfbe0	Bounty Target Most Wanted
+0x35bfc48	Coop Mission Seamless Owner
+0x35bfc68	Coop Mission Seamless Player
+0x35bfe58	CAvailabilityMatchingSessionConfig
+0x35c0218	CBaseMatchingSessionScorerConfig
+0x35c03a8	CFieldOfViewMatchingSessionConfig
+0x35c0618	CGameSessionInfoMatchingSessionConfig
+0x35c0640	CPawnMatchingSessionConfig
+0x35c0708	CBountyHunterMatchingSessionConfig
+0x35c07d8	CBountyMatchingSessionConfig
+0x35c0838	GameSessionInfoConfig
+0x35c08f8	CBountyTargetMatchingSessionConfig
+0x35c09c8	CCoopHookMatchingSessionConfig
+0x35c0a00	CMissionMatchingSessionConfig
+0x35c0ac8	CCoopMissionMatchingSessionConfig
+0x35c0ba8	CCoopMissionOwnerMatchingSessionConfig
+0x35c0c78	CCoopMissionPlayerMatchingSessionConfig
+0x35c0d48	CDebugMagnetMatchingSessionConfig
+0x35c0e18	CDebugMatchingSessionConfig
+0x35c0ee8	CDebugMetalMatchingSessionConfig
+0x35c10a8	CFriendMatchingSessionConfig
+0x35c10c8	The number of players to fill the session
+0x35c1298	CHackingIntruderMatchingSessionConfig
+0x35c1368	CHackingMatchingSessionConfig
+0x35c1598	CHackingVictimMatchingSessionConfig
+0x35c1668	CInstigatedBountyHunterMatchingSessionConfig
+0x35c1748	CInstigatedBountyMatchingSessionConfig
+0x35c20d0	K:\Code\DriverData/Missions/Coop/BountyHunter/BountyHunterNetDataContainers.h
+0x35c2120	K:\Code\DriverData/Missions/Coop/BountyHunter/PlayerKilledNetData.h
+0x35c2300	K:\Code\DriverData/Network/Matchmaking/CoopSession/CoopSessionMessages.h
+0x35c33a0	VersusShowdownMatchingSessionConfig
+0x35c33d0	LootTruckAsInstigatedHunterVsSeamlessTargetMatchingSessionConfig
+0x35c3418	MostWantedBountyHunterMatchingSessionConfig
+0x35c3448	InstigatedBountyTargetMatchingSessionConfig
+0x35c3478	MostWantedInstigatedBountyHunterMatchingSessionConfig
+0x35c34b0	VersusShowdownTeamAMatchingSessionConfig
+0x35c34df	:QosMatchingSessionConfig
+0x35c3500	InstigatedHackingMatchingSessionConfig
+0x35c3528	MostWantedBountyMatchingSessionConfig
+0x35c3550	VersusShowdownTeamBMatchingSessionConfig
+0x35c3580	MostWantedInstigatedBountyMatchingSessionConfig
+0x35c35b0	InstigatedVsBountyMatchingSessionConfig
+0x35c35e0	LootTruckSeamlessTargetVsSeamlessBountyHunterMatchingSessionConfig
+0x35c3628	MissionMatchingSessionConfig
+0x35c3648	MergingSessionConfig
+0x35c3660	InstigatedVsFriendHackingIntruderMatchingSessionConfig
+0x35c3698	LootTruckAsSeamlessTargetVsSeamlessHunterMatchingSessionConfig
+0x35c36d8	OnlineRaceMatchingSessionConfig
+0x35c3708	InstigatedVsInstigatedBountyHunterMatchingSessionConfig
+0x35c3760	MostWantedBountyTargetMatchingSessionConfig
+0x35c3790	MostWantedInstigatedBountyTargetMatchingSessionConfig
+0x35c37c8	LootTruckAsSeamlessHunterVsSeamlessTargetMatchingSessionConfig
+0x35c3808	InstigatedHackingVictimMatchingSessionConfig
+0x35c3838	InstigatedVsInstigatedBountyMatchingSessionConfig
+0x35c3870	InstigatedVsFriendHackingMatchingSessionConfig
+0x35c38a0	InstigatedVsBountyTargetMatchingSessionConfig
+0x35c38f0	LootTruckSeamlessTargetVsInstigatedBountyHunterMatchingSessionConfig
+0x35c3950	PawnMatchingSessionConfig
+0x35c3970	NeutralEncounterMatchingSessionConfig
+0x35c39a0	LootTruckAsSeamlessTargetVsInstigatedHunterMatchingSessionConfig
+0x35c39e8	InstigatedHackingIntruderMatchingSessionConfig
+0x35c3a18	InstigatedVsFriendHackingVictimMatchingSessionConfig
+0x35c3a50	InstigatedVsBountyHunterMatchingSessionConfig
+0x35c3a80	InstigatedVsInstigatedBountyTargetMatchingSessionConfig
+0x35c3d88	CInstigatedBountyTargetMatchingSessionConfig
+0x35c3e68	CInstigatedHackingIntruderMatchingSessionConfig
+0x35c3f48	CInstigatedHackingMatchingSessionConfig
+0x35c4028	CInstigatedHackingVictimMatchingSessionConfig
+0x35c4108	CInstigatedVsBountyHunterMatchingSessionConfig
+0x35c41e8	CInstigatedVsBountyMatchingSessionConfig
+0x35c42c8	CInstigatedVsBountyTargetMatchingSessionConfig
+0x35c43a8	CInstigatedVsFriendHackingIntruderMatchingSessionConfig
+0x35c4488	CInstigatedVsFriendHackingMatchingSessionConfig
+0x35c4578	CInstigatedVsFriendHackingVictimMatchingSessionConfig
+0x35c4658	CInstigatedVsInstigatedBountyHunterMatchingSessionConfig
+0x35c4748	CInstigatedVsInstigatedBountyMatchingSessionConfig
+0x35c4828	CInstigatedVsInstigatedBountyTargetMatchingSessionConfig
+0x35c4920	CLootTruckSeamlessTargetVsSeamlessBountyHunterMatchingSessionConfig
+0x35c4a20	CLootTruckAsSeamlessTargetVsSeamlessHunterMatchingSessionConfig
+0x35c4b10	CLootTruckAsSeamlessHunterVsSeamlessTargetMatchingSessionConfig
+0x35c4c00	CLootTruckSeamlessTargetVsInstigatedBountyHunterMatchingSessionConfig
+0x35c4d00	CLootTruckAsSeamlessTargetVsInstigatedHunterMatchingSessionConfig
+0x35c4e00	CLootTruckAsInstigatedHunterVsSeamlessTargetMatchingSessionConfig
+0x35c6568	CMostWantedBountyHunterMatchingSessionConfig
+0x35c6648	CMostWantedBountyMatchingSessionConfig
+0x35c6718	CMostWantedBountyTargetMatchingSessionConfig
+0x35c67f8	CMostWantedInstigatedBountyHunterMatchingSessionConfig
+0x35c68d8	CMostWantedInstigatedBountyMatchingSessionConfig
+0x35c69b8	CMostWantedInstigatedBountyTargetMatchingSessionConfig
+0x35c6a98	CNeutralEncounterMatchingSessionConfig
+0x35c6b68	CQosMatchingSessionConfig
+0x35c6c38	COnlineRaceMatchingSessionConfig
+0x35c7198	CVersusShowdownMatchingSessionConfig
+0x35c7268	CVersusShowdownTeamAMatchingSessionConfig
+0x35c7348	CVersusShowdownTeamBMatchingSessionConfig
+0x35c7540	PreventSeamlessMergeAfterDistance - The distance beyond which we should not seamlessly merge.
+0x35c75a0	fPreventSeamlessMergeAfterDistance
+0x35c75c8	Max time to spend on the seamless strategy
+0x35c75f8	fSeamlessStrategyTime
+0x35c76e0	Candidate Strategies: Seamless %.1f, Low Impact %.1f, High Impact %.1f, Participant Strategies: Seamless %.1f, Low Impact %.1f, High Impact %.1f
+0x35c7828	CMergingSessionConfig
+0x35cbc60	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionActivityContextNetData.h
+0x35cbcc0	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionAvailabilityNetData.h
+0x35cbd20	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionDebugInfoNetData.h
+0x35cbd80	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionE3DemoInfoNetData.h
+0x35cbde0	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionFriendInfoNetData.h
+0x35cbe40	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionGameSessionInfoNetData.h
+0x35cbea0	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionHackingNetData.h
+0x35cbf00	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionMessages.h
+0x35cbf60	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionMissionInfoNetData.h
+0x35cbfc0	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionPawnInfoNetData.h
+0x35f5688	CAICommandNetworkManager::OnSessionEnter
+0x35f56b8	CAICommandNetworkManager::OnSessionLeft
+0x35ffd88	CEnterSessionEvent
+0x35ffda0	CLeaveSessionEvent
+0x35ffdb8	CEnterGameplaySessionEvent
+0x35ffdd8	CLeaveGameplaySessionEvent
+0x3601988	CStartSessionSwitchTransitionEvent
+0x3602f10	iDenunciatorProbabilityInvasion
+0x360e1a0	K:\Code\DriverGame/Session/Merging/DriverSessionMergeModuleDefs.h
+0x360e240	Seamless
+0x3615918	bBounty
+0x3646080	OnceEachPerSession
+0x3646098	OncePerSession
+0x3650ab8	bIsInteractableInSessionJoin
+0x365d6d0	CBountyMatchingPairScorer
+0x365f470	Bounty_Target
+0x365f480	Bounty_Hunter
+0x365f490	Invasion_Intruder
+0x365f4a8	Invasion_Victim
+0x365f4b8	Invasion_Victim_Friends
+0x365f4f0	CoopMissionSeamless_Owner
+0x365f510	CoopMissionSeamless_Player
+0x365f530	Instigated_Invasion_Intruder
+0x365f550	Instigated_Bounty_Hunter
+0x365f570	Invasion_Intruder_Friends
+0x365f590	Bounty_Target_Most_Wanted
+0x365f5b0	Instigated_Bounty_Target
+0x365f5d0	Bounty_Target_Prioritize_Instigated_Hunters
+0x3660560	Online activity type used to matchmake with another player available for the same activity
+0x3661510	CMatchingSessionChannel
+0x3661528	CMatchingSessionMatchFoundEvent
+0x3661548	CMergingSessionChannel
+0x3661560	CMergingSessionOnMergeBeginEvent
+0x3661588	CMergingSessionOnMergeEndEvent
+0x366c9a8	PullRequest_SessionDeleted
+0x366c9c8	Invite_SessionDoesNotExist
+0x36738a0	Client %llu (%s) left the gameplay session
+0x36738f8	Gameplay session destroyed. Clear all relations
+0x3673928	CPlayerRelationService::OnSessionDeleted
+0x36752b8	CDriverSessionManagerService
+0x3675338	Session not found.
+0x36757f8	CBountyHunterMissionProperties
+0x3678848	WrongValueOf[ServerMatchMakingSessionType]
+0x3678888	WrongValueOf[ServerMatchMakingNetworkRoleType]
+0x36788b8	MatchingSessionInvite
+0x36788f8	DirectFriendsInvasions
+0x3678910	GeoMatchmaking
+0x36789b8	WrongValueOf[EServerMatchMakingRequestOrigin]
+0x3678ca0	CStopSessionSwitchTransitionEvent
+0x3678cc8	CSessionSwitchCompleteEvent
+0x3678e70	CSessionJoiningCountdownStartedEvent
+0x3678f00	CLeaveGameplaySessionOpCtn_StateChangeEvent
+0x367a9c8	sndMatchMakingCancelSound
+0x367ab20	InvasionOfPrivacy
+0x367b0c8	CSessionStatsService
+0x367b7f8	eAccessRequestFlag_UplayAccount
+0x367ba68	CBaseSessionParam
+0x367ba98	CCreateSessionParam
+0x367bb38	CDriverWaitForSessionOperationsDoneOperation
+0x367bd78	CDriverCreateSessionOp
+0x367bee8	CDriverJoinSessionOp
+0x367c058	CDriverLeaveSessionOp
+0x367c120	CDriverEnterSessionOpCtn
+0x367c1e8	CDriverLeaveSessionOpCtn
+0x367c298	CLeaveAndBlockAllSessionsUntilGameModeStartOp
+0x367c428	CTransitionAloneInSession
+0x367c4d8	CTransitionMultiplePlayersInSession
+0x367c5b0	CDriverJoinStartupSessionOperation
+0x367c738	CDriverGetSessionOperation
+0x367c7e8	CDriverJoinOrCreateSessionSetupOperation
+0x367e718	CDriverOnEnterSessionRespawnOperation
+0x367ee48	CDriverSetEnterSessionRespawnStrategyOperation
+0x367ef08	CDriverClearEnterSessionRespawnStrategyOperation
+0x3681598	CDriverDoMatchmakingPropositionRatificationOperation
+0x3681be8	CDriverJoinOrCreateServerMatchMakingSessionOpCtn
+0x3681cd8	GroupNoSessionLifetimeOp
+0x3681d10	GroupAlreadyInSession
+0x3681d28	WrongValueOf[ServerMatchMaking2DenyReasons]
+0x3681de0	CDriverDoMatchmakingFlowOperation
+0x3681e10	K:\Code\DriverGame\GameOperations\DriverDoMatchmakingFlowOperation.cpp
+0x3681e58	Joining session directly %s
+0x3681e78	CDriverDoMatchmakingFlowOperation::Init
+0x3681eb0	,m_state[%d],m_internalResult[%s],requestId[%d],m_sessionType[%s],m_sessionFlags[%s],m_networkRoleType[%s],m_requestOrigin[%s],m_sessionId[%s],m_joinSessionInfo[%s],m_numMatchmakingPropositionsReceived[%u]
+0x3681f80	CDriverDoMatchmakingFlowOperation::RefreshMatchmakingProvider
+0x3681fc0	%s - Provider CSessionServerMatchMaking2Provider is nullptr
+0x3682000	CDriverDoMatchmakingFlowOperation failed - Provider is nullptr
+0x3682040	CDriverDoMatchmakingFlowOperation::SetInternalResult
+0x3682148	JoinOrCreateSession
+0x3682160	LeavingJoinedSession
+0x36821d0	CDriverDoMatchmakingFlowOperation::ForceSetState
+0x3682230	CDriverDoMatchmakingFlowOperation::ForceSetState::<lambda_7b602d9e229cfc3cdd5c3d53434ae941>::operator ()
+0x3682330	CDriverDoMatchmakingFlowOperation::ForceSetState::<lambda_0b1d07bab042e9842a0f23070c5e2eee>::operator ()
+0x36823a0	%s - EMatchmakingState::Deny - Retrying, %d retries remaining
+0x3682418	CDriverDoMatchmakingFlowOperation::HandleFailure
+0x36824b8	CDriverDoMatchmakingFlowOperation::HandleStateUpdate
+0x3682518	CDriverDoMatchmakingFlowOperation::HandleTimeout
+0x3682588	CDriverDoMatchmakingFlowOperation failed - client-side timeout
+0x36825c8	CDriverDoMatchmakingFlowOperation::LogState
+0x36825f8	[id: %u] %s  - request = %d, newState = %s, sessionId = %s
+0x3682638	CDriverDoMatchmakingFlowOperation::SetCompleted
+0x3682680	CDriverDoMatchmakingFlowOperation::SetDefaultTimeout
+0x3682710	K:\Code\DriverGame\GameOperations\DriverGameJoinOrCreateSessionOperation.cpp
+0x3682760	Matching Session
+0x3682778	Merging Session
+0x3682788	Coop Session
+0x3682798	Group Session
+0x36827a8	Invalid Session
+0x36827b8	GameplaySession
+0x36827c8	MergingSession
+0x36827d8	GroupSession
+0x36827e8	CoopSession
+0x3682800	m_origin[%s],m_sessionFlags[%s],m_sessionName[%s],m_sessionInfo[%s]
+0x36829a0	CGREventOnEnterSession
+0x3682a28	Getting session info for session id %s
+0x3682a50	CDriverGetSessionOperation::DoExecute
+0x3682a80	K:\Code\DriverGame\GameOperations\DriverGameSessionOperations.cpp
+0x3682ad8	m_ptrSessionInfo[
+0x3682af0	m_ptrSessionInfo[null]
+0x3682b08	CLeaveAndBlockAllSessionsUntilGameModeStartOp::DoInit
+0x3682b40	%s: %d sessions
+0x3682b51	Type: %s, SessionId: %s
+0x3682b70	CLeaveAndBlockAllSessionsUntilGameModeStartOp::DoDone
+0x3682ba8	%s: %d sessions still alive!
+0x3682bc8	CDriverLeaveSessionOpCtn::DoExecute
+0x3682bf0	%s|Leaving session that does not exist or is being deleted %s
+0x3682c30	Session deleting already deleted session.
+0x3682cb8	%s: CSessionPartyProvider party size %d
+0x3683e08	CDriverProcessGameInvite::OnSessionGet
+0x3683e40	CDriverProcessGameInvite::ValidateJoinableSession
+0x3683e80	%s: SlotsOpen=[%d]. Filled/Max Public:%d/%d . Invited SessionId=%s Current SessionId=%s Session Flags=%s
+0x3683f28	%s: Invite sessionId=[%s]
+0x3683fc0	%s: %s. Invite session=[%s]
+0x36840f0	Creating group session for play together
+0x3684120	Creating Coop session for play together
+0x3684150	CDriverProcessGameInvite::CreateSessionOperationForPlayTogether::<lambda_5d0b60787e14d72536b985d35c05fd3a>::operator ()
+0x36841c8	%s: Failed to create %s session for play together: %s
+0x36842e0	%s: Skipped invite because we're already in that session, current %s session id:%s, queued invite sessionid:%s
+0x3684500	EInviteState::WAITING_FOR_SESSION_INFO
+0x3684528	EInviteState::WAITING_FOR_JOINABLE_SESSION_VALIDATION
+0x3684680	EInviteState::WAITING_FOR_ANSEL_SESSION_END
+0x3687940	BountyHunter
+0x3687950	BountyTarget
+0x36879e0	FindBountyTarget
+0x3687a78	TriggerBountyOnMe
+0x3687c28	CIsMatchmakingRule
+0x3689640	SPCDLCNameToUplayId
+0x3689d30	UplayId
+0x3689d80	UlcUplayUnlocks
+0x3689dc8	UlcUplayChallengesUnlocks
+0x3689e08	PCUplayIds
+0x3689e48	Could not parse UplayId from string to UInt32!
+0x3689f08	SignalUnlockedSession: %llu
+0x3689f28	CGameplayContentUnlockManager::SignalNewContentForSession
+0x369e758	MPBountyMatchZone
+0x369f3d8	BountyHunterEvent
+0x369f538	BountyHunterProtect
+0x36bdb58	Uplay
+0x36c7990	K:\Code\OnlineSession/Core/Network/PeerChannelHandlers.h
+0x36cc138	K:\Code\OnlineSession/Core/Network/PeerChannelSolver.h
+0x36cc170	CPeerChannelSolver<class IPeerChannelPeerStateSolver<class CLOSystem::CCLOListContainer,class CLOSystem::CCLOListContainer> >::OnSessionEnter
+0x36cc2b0	CPeerChannelSolver<class IPeerChannelPeerStateSolver<class CLOSystem::CCLOListContainer,class CLOSystem::CCLOListContainer> >::OnSessionLeft
+0x36cc550	%s|Host. Empty session. Unlocking. kHostResolved
+0x36cf010	[{ "name": "m_cLOActionKey", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"},{ "name": "m_cLODynamicTriggerBehaviorSettingsDBKey", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"},{ "name": "m_cLOGroupLayer", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "9"},{ "name": "m_cLOStimType", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 4>", "max_size": "4"},{ "name": "m_doActionOnSpot", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_netCLOId", "type": "CNetCityLifeObjectIdContainer", "max_size": "sizeof(CNetCityLifeObjectId)"},{ "name": "m_triggerBhvUsageInfo", "type": "CCLOTriggerBhvUsageInfoContainer", "max_size": "sizeof(CCLOTriggerBhvUsageInfo)"},{ "name": "m_usageMode", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 2>", "max_size": "2"},{ "name": "m_walkToCLOStatus", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 3>", "max_size": "3"}
+0x36e0070	%s - Not an invasion victim or not available for intrusion detected gameplay. Doing nothing.
+0x36e43f0	%s - OnGameplaySessionHostChanged - netObject=%s wasShouldBeMaster=%s m_shouldBeMaster=%s
+0x36e4450	CMission::OnGameplaySessionHostChanged
+0x36e4688	OnPlayerLeftSessionCb [%s] - [PlayerLeft:  (PlayerId: %d)]
+0x36e46c8	CMissionActivationService::OnPlayerLeftSession
+0x36e4700	CMissionActivationService::OnGameplaySessionHostChanged
+0x36e7130	BountyHunterSettings
+0x36e7c00	CMissionActivationServiceNetwork::ms_BlockUntilNotInSession
+0x36e9220	%s - Mission [%s] start was canceled: player declined from disconnecting her multiplayer session.
+0x36eb0f0	SBountyHunterCompleteReward
+0x36eb1b8	SBountyHunterSettings
+0x36eb1d0	CMatchingSessionClientAddedToMatchEvent
+0x36eb1f8	CMatchingSessionClientRemovedFromMatchEvent
+0x36eb228	CMatchingSessionMatchEndedEvent
+0x36eb248	CBountyHunterManager
+0x36eb2b8	NetPeerChannel.BountyHunterManager
+0x36eb310	ms_unicastCoopBountyTargetPullRequest
+0x36eb338	ms_unicastCoopBountyHunterPullRequest
+0x36eb390	K:\Code\DriverGame\MissionSystem\Content\BountyHunter\BountyHunterManager.cpp
+0x36eb400	Starting a bounty hunter activity while being in hacker space in coop. Teleport to coop partner in 5 seconds
+0x36eb470	CBountyHunterManager::CheckForTeleportToCoopPartner
+0x36eb4b0	Starting a bounty hunter activity while being in hacker space in coop. Teleport to coop partner requested
+0x36eb590	A player in a neutral encounter with one of the player having enought heat to trigger a bounty hunter will disconnect if there are far enought and not in line of sight
+0x36eb670	A player in a neutral encounter with one of the player having enought heat to trigger a bounty hunter shortly will disconnect if there are far enought and not in line of sight
+0x36eb748	Game time in minutes before Lowering Bounty Treshold
+0x36eb780	iTimeBeforeLoweringBountyTreshold
+0x36eb860	During Bounty Hunter the target benefit from overall damage reduction, from any source (1.0 = Normal game damage, 0.0 = Invincible)
+0x36ebca8	fForcedLKPTimeWhenBountyTargetInstigated
+0x36ec3b8	When target becomes available for matchmaking
+0x36eca30	Hunter's vehicle speed is increased at start of bounty for 2 minutes
+0x36ed460	fDelayWhenChaseEndedToEndBountyMission
+0x36ed5e0	Find Bounty Target
+0x36ee6b8	LobbySettings
+0x36ee6c8	missionlistLobbyMission
+0x36ee6e0	fLobbyMinDuration
+0x36ee6f8	fLobbyDurationToStartMissionWhenFull
+0x36ee720	fLobbyMatchFoundDuration
+0x36ee740	LocalizationMatchmaking
+0x36ee758	locstridMatchmakingTitle
+0x36ee778	locstridMatchmakingInput
+0x36ee798	locstridMatchmakingPlayerAlone
+0x36ee7b8	locstridMatchmakingTwoPlayersMissing
+0x36ee7e0	locstridMatchmakingOnePlayersMissing
+0x36ee808	locstridMatchmakingLobbyFull
+0x36ee828	locstridMatchmakingPlayerFound
+0x36ee860	Loc Id display with mission success module when opposite team left the session
+0x36eecf0	Mission restriction zone archetype for lobby
+0x36ef1d8	CVersusShowdownLobbyMissionProperties
+0x36ef220	Min duration for Lobby mission before stopping by detecting all required players joined lobby mission
+0x36ef2a0	When mission lobby is full, wait this duration before starting showdown mode
+0x36ef330	Number of players that must be in lobby mission to consider this mission is full and showdown mission can start
+0x36efa88	CVersusShowdownManager::LeaveSession
+0x36efd00	CPeerChannelSolver<class IPeerChannelSharedStateSolver<class CMissionActivationServiceStateContainer,class CMissionActivationServiceStateContainer> >::OnSessionEnter
+0x36efdb0	CPeerChannelSolver<class IPeerChannelSharedStateSolver<class CMissionActivationServiceStateContainer,class CMissionActivationServiceStateContainer> >::OnSessionLeft
+0x36f1398	MatchingSessionConfig
+0x36f20a0	"},{ "name": "m_isInVersusShowdownLobby", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_isInVersusShowdownMission", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_missionPlaylist", "type": "CVersusShowdownMgrMissionPlaylistContainer", "max_size": "sizeof(CVersusShowdownMgrMissionPlaylist)", "value": "
+0x36f3898	Invasion
+0x36f38b8	VersusShowdownLobby
+0x36f4d40	For some missions we want to always unload all of the mission layers as soon as possible (e.g. DLC missions which have unique archetypes, we don't want to leak them into the living city as it causes issues with seamless online).
+0x36f5218	BountyHunterProperties
+0x36f6ff0	CMatchingSessionLogicBase
+0x36f7010	CMatchingSessionRequestOperationBase
+0x36f70a0	IMatchingSessionModule
+0x36f70d0	CMatchingSessionLogicMan::ms_ResponseAckMsg
+0x36f7100	CMatchingSessionLogicMan::ms_InitialUnicastMsg
+0x36f7130	CMatchingSessionLogicMan::ms_InitialBroadcastMsg
+0x36f7168	CMatchingSessionLogicMan::ms_ResponseMsg
+0x36f7198	CMatchingSessionLogicMan::ms_CompletedMsg
+0x36f71c8	CMatchingSessionLogicMan::ms_UpdateMsg
+0x36f7230	CMatchingSessionLogicMan::ms_StartLogicUnicastMsg
+0x36f7268	CMatchingSessionLogicMan::ms_StartLogicBroadcastMsg
+0x36f72a0	CMatchingSessionLogicMan
+0x36f72e0	CMatchingSessionLogicMan::StartLogicLocally
+0x36f7310	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\Logic\MatchingSessionLogicMan.cpp
+0x36f7558	CMatchingSessionConfig
+0x36f7690	CMatchingSessionMatchClientsJoinedInCoopEvent
+0x36f7720	CMatchingSessionMatchClientsNoLongerInCoopEvent
+0x36f7810	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\BaseMatchingPairScorer.cpp
+0x36f7a10	%llu Firing CMatchingSessionMatchFoundEvent[Mode:%s, SubMode:%s, RemoteClient:%llu]
+0x36f7ae0	%llu Firing CMatchingSessionMatchEndedEvent[GameplayOccured:%s, Mode:%s, SubMode:%s, RemoteClient:%llu]
+0x36f7d40	CMatchingSessionAvailability
+0x36f7d60	CMatchingSessionGameSessionInfo
+0x36f7d80	CMatchingSessionModuleFieldOfView
+0x36f7da8	CMatchingSessionPawnInfo
+0x36f7dc8	CMatchingSessionQosInfo
+0x36f7de0	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\BountyMatchingPairScorer.cpp
+0x36f7e38	MostWantedInstigatedBountyTarget
+0x36f7e60	MostWantedInstigatedBountyHunter
+0x36f7e88	MostWantedBountyTarget
+0x36f7ea0	MostWantedBountyHunter
+0x36f7eb8	InstigatedBountyTarget
+0x36f7ed0	InstigatedBountyHunter
+0x36f7f38	SeamlessHunterVsInstigatedTarget
+0x36f7f60	InstigatedTargetVsSeamlessHunter
+0x36f8090	CMatchingSessionActivityContext
+0x36f80c0	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\CoopHookMatchingPairScorer.cpp
+0x36f81f8	CMatchingSessionMissionInfo
+0x36f8250	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\CoopMissionMatchingPairScorer.cpp
+0x36f83a0	K:\Code\DriverGame/Network/Matchmaking/MatchingSession/HackingMatchingPairScorer.h
+0x36f83f8	CMatchingSessionFriendInfo
+0x36f8418	CMatchingSessionModuleHacking
+0x36f8440	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\HackingMatchingPairScorer.cpp
+0x36f8620	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\LootTruckMatchingPairScorer.cpp
+0x36f8678	LootTruckAsSeamlessTargetVsSeamlessBountyHunter
+0x36f86a8	LootTruckAsSeamlessBountyHunterVsSeamlessTarget
+0x36f86d8	LootTruckAsSeamlessTargetVsInstigatedBountyHunter
+0x36f8710	LootTruckAsInstigatedBountyHunterVsSeamlessTarget
+0x36f8790	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingPair.cpp
+0x36f8830	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingPairManager.cpp
+0x36f8880	CMatchingSession::ms_JoinRequestMsg
+0x36f88a8	CMatchingSession::ms_RequestInstigatorMsg
+0x36f88d8	CMatchingSession::ms_TransferInstigatorMsg
+0x36f8908	CMatchingSession::ms_JoinAcceptMsg
+0x36f8930	CMatchingSession::ms_JoinRefusedMsg
+0x36f8958	CMatchingSession::ms_AbortMatchMsg
+0x36f8a18	NoMatchingSession
+0x36f8a90	CMatchingSession::CMatchingSession
+0x36f8ac0	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSession.cpp
+0x36f8b50	CMatchingSession::~CMatchingSession
+0x36f8b78	LeaveSession
+0x36f8bc0	CMatchingSession::UpdateTrackingStats
+0x36f8c68	CMatchingSession::SetJoinPreventions
+0x36f8cb0	%llu send CMatchingSessionJoinRequestMsgContainer%s from %s scorer to %llu
+0x36f8d00	CMatchingSession::SendJoinRequest
+0x36f8d28	%llu entered into non coop multiplayer session:
+0x36f8d58	CMatchingSession::OnEnterNonCoopMultiplayer
+0x36f8d88	%llu exited non coop multiplayer session:
+0x36f8db8	CMatchingSession::OnExitNonCoopMultiplayer
+0x36f8e30	CMatchingSession::UpdateInNonCoopMultiplayer
+0x36f8e88	CMatchingSession::OnClientJoined
+0x36f8ed8	CMatchingSession::OnClientLeft
+0x36f8f50	%llu received CMatchingSessionJoinRequestMsgContainer from %llu for %s
+0x36f8f98	CMatchingSession::OnUnicastMsgReceived
+0x36f8fc0	%llu received CMatchingSessionJoinRequestMsgContainer (Reverse Join Request) from %llu for %s, sending join request to %llu
+0x36f9040	(Reverse Join Requested) Cannot join due to already being in multi player session
+0x36f9100	Joining another session
+0x36f91e0	There is no merging session
+0x36f9260	%llu received and refused CMatchingSessionJoinRequestMsgContainer from %llu for reason: %s
+0x36f92c0	%llu received CMatchingSessionJoinAcceptMsg from %llu (m_joinRequestClientId %llu)
+0x36f9318	%llu received CMatchingSessionJoinRefusedMsg from %llu
+0x36f9478	%llu CMatchingSessionAbortMatchMsgContainer received from %llu
+0x36f9510	CMatchingSession::OnClientDataMsg
+0x36f9538	%llu sending CMatchingSessionJoinRefusedMsg to %llu
+0x36f9570	CMatchingSession::DenyJoinRequest
+0x36f9620	CMatchingSession::TransitionToGameplay
+0x36f96a0	%llu joining the session of %llu, sessionId %s, join request origin %s
+0x36f96e8	CMatchingSession waitForClientOp
+0x36f9728	%llu failed to join %llu's merging session
+0x36f9760	CMatchingSession::TransitionToGameplay::<lambda_1fe2f63982b86c2f1057fbe54e57231e>::operator ()
+0x36f97c0	%llu, %llu failed to join local merging session
+0x36f9838	CMatchingSession::OnJoinRequestResult
+0x36f9870	%llu sending CMatchingSessionJoinAcceptMsg to %llu for %s
+0x36f98e0	CMatchingSession::OnRatifyMatchRequestResult
+0x36f9940	%llu sending CMatchingSessionAbortMatchMsgContainer to %llu for %s
+0x36f9988	CMatchingSessionActivityContext::ms_ActivityContextUnicastMsg
+0x36f99d0	CMatchingSessionActivityContext::ms_ActivityContextBroadcastMsg
+0x36f9a10	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionActivityContext.cpp
+0x36f9a90	CMatchingSessionAvailability::ms_AvailabilityUnicastMsg
+0x36f9ac8	CMatchingSessionAvailability::ms_AvailabilityBroadcastMsg
+0x36f9b10	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionAvailability.cpp
+0x36f9cb8	Perform seamless viability checks after 'x' seconds
+0x36f9cf0	fDoSeamlessViabilityChecksAfterTime
+0x36fc770	CMatchingSessionFriendInfo::ms_FriendInfoUnicastMsg
+0x36fc7a8	CMatchingSessionFriendInfo::ms_FriendInfoBroadcastMsg
+0x36fc7e0	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionFriendInfo.cpp
+0x36fc940	CMatchingSessionGameSessionInfo::ms_GameSessionInfoUnicastMsg
+0x36fc980	CMatchingSessionGameSessionInfo::ms_GameSessionInfoBroadcastMsg
+0x36fc9c0	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionGameSessionInfo.cpp
+0x36fca20	Game Session Info
+0x36fca80	CMatchingSessionMissionInfo::ms_MissionInfoUnicastMsg
+0x36fcab8	CMatchingSessionMissionInfo::ms_MissionInfoBroadcastMsg
+0x36fcaf0	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionMissionInfo.cpp
+0x36fcba0	CMatchingSessionModuleFieldOfView::ms_ModuleInfoUnicastMsg
+0x36fcbe0	CMatchingSessionModuleFieldOfView::ms_ModuleInfoBroadcastMsg
+0x36fcc80	CMatchingSessionModuleHacking::ms_ModuleInfoUnicastMsg
+0x36fccb8	CMatchingSessionModuleHacking::ms_ModuleInfoBroadcastMsg
+0x36fcd00	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionModuleHacking.cpp
+0x36fcdb0	CMatchingSessionPawnInfo::ms_PawnInfoUnicastMsg
+0x36fcde0	CMatchingSessionPawnInfo::ms_PawnInfoBroadcastMsg
+0x36fce20	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionPawnInfo.cpp
+0x36fcf98	CMatchingSessionQosInfo::ms_QosInfoUnicastMsg
+0x36fcfc8	CMatchingSessionQosInfo::ms_QosInfoBroadcastMsg
+0x36fd000	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSessionQosInfo.cpp
+0x36fd080	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\MatchingSlotCounter.cpp
+0x36fd270	%llu Firing CMatchingSessionMatchClientsJoinedInCoopEvent[Client1(%llu), Client2(%llu)]
+0x36fd350	%llu Firing CMatchingSessionClientAddedToMatchEvent[Client(%llu), Scorer(%s)]
+0x36fd400	%llu Firing CMatchingSessionMatchClientsNoLongerInCoopEvent[Client1(%llu), Client2(%llu)]
+0x36fd4f0	%llu Firing CMatchingSessionClientRemovedFromMatchEvent[Client(%llu), Scorer(%s)]
+0x36fd560	CMatchingSlotCounter::OnSessionJoined
+0x36fd5c8	%llu %s - %llu has left the session
+0x36fd760	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\NeutralEncounterMatchingPairScorer.cpp
+0x36fd910	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\OnlineRaceMatchingPairScorer.cpp
+0x36fdb50	K:\Code\DriverGame\Network\Matchmaking\MatchingSession\VersusShowdownMatchingPairScorer.cpp
+0x36fdbb0	Online::MatchingSession
+0x36fdbc8	CMatchmakingMetaSessionMan
+0x36fdcd8	NetPeerChannel.MatchmakingMetaSessionMan
+0x36fdd08	Matching Session No Longer Viable
+0x36fdd30	CMatchmakingMetaSessionMan::OnMatchingSessionNoLongerViable
+0x36fdd70	K:\Code\DriverGame\Network\Matchmaking\MatchmakingMetaSessionMan.cpp
+0x36fddb8	Matching Session Remote count changed from (%d) to (%d)
+0x36fddf0	CMatchmakingMetaSessionMan::UpdateMatchingSessionAvailabilityStats
+0x36fde40	Matching Session Remote's Availability Mask changed from (%s) to (%s)
+0x36fde90	Matching Session Remote's Availability Counts changed to(from) (|
+0x36fdee8	Registering Matching Session Module %s
+0x36fdf10	CMatchmakingMetaSessionMan::RegisterModule
+0x36fdf40	Unregistering Matching Session Module %s
+0x36fdf70	CMatchmakingMetaSessionMan::UnregisterModule
+0x36fdfb0	Matching Session %s, session id: %s
+0x36fdfd8	CMatchmakingMetaSessionMan::OnMatchingSessionCreatedOrJoined
+0x36fe030	Matching Session %s failed with %s
+0x36fe058	Matchmaking Session deleted, session id: %s
+0x36fe088	CMatchmakingMetaSessionMan::OnMatchingSessionLeft
+0x3704558	Online::MergingSession
+0x3704928	EmergentCollabManager: Player leaving session %llu
+0x3704960	CEmergentCollabManager::OnNoneLocalPlayerLeftSession
+0x3704a40	Kicked out from the current session because of trying to damage another coop player (griefing)
+0x3704ae0	Leaving Current Session because distance with host exceeds (%d) Distance Squared (%f)
+0x3704b70	Leaving current session because far from other player in session
+0x3704c10	Leaving current session because the other player has enought felony for a bounty hunter event.
+0x3704c70	CEmergentCollabManager::UpdateDisconnectionForBountyTargetReservation
+0x37052a0	COnlineActivitiesFlowManager::HandleMatchingSessionMatchEndedEvent
+0x3705390	COnlineActivitiesFlowManager::HandleMergingSessionOnMergeEndEvent
+0x3705640	COnlineActivitiesFlowManager::HandleMatchingSessionMatchFoundEvent
+0x37058c0	Local pawn died when joining for bounty target and bounty mission not started yet
+0x3705980	COnlineActivitiesFlowManager::RequestLeaveGameplaySession - specific fix for fix for WDII-231018 triggered, ignoring request
+0x3705a00	COnlineActivitiesFlowManager::RequestLeaveGameplaySession
+0x3705a40	LeaveGameplaySession. Cannot leave gameplay session because player is now in group session. Cancel the request to leave gameplay session.
+0x3705ad0	COnlineActivitiesFlowManager::LeaveGameplaySession
+0x3705b40	COnlineSeamlessVersionChangedEvent
+0x3705f30	Matchmaking operation timed out
+0x3705f50	Matchmaking operation failed (%s)
+0x37060b0	Failed to start public party search as player was already entering a group session
+0x3706110	Failed to start private party creation as player was already entering a group session
+0x37061d0	Failed to start hack friend activity, remote player is not available for invasion
+0x37062a0	Disconnection: Remote player not available for invasion
+0x37063e0	Failed to start hack friend activity, matchmaking operation timed out
+0x37064d0	Failed to start hack friend activity, matchmaking operation failed
+0x37066d8	Failed to have %s session to invite friend to: %s
+0x37067a0	COnlineActivitiesManager::JoinContactSession
+0x37067d0	%s: FindCoopOrGroupSession failed %s
+0x37067f8	FindCoopOrGroupSession failed
+0x3706820	COnlineActivitiesManager::JoinContactSession::<lambda_e9f058b598f5648633324a209a1c1be9>::operator ()
+0x3706888	%s: Coop session found for user %s but is full
+0x37068b8	Coop session full
+0x37068d0	%s: Group session found for user %s but is full
+0x3706900	Group session full
+0x3706920	%s: No coop or group session found for user %s (MostRecentSessionType: %d)
+0x3706970	No coop or group session found for user
+0x3706998	%s: FindCoopOrGroupSession failed for user %s %s
+0x37069d0	FindCoopSession failed for user
+0x3706a10	Launch Invasion
+0x3706a20	Launch Bounty
+0x3706a30	Trigger Bounty On Me
+0x3706e00	DisplayCoopPartnerMatchmakingRequest %s
+0x3706e28	COnlineActivitiesManager::DisplayCoopPartnerMatchmakingRequest
+0x3706e68	HideCoopPartnerMatchmakingRequest %s
+0x3706e90	COnlineActivitiesManager::HideCoopPartnerMatchmakingRequest
+0x3706f20	COnlineActivitiesManager::OnCoopPartnerMatchmakingRequestTriggered
+0x3706f70	Canceled because coop partner started another matchmaking request
+0x3707038	ContactList - JoinCoopPublicSession
+0x3707080	ContactList - FindBountyTarget
+0x37070a0	ContactList - TriggerBountyOnMe
+0x37070c0	COnlineActivityRequestMonitorOperation::HandleMatchingSessionMatchEndedEvent
+0x3708d40	Coop partner leaving coop session. Cancel his matchmaking request %s
+0x3719e00	uplay
+0x371a2e8	Cond_InBountyHunted
+0x371a300	Cond_InBountyHunting
+0x371c810	CRequestSessionMonitorOperation
+0x371c948	LeaveSession called for session %s with reasons: '%s'
+0x371c980	CPortalAvailabilityService::LeaveSession
+0x371c9b0	m_killAllSessions
+0x371c9e0	Deleting SessionLifetimeOperation for session %s, due to %s
+0x371ca50	Received proposition for session type %s: %s, session id: %s, Member Count: %d
+0x371caa0	CPortalAvailabilityService::OnServerMatchMaking2PropositionEvent
+0x371cb58	OnServerMatchMaking2PropositionEvent
+0x371cb80	CPortalAvailabilityService::OnServerMatchMaking2LeaveEvent
+0x371cbc0	Cannot leave session %s: associated SessionLifetimeOperation not found
+0x371cc10	Stopping group SessionLifetimeOperation due to failure to handle proposition: %s
+0x371cdb0	%s session flags for session type %s changed from %s to %s
+0x371cdf0	%s matchmaking role for session type %s changed from %s to %s
+0x371ce30	%s starting matchmaking availability op for session type %s
+0x371ce70	%s stopping matchmaking availability op for session type %s
+0x371ceb0	Creating SessionLifetimeOperation for session %s
+0x371cf50	CPortalAvailabilityService::StartLifeTimeOperation: Leaving %s session due to %s a new %s session
+0x371cfc0	CPortalAvailabilityService::StartLifeTimeOperation: %s a new %s session
+0x371d008	Creating MatchMakingAvailabilityOperation for session %s
+0x371d080	Deleting MatchMakingAvailabilityOperation for session %s
+0x3729320	COnlineRaceMatchmakingStartedEvent
+0x37293b0	COnlineRaceMatchmakingFinishedEvent
+0x3737e50	CDriverServerMatchMakingManager
+0x3737ea8	m_periodSinceLastInvasion
+0x3737ec8	m_invasionCounter
+0x3737f78	m_bountyDivision
+0x3737fd0	K:\Code\DriverGame\ServerMatchMaking\DriverServerMatchMakingManager.cpp
+0x3738040	Proposition filter is now set to id %d for %s for session type %s
+0x3738088	CDriverServerMatchMakingManager::IncPropositionFilterValue
+0x37380d0	Proposition filter is now reset to id %d for pull request for session type %s
+0x3738120	CDriverServerMatchMakingManager::ResetPullRequestFromPropositionFilter
+0x3738170	CDriverServerMatchMakingManager changing position granularity quadratic params to A=%.2f, B=%.2f and C=%.2f
+0x37381e0	CDriverServerMatchMakingManager::SetPositionGranularity
+0x37382a0	CMatchMakingAvailabilityOperation
+0x37382c8	MatchMakingAvailabilityOperation_Matching
+0x37382f8	MatchMakingAvailabilityOperation_Merging
+0x3738328	MatchMakingAvailabilityOperation_Coop
+0x3738350	MatchMakingAvailabilityOperation_Group
+0x3738380	K:\Code\DriverGame\ServerMatchMaking\MatchMakingAvailabilityOperation.cpp
+0x37383d0	MatchMakingAvailabilityOperation_Error
+0x3738400	Possible availability spam detected for session %s, waiting %.1fs before being available for matchmaking
+0x3738470	CMatchMakingAvailabilityOperation::CMatchMakingAvailabilityOperation
+0x37384c0	Will setting player available for matchmaking in %.1fs for session type %s
+0x3738510	CMatchMakingAvailabilityOperation::opBegin
+0x3738540	Setting player available for matchmaking for session type %s
+0x3738580	CMatchMakingAvailabilityOperation::opUpdate
+0x37385b0	Updating player availabilities for matchmaking for session type %s
+0x3738600	Setting player available for matchmaking for session type %s failed: %s
+0x3738650	CMatchMakingAvailabilityOperation::opUpdate::<lambda_b4ad2693c95cbcbf57ef7098e46ac026>::operator ()
+0x37386c0	Updating player availabilities for matchmaking for session type %s failed: 
+0x3738710	CMatchMakingAvailabilityOperation::opUpdate::<lambda_7d7b44a89fccb9a9ed08329637dc1489>::operator ()
+0x3738778	Setting player unavailable for matchmaking for session type %s
+0x37387b8	CMatchMakingAvailabilityOperation::opCancel
+0x3738828	CMatchMakingAvailabilityOperation::RefreshCacheTimer
+0x3738988	CGameplaySessionLifeTimeOperation
+0x3738eb0	CEnterMergingSessionEvent
+0x3738f48	ms_broadcastCoopPropositionJoinSessionMsgProtocolId
+0x37390e0	K:\Code\DriverGame\Session\Coop\CoopService.cpp
+0x3739140	%s leaving merging session due to joining or creating a new coop session
+0x3739190	CCoopService::JoinCoopSession
+0x37391b0	%s called with session id: %s from origin: %s
+0x37391e0	CCoopService::HostPublicCoopSession
+0x3739238	CCoopService::HostPrivateCoopSession
+0x3739280	CCoopService::SearchForCoopSession
+0x37392b8	CCoopService::SearchForCoopMissionSession
+0x3739300	CCoopService::SecedeFromGameplaySessionAsCoopPair
+0x3739338	%s Seceding from current gameplay session as Coop %s...
+0x3739370	Seceding from current gameplay session as Coop Client
+0x37393f0	Coop Partner left our coop session
+0x3739420	Two players in the session teamed up in coop, leaving session...
+0x3739488	Two players in the session teamed up in coop
+0x37394c0	Remote player %llu has joined the coop session, firing CEnterCoopTransitionBeginEvent
+0x3739540	Remote player is already in the gameplay session, firing CEnterCoopTransitionFinishEvent with succeeded set to true
+0x37395c0	Remote player has left the coop session while transitioning to gameplay, firing CEnterCoopTransitionFinishEvent with succeeded set to false
+0x3739670	Remote player has left the public coop session, moving to a private coop session
+0x37396e0	Remote player has left the coop session and we need to update our 1st party session to: '%s'
+0x3739740	Remote player has left the coop session, firing CLeaveCoopEvent
+0x37397d8	Telling our coop partner %llu to join our new session
+0x3739810	CCoopService::OnEnterMergingSessionEvent
+0x3739840	Creating new session for coop partner to join...
+0x3739878	CCoopService::CreateNewSessionForPartner
+0x37398a8	Created new session for coop partner to join
+0x37398e0	CCoopService::CreateNewSessionForPartner::<lambda_24b8537ef173c7cd41c867be108e8374>::operator ()
+0x3739948	Coop partner has left coop session!
+0x3739970	Failed to create new session for coop partner to join!
+0x3739a70	Using current session for coop partner to join...
+0x3739ad0	Remote player has joined the gameplay session, firing CEnterCoopTransitionFinishEvent with succeeded set to true
+0x3739b48	CCoopService::OnPlayerReadyInSession
+0x3739be8	1st party public session setting has changed to: '%s'
+0x3739c20	CCoopService::Update1stPartyPublicSessionSetting
+0x3739c58	Changed 1st Party Public Session Setting
+0x3739e40	[{ "name": "m_requesterPeerId", "type": "storm::DataNumber<storm::echo::SessionPeerId, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "sizeof(SessionPeerId)"}
+0x3739ef0	[{ "name": "m_proposalDisplayDuration", "type": "storm::DataFloat<0, storm::NetDataFloatEpsilon_0_001>", "max_size": "float(0, storm::NetDataFloatEpsilon_0_001)"},{ "name": "m_proposedPeerId", "type": "storm::DataNumber<storm::echo::SessionPeerId, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "sizeof(SessionPeerId)"}
+0x373a040	[{ "name": "m_sessionId", "type": "storm::GUIDData", "max_size": "sizeof(GUID)"},{ "name": "m_targetedPeerId", "type": "storm::DataNumber<storm::echo::SessionPeerId, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "sizeof(SessionPeerId)"}
+0x373a160	Coop Session was deleted
+0x373a180	CMatchingSession::ms_HostRatifyMatchRequest
+0x373a1b0	CMatchingSession::ms_HostRatifyMatchResponse
+0x373a1e0	CMatchingSession::ms_HostRatifiedMatch
+0x373a208	CCoopSessionMatchValidation::ms_AbortMatchMsg
+0x373a238	CCoopSessionMatchValidation
+0x373a258	K:\Code\DriverGame\Session\Coop\CoopSessionMatchValidation.cpp
+0x373a2d8	CCoopSessionMatchValidation::HandleRatifyMatchRequest
+0x373a360	%llu sending CMatchingSessionRatifyMatchCoopHostValidationRequestMsgContainer to %llu
+0x373a408	CCoopSessionMatchValidation::AbortPendingMatch
+0x373a440	%llu sending CMatchingSessionAbortMatchMsgContainer for match client %llu and activity %s to coop partner
+0x373a548	CCoopSessionMatchValidation::CanRatifyMatchRequest
+0x373a580	%llu received and %s CMatchingSessionRatifyMatchCoopHostValidationRequestMsgContainer from %llu regarding %llu for %s
+0x373a5f8	CCoopSessionMatchValidation::HandlePeerUnicast
+0x373a630	%llu received CMatchingSessionRatifyMatchCoopHostValidationResponseMsgContainer from %llu regarding %llu result is %s
+0x373a730	%llu received CMatchingSessionCoopHostRatifiedMatchMsg from %llu regarding %llu who is a%s
+0x373a790	%llu CMatchingSessionAbortMatchMsgContainer received from our coop partner regarding %llu for %s
+0x373a7f8	CCoopSessionMatchValidation::HandlePeerBroadcast
+0x373a830	CCoopSessionMatchValidation::OnMigrationStarted
+0x373a888	CCoopSessionMatchValidation::OnPreSessionDeleted
+0x373a8c0	CCoopSessionMatchValidation::CancelRequest
+0x373a970	NetPeerChannel.CCoopSessionService
+0x373a998	CCoopSessionService_Broadcast_CCoopSessionFollowMsg
+0x373a9d0	K:\Code\DriverGame\Session\Coop\CoopSessionService.cpp
+0x373aa10	Received session follow message from coop partner to join gameplay in progress. SessionId: %s, Gameplay: %s
+0x373aa80	CCoopSessionService::OnPeerBroadcast
+0x373aaa8	CCoopSessionService waitForActivityOp
+0x373aad0	Received session follow message from coop partner. SessionId: %s
+0x373ab20	Waiting for activity '%s' to finish before acting on session follow message for another activity. Result: '%s'
+0x373ab90	CCoopSessionService::OnPeerBroadcast::<lambda_713a10f13e162515f9f06f29d1094520>::operator ()
+0x373ac20	K:\Code\DriverGame\Session\Gameplay\GameplaySessionLifeTimeOperation.cpp
+0x373ac70	CGameplaySessionLifeTimeOperation::opBegin
+0x373aca0	%s: Starting the gameplay session...
+0x373acc8	CGameplaySessionLifeTimeOperation::OnSessionJoined
+0x373ad00	%s - Session Info %s: No longer alone in session, calling ScheduleToMultiplayerTransition
+0x373ad60	CGameplaySessionLifeTimeOperation::OnClientLeft
+0x373ad90	%s - Session Info %s: Now alone in session, calling ScheduleToSingleplayerTransition
+0x373ade8	Gameplay Session
+0x373ae60	ms_joinMergingSessionMsgProtocolId
+0x373ae98	K:\Code\DriverGame\Session\Group\GroupService.cpp
+0x373aef0	CGroupService::CreateSessionLifetimeOp: Leaving merging session due to %s a new group session
+0x373af50	CGroupService::CreateSessionLifetimeOp
+0x373af80	CGroupService::JoinGroupSession: Called with session id: %s from origin: %s
+0x373afd0	CGroupService::JoinGroupSession
+0x373aff0	CGroupService::JoinGroupSession: Ignored attempt to join session we're already in - session id: %s from origin: %s
+0x373b068	CGroupService_JoinGroupSession_FailureOp_AlreadyInSession
+0x373b0b0	CGroupService::DelayedJoinGroupSession: Called with session id: %s from origin: %s - delaying for %.2fs
+0x373b118	CGroupService::DelayedJoinGroupSession
+0x373b140	CGroupService::SearchForGroupSession: Called from origin: %s
+0x373b180	CGroupService::SearchForGroupSession
+0x373b1b0	CGroupService::SearchForGroupSession: Coop partner (%llu) was still in gameplay session after host search failure: %s
+0x373b230	CGroupService::SearchForGroupSession: Coop partner had left gameplay session after search: %llu
+0x373b290	CGroupService::SearchForGroupSession::<lambda_2202fc0c236093179fe3ae8737d7cfca>::operator ()
+0x373b2f0	CGroupService::SearchForGroupSession: Coop partner was still in gameplay session after search: %llu
+0x373b360	CGroupService::SearchForGroupSession: Coop partner was still in gameplay session after search failure: %llu
+0x373b3d0	CGroupService::SearchForGroupSession: Failed to find group session with Coop partner: %llu (but they'd already left the gameplay session)
+0x373b460	CGroupService::SearchForGroupSession::<lambda_d693feaa5ed40749ab20de7081222854>::operator ()
+0x373b4c0	CGroupService::CreateGroupSession: Called from origin: %s
+0x373b500	CGroupService::CreateGroupSession
+0x373b530	CGroupService::CreateGroupSession: Coop partner was still in gameplay session after search failure: %llu
+0x373b5a0	CGroupService::CreateGroupSession: Failed to create group session for Coop partner: %llu (but they'd already left the gameplay session)
+0x373b630	CGroupService::CreateGroupSession::<lambda_a19334342538cf8b4a5528066bbf5eab>::operator ()
+0x373b8a0	User canceled group session search
+0x373b8d0	CGroupService::OnPeerUnicast ms_joinMergingSessionMsgProtocolId from %u
+0x373b940	Group session %s host migration finished (NewHostID:%llu - AmIHost:%d)
+0x373b9b0	Remote client %llu has joined the group session %s (IsClientHost:%d)
+0x373ba20	Remote player %u (client %llu - profile %s) is already in the gameplay session for group session %s
+0x373ba90	Remote client %llu has left the group session %s (IsClientHost:%d)
+0x373baf8	Entered group session %s (AmIHost:%d)
+0x373bb20	CGroupService::OnEnterGroupSession
+0x373bb48	Left group session %s
+0x373bb60	CGroupService::OnLeaveGroupSession
+0x373bb88	CGroupService::LeaveGroupSession
+0x373bbb0	CGroupService::JoinMergingSession - joining session %s hosted by clientId %llu
+0x373bc00	CGroupService::JoinMergingSession
+0x373bc28	CGroupService::JoinMergingSession join failed with %s
+0x373bc60	CGroupService::JoinMergingSession::<lambda_95601bce2dc0e265a5c2392895e52aee>::operator ()
+0x373bcc0	CGroupService::JoinMergingSession - join failed
+0x373bcf0	CGroupService::AddClientToMergingSession Informing pending group client %llu to join merging session %s
+0x373bd58	CGroupService::AddClientToMergingSession
+0x373bd90	Informing all pending group clients not in the merging session to join merging session %s - pending clients(%u): %s
+0x373be08	CGroupService::AddAllPendingClientToMergingSession
+0x373be40	CGroupService::AddAllPendingClientToMergingSession Informing pending group client %llu to join merging session %s
+0x373beb8	Creating new group session for pending client(s) to join
+0x373bef8	CGroupService::CreateNewMergingSession
+0x373bf20	Created new merging session for pending group clients to join
+0x373bf60	CGroupService::CreateNewMergingSession::<lambda_df9b373c6e20baaa02cbbfb4629c24a2>::operator ()
+0x373bfc0	Failed to create new merging session for pending group clients to join. Result: %s
+0x373c020	CGroupService::CreateNewMergingSession::<lambda_555ea20148eee944c90650bd7fd3c1e6>::operator ()
+0x373c080	Leaving group session due to failure to create merging session
+0x373c0c0	CGroupService::OnFailedToCreateNewMergingSession
+0x373c0f8	Group host failed to create merging session
+0x373c130	CGroupService::OnEnterMergingSessionEvent Informing pending group client %llu to join merging session %s
+0x373c1a0	CGroupService::OnEnterMergingSessionEvent
+0x373c1d0	CGroupService::LeaveGameplayAndGroupSessions due to reason: %s
+0x373c210	CGroupService::LeaveGameplayAndGroupSessions
+0x373c240	CGroupService::LeaveGameplaySession ignored as we were already leaving - reason: %s
+0x373c298	CGroupService::LeaveGameplaySession
+0x373c2c0	CGroupService::LeaveGameplaySession due to reason: %s
+0x373c300	CGroupService::HandleMergingSessionOnMergeEndEvent - merge failed
+0x373c350	Remote player %u (client %llu - profile %s) has joined the gameplay session (IsClientHost:%d) for group session %s
+0x373c3c8	CGroupService::HandleRemotePlayerJoinedGameplaySession
+0x373cd60	K:\Code\DriverGame/Session/Coop/CoopServiceMessages.h
+0x373cd98	K:\Code\DriverGame/Session/Group/GroupServiceMessages.h
+0x373e410	WrongValueOf[ServerMatchMakingSubMissionId]
+0x373e860	CGroupRemoteClientJoinedGroupSessionEvent
+0x373e8f0	CGroupRemoteClientLeftGroupSessionEvent
+0x373e980	CGroupPlayerJoinedGameplaySessionEvent
+0x373eda0	CGroupServiceGameplayChannel::ms_joinGroupSessionMsgProtocolId
+0x373ede0	CGroupServiceGameplayChannel::ms_searchForGroupSessionMsgProtocolId
+0x373ee30	CGroupServiceGameplayChannel::ms_searchForGroupSessionStartedMsgProtocolId
+0x373ee80	CGroupServiceGameplayChannel::ms_groupSessionSubPropositionMsgProtocolId
+0x373eef0	K:\Code\DriverGame\Session\Group\GroupServiceGameplayChannel.cpp
+0x373ef40	CGroupServiceGameplayChannel::HandleMatchmakingSubPropositions: There is no gameplay session! [JE] crash averted!
+0x373efb8	CGroupServiceGameplayChannel::HandleMatchmakingSubPropositions
+0x373eff8	No gameplay session, Cannot handle sub-proposition!
+0x373f030	CGroupServiceGameplayChannel::HandleSubPropositionForGroupSessionMsg: received a sub-propotion but client was already in a group
+0x373f0c0	CGroupServiceGameplayChannel::HandleSubPropositionForGroupSessionMsg
+0x373f110	CGroupServiceGameplayChannel::HandleSubPropositionForGroupSessionMsg: Invalid sub-proposition sent from host: '%s'
+0x373f290	[{ "name": "m_groupSessionId", "type": "storm::GUIDData", "max_size": "sizeof(GUID)"},{ "name": "m_requestOrigin", "type": "storm::DataNumber<ndS32, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "33"}
+0x373f370	[{ "name": "m_hostPeerDescriptor", "type": "storm::PeerDescriptor", "max_size": "sizeof(PeerDescriptor)"},{ "name": "m_mergingSessionId", "type": "storm::GUIDData", "max_size": "sizeof(GUID)"}
+0x373f4c8	K:\Code\DriverGame\Session\Group\GroupServiceOperations.cpp
+0x373f700	K:\Code\DriverGame\Session\Group\GroupServiceUI.cpp
+0x373f768	EMergingStrategy::Seamless
+0x373fb30	OnGameplaySessionCreated
+0x373fb50	OnGameplaySessionLeft
+0x373fee0	K:\Code\DriverGame\Session\Merging\MergeModules\LivingCityMergeModule.cpp
+0x373ff30	Session peer %u (who is the peer we matched with) is too far away at %.0f meters
+0x373ff88	Session peer %u is too close at %f meters
+0x37401c0	K:\Code\DriverGame\Session\Merging\MergeModules\TimeOfDayMergeModule.cpp
+0x3740210	K:\Code\DriverGame\Session\Merging\DriverSessionMergeModule.cpp
+0x37403b0	CMergingSessionOnMergeStrategyChangedEvent
+0x37404f0	K:\Code\DriverGame\Session\Merging\MergingLogicBase.cpp
+0x37408b8	clientCnt: %d, clientId: %d, sessionId: %s
+0x3740b50	SessionLifetimeOperation
+0x3740ba0	K:\Code\DriverGame\Session\Merging\MergingLogicCandidate.cpp
+0x3740ca8	All systems report merged, joining gameplay session...
+0x3741000	Successfuly joined the gameplay session
+0x3741028	Failed - GP Session Join Failure
+0x3741050	Failed to join the gameplay session with %s
+0x37412e8	K:\Code\DriverGame\Session\Merging\MergingLogicHost.cpp
+0x3741390	K:\Code\DriverGame\Session\Merging\MergingLogicParticipant.cpp
+0x37413d0	CMergingSession
+0x3741438	NetPeerChannel.MergingSession
+0x3741458	CMergingSession::ms_MessageStartMerge
+0x3741480	CMergingSession::ms_MessageMergeRequest
+0x37414a8	CMergingSession::ms_MessageMergeResult
+0x37414d0	CMergingSession::ms_MessageStopMerge
+0x37414f8	CMergingSession::ms_MessageMergeFinished
+0x3741528	CMergingSession::ms_MessageMergeAbort
+0x3741550	CMergingSession::ms_MessageClientHostState
+0x3741580	CMergingSession::ms_MessageValidationEnded
+0x37415b0	CMergingSession::ms_MessageLeaveSession
+0x3741668	CMergingSessionChannelInternal
+0x3741698	CMergingSessionResultMessageDynamicType
+0x37416d0	SMergingSessionHostState
+0x3741720	CMergingSession::CMergingSession
+0x3741748	K:\Code\DriverGame\Session\Merging\MergingSession.cpp
+0x3741780	CMergingSession waitForNomadDbOp
+0x37417a8	CMergingSession::~CMergingSession
+0x37417d0	CMergingSession::OnSessionEnter
+0x3741800	CMergingSession::OnSessionLeft
+0x3741820	CMergingSession::Update
+0x37418b0	CMergingSession::OnClientJoined
+0x3741900	CMergingSession::OnClientLeft
+0x3741950	CMergingSession::OnPeerUnicast
+0x3741a40	Pending Client %llu merging for %s could not be added to pending client list! Telling client to leave session...
+0x3741b68	Host has told us to leave the session
+0x3741bb0	CMergingSession::OnPeerBroadcast
+0x3741bd8	CMergingSession::StartMergeLogic
+0x3741cb0	Pending Client %llu merging for %s which is either not in gameplay or does not contain the pending client! Asking client to leave session...
+0x3741d40	CMergingSession::StartMergingNextClient
+0x3741d68	CMergingSession::Transition
+0x3741da8	CMergingSession::Trigger
+0x3741de8	CMergingSession::WaitForGameplayAndTransition
+0x3741e48	CMergingSession::CreateGameplay
+0x3741e68	%s|Gameplay session failed to create. Leaving merging session.
+0x3741ea8	JoinGameplaySession
+0x3741ec0	CMergingSession::HostReady
+0x3741f28	Candidate has left the session
+0x3741f68	CMergingSession::CandidateMerge
+0x3741fb0	CMergingSession::ClientReady
+0x3742010	%s|Client didn't join the session yet, adding pending participant.
+0x3742058	CMergingSession::CreateValidationList
+0x37420a8	CMergingSession::Migration_ValidateHost
+0x37421d8	CMergingSession::WaitForGameplayTerm
+0x37422e8	CMergingSession::UNKNOWN
+0x3742308	CMergingSession::ShouldAddPending
+0x3742330	%s|Client whose merge is currently being aborted re-joined the session. %s
+0x3742380	CMergingSession::SendClientReadyForMergeMessage
+0x37423b0	%s|Leaving Merging session as match scorer is no longer in gameplay: %s
+0x3742438	CMergingSession::HandleMigrationStarted
+0x3742460	CMergingSession::HandleMigrationEnded
+0x37424a8	CMergingSession::Attach
+0x37424e0	CMergingSession::Detach
+0x3742540	CMergingSession::RegisterMergeStrategy
+0x3742590	CMergingSession::UnregisterMergeStrategy
+0x37427a0	CDriverSessionTransferHostOperation
+0x37427c8	NetPeerChannel.DriverSession
+0x37427e8	CDriverSession::ms_MessageTransferHost
+0x3742810	CDriverSession::ms_MessageTransferHostFailed
+0x3742840	K:\Code\DriverGame\Session\DriverSession.cpp
+0x3742870	CDriverSession::Detach
+0x3742888	CDriverSessionOperations_hostTransferOpSemaphore
+0x37428c0	Session Info is invalid
+0x37428d8	K:\Code\DriverGame\Session\DriverSessionOperations.cpp
+0x3742910	CDriverSessionTransferHostOperation::m_operationManager
+0x3742948	CMatchingSession::ms_HostValidationRequest
+0x3742978	CMatchingSession::ms_HostValidationResponse
+0x37429a8	CMatchingSession::ms_HostAcceptedJoinRequest
+0x37429d8	CMatchingSession::ms_MergingSessionWelcome
+0x3742a08	CMatchingSession::ms_MergingSessionClientLeft
+0x3742a38	CDriverSessionThirdPartyJoinValidation
+0x3742a60	K:\Code\DriverGame\Session\DriverSessionThirdPartyJoinValidation.cpp
+0x3742b30	CDriverSessionThirdPartyJoinValidation::HandleJoinRequest
+0x3742b70	%llu received join request for %llu for activity %s however we have no merging session, denying request
+0x3742ca0	%llu sending CMatchingSessionJoinRequestGameplayHostValidationRequestMsgContainer to %llu
+0x3742d78	CDriverSessionThirdPartyJoinValidation::CanAcceptJoinRequest
+0x3742dd0	A join request was received that we cannot accept because we are %s coop yet there are %d players in the session
+0x3742ed0	Client %llu joined merging session for %s which is either not in gameplay or does not contain them! Not sending CMergingSessionWelcomeMsg
+0x3742f60	CDriverSessionThirdPartyJoinValidation::SendWelcomeMessage
+0x3742fa0	Client %llu joined merging session for %s, sending CMergingSessionWelcomeMsg
+0x3742ff0	%llu received CMergingSessionWelcomeMsg from %llu regarding scorer %s
+0x3743038	CDriverSessionThirdPartyJoinValidation::HandlePeerUnicast
+0x3743080	%llu ignoring CMergingSessionWelcomeMsg from %llu regarding scorer %s which we consider to not be in progress (msg: %s)
+0x3743100	%llu received and %s CMatchingSessionJoinRequestGameplayHostValidationRequestMsgContainer from %llu regarding %llu (and %llu their coop partner) for %s
+0x37431a0	%llu received and %s CMatchingSessionJoinRequestGameplayHostValidationRequestMsgContainer from %llu regarding %llu for %s
+0x3743220	%llu received CMatchingSessionJoinRequestGameplayHostValidationResponseMsgContainer from %llu regarding %llu result is %s
+0x37432f0	%llu disregards CMatchingSessionJoinRequestGameplayHostValidationResponseMsgContainer as %llu has disconnected
+0x3743360	%llu received CMatchingSessionGameplayHostJoinAcceptedMsgContainer from %llu regarding %llu
+0x37433c0	CDriverSessionThirdPartyJoinValidation::HandlePeerBroadcast
+0x3743400	%llu received CMatchingSessionGameplayHostJoinAcceptedMsgContainer from %llu regarding %llu (and coop partner %llu)
+0x3743480	%llu received CMatchingSessionGameplayHostInformsClientLeftMsgContainer from %llu regarding %llu
+0x37434f0	%llu informing merging session peers to TransitionToGamplay for arrival of %llu
+0x3743540	CDriverSessionThirdPartyJoinValidation::OnAcceptThirdPartyJoinRequest
+0x3743588	CDriverSessionThirdPartyJoinValidation::OnMigrationStarted
+0x37435f8	CDriverSessionThirdPartyJoinValidation::OnPreSessionDeleted
+0x3743640	%llu sending CMatchingSessionGameplayHostInformsClientLeftMsgContainer informing merging session peers client %llu has left the session
+0x37436d0	CDriverSessionThirdPartyJoinValidation::HandleMatchingSessionClientRemovedFromMatchEvent
+0x3743730	CDriverSessionThirdPartyJoinValidation::CancelAllRequests
+0x37437a8	SessionLifetimeOperation_Matching
+0x37437d0	SessionLifetimeOperation_Merging
+0x37437f8	SessionLifetimeOperation_Coop
+0x3743818	SessionLifetimeOperation_Group
+0x3743838	K:\Code\DriverGame\Session\SessionLifeTime.cpp
+0x3743868	SessionLifetimeOperation_Error
+0x3743888	SessionLifetimeOperation::SessionLifetimeOperation
+0x37438c0	%p|%s|Type %d, session id: %s
+0x37438e0	SessionLifetimeOperation::~SessionLifetimeOperation
+0x3743920	Id[%u]:%p|%s| m_sessionType[%s], m_requestedSessionId[%s], m_sessionInfo[%s]
+0x3743970	SessionLifetimeOperation::SetDoMatchMakingFlowOp::<lambda_706eb59db8abbe665535d6d2e7b93624>::operator ()
+0x3743a30	SessionLifetimeOperation::opUpdate
+0x3743a80	SessionLifetimeOperation::opCancel
+0x3743ac0	Id[%u]|%p|%s|MatchmakingAvailabilityOp pending
+0x3743af0	SessionLifetimeOperation::CancelInternalOperations
+0x3743b50	Id[%u]|%p|%s|LeaveSessionOp pending
+0x3743b78	Id[%u]|%p|%s|Session id invalid
+0x3743ba0	,m_sessionType[%s],m_sessionFlags[%s],m_role[%s],m_submissionId[%s],m_requestOrigin[%s],m_sessionInfo[%s]
+0x3743c10	SessionLifetimeOperation::OnSessionLeaveRequested
+0x3743c48	Id[%u]|%p|%s|sessionInfo[%s]
+0x3743c68	SessionLifetimeOperation::PushLeaveSessionOp
+0x3743c98	Id[%u]|%p|%s|m_sessionInfo[%s]
+0x3743cc0	SessionLifetimeOperation::PushLeaveSessionOp::<lambda_9bd3b2f281c5e1270b3c382fe28ed8ee>::operator ()
+0x3743d28	Id[%u]|%p|%s|Session id invalidated after leave callback
+0x3743f18	K:\Code\DriverGame\Session\SessionStatsService.cpp
+0x3743f50	CSessionStatsService::CreatePeerConnectionData
+0x3743f80	%s Creating peer data for client: %llu in session %s
+0x3743fb8	CSessionStatsService::ErasePeerConnectionData
+0x3743fe8	%s Deleting peer data for client: %llu in session: %s
+0x3744028	CSessionStatsService::TrackingEvent
+0x3744050	%s: client %llu, m_sessionJoinResult %s, m_natType %d, m_isRouted %d, m_avgRTT %d, m_avgPacketLossRatio %.2f m_routerIpAddr %s, m_peerIpAddr %s, session %s
+0x37440f0	CSessionStatsService::OnSessionJoined
+0x3744bc0	InvasionHacking
+0x3745820	K:\Code\DriverGame/Session/Group/GroupServiceSubPropositionContainer.h
+0x3745870	K:\Code\DriverGame/Session/Merging/MergeModules/LivingCityMergeModule.h
+0x37458f0	K:\Code\DriverGame/Session/Merging/MergingSessionMessages.h
+0x3745930	K:\Code\DriverGame/Session/DriverSessionOperations.h
+0x3755928	CMenuParamsUbisoftPresents
+0x37559b8	UbisoftClub
+0x37559c8	UbisoftChallenges
+0x37561f8	UbisoftClubChallenge
+0x3757510	UI\Fire\Bin\Gh_Uplay.feu
+0x3757530	UI\Fire\Bin\Gh_Uplay2.feu
+0x3757e68	Failed to open the Ubisoft Club application
+0x3757ea0	CUplayManager::LaunchClubApp::<lambda_2682fc2f02bcc5207e783ca8950648b8>::operator ()
+0x3757ef8	K:\Code\DriverGame\Uplay\UplayManager.cpp
+0x3757f28	CUplayManager::OnChallengeRewardBanked
+0x3757f90	UplayPopupBox
+0x3758650	%s: In invasion or in a switch transision.
+0x37725b8	[EAC]: Session observer has been detached
+0x3772ad8	[EAC]: Enter CEACManager::OnSessionEnter
+0x3772b08	CEACManager::OnSessionEnter
+0x3772b80	[EAC]: Getting session id
+0x3772c28	[EAC]: LeaveCEACManager::OnSessionEnter
+0x3772c50	[EAC]: Enter CEACManager::OnSessionLeft
+0x3772c78	CEACManager::OnSessionLeft
+0x3772c98	[EAC]: Leave CEACManager::OnSessionLeft
+0x3773290	Ubisoft Entertainment Sweden AB
+0x37732b0	UBISOFT ENTERTAINMENT INC.
+0x37828a8	%s: FindMatchingSession failed %s
+0x37829a8	%s: FindCoopAndGroupSessions failed %s
+0x3792450	SetObjectiveMarkerInvasionState
+0x3793c48	SetKeyIntelIdInvasion
+0x37956a8	IsInvasionVictim
+0x37958a8	ShowInvasionSearchForFixerMessage
+0x37969e8	dexeventBounty
+0x37969f8	dexeventInvasion
+0x3796bc0	fBountyHunterTeleportMinDistance
+0x3796be8	fBountyHunterTeleportMaxDistance
+0x3796c10	bBountyHunterTeleportForceVehicle
+0x37a1308	CUIUbisoftClubSaveData
+0x37a1320	UbisoftClubSaveData
+0x37a4328	Ubisoft
+0x37b78f8	CLootTruckGameplayBrick::LeaveGameplaySession
+0x37ba618	Give the player 1% of the reward for each X pct of possession.
+0x37ba658	iPossessionPctNeededForRewardPct
+0x37bb030	Localized string for the header of the warning sent when finding a loot truck through a search for bounty target
+0x37bb0a8	locstridSpecialBountyWarningHeaderLocId
+0x37bb0d0	Localized string for the message of the warning sent when finding a loot truck through a search for bounty target
+0x37bb148	locstridSpecialBountyWarningMessageLocId
+0x37d8070	COnlineRaceCoopEventPropositionHelper::OnOnlineRaceMatchmakingStarted()
+0x37d80c0	COnlineRaceCoopEventPropositionHelper::OnOnlineRaceMatchmakingStarted
+0x37d9c30	[%s] CRaceFlowWaitForPlayersHelper::OnClientLeft() sessionId: %s, clientId: %llu
+0x37d9dc0	[%s] CRaceFlowWaitForPlayersHelper::HandleMatchingSessionClientAddedToMatchEvent() clientId: %llu
+0x37d9e30	CRaceFlowWaitForPlayersHelper::HandleMatchingSessionClientAddedToMatchEvent
+0x37d9e80	[%s] CRaceFlowWaitForPlayersHelper::HandleMatchingSessionClientAddedToMatchEvent() PlayersToWaitFor: [%s]
+0x37d9ef0	[%s] CRaceFlowWaitForPlayersHelper::HandleMatchingSessionClientAddedToMatchEvent() applying cached player ready
+0x37d9f60	[%s] CRaceFlowWaitForPlayersHelper::HandleMatchingSessionClientRemovedFromMatchEvent() clientId: %llu
+0x37d9fd0	CRaceFlowWaitForPlayersHelper::HandleMatchingSessionClientRemovedFromMatchEvent
+0x37da2c0	CStartNextOnlineRaceHelper::CancelStartingNextRace() stopMatchmaking: %u
+0x37da3b0	CStartNextOnlineRaceHelper::OnMasterRoleAcquired() m_isWaitingToStartOnlineRaceMatchmaking: %u
+0x37da550	CStartNextOnlineRaceHelper::StartOnlineRaceMatchmaking() starting matchmaking!
+0x37da5a0	CStartNextOnlineRaceHelper::StartOnlineRaceMatchmaking
+0x37da5e0	CStartNextOnlineRaceHelper::StartOnlineRaceMatchmaking() waiting for matchmaking to start!
+0x37da640	CStartNextOnlineRaceHelper::OnOnlineRaceMatchmakingStarted()
+0x37da680	CStartNextOnlineRaceHelper::OnOnlineRaceMatchmakingStarted
+0x37db3f8	CGroupRaceVotingHelper::StartNewVotingSession
+0x37db668	%s() clientId: %llu, peersInGameplaySession: %u
+0x37db698	CGroupRaceVotingHelper::RegisterSessionObserver
+0x37db6c8	CGroupRaceVotingHelper::UnregisterSessionObserver
+0x37de8d0	CStartRaceMissionValidator::ValidateGameplaySession() needToLeaveGameplaySession : %u
+0x37de928	CStartRaceMissionValidator::ValidateGameplaySession
+0x37dea70	CStartRaceMissionValidator::OnSessionValidationWithCoopPartnerFinished()
+0x37deac0	CStartRaceMissionValidator::OnSessionValidationWithCoopPartnerFinished
+0x37deb08	CStartRaceMissionValidator::LeaveMultiplayerSession()
+0x37deb40	CStartRaceMissionValidator::LeaveMultiplayerSession
+0x37deb90	CStartRaceMissionValidator::OnGameplaySessionValidationFinished()
+0x37debe0	CStartRaceMissionValidator::OnGameplaySessionValidationFinished
+0x37e0f40	COnlineRaceFlowCoopNetwork::SendCoopPeerUnicast() cannot send msg with protocolId: '%s' because we are not in a coop session
+0x37e1070	COnlineRaceFlowNetwork::SendPeerUnicast() cannot send msg with protocolId: '%s' because we are not in a merging session
+0x37e1170	COnlineRaceFlowNetwork::SendPeerBroadcast() cannot send msg with protocolId: %s because we are not in a merging session
+0x37e1498	COnlineRaceMatchmakingOperation
+0x37e1a18	COnlineRaceMatchingHelper::ms_cancelMatchmakingMsg
+0x37e1aa0	COnlineRaceMatchingHelper::HandleStartOnlineRaceMatchmaking() skipping matchmaking for local player: %llu, initiatorId: %llu
+0x37e1b20	COnlineRaceMatchingHelper::HandleStartOnlineRaceMatchmaking
+0x37e1bc0	COnlineRaceMatchingHelper::HandleStartOnlineRaceMatchmaking() starting matchmaking for local player: %llu, initiatorId: %llu
+0x37e1c40	COnlineRaceMatchingHelper::HandleStartOnlineRaceMatchmaking() disconnecting local player: %llu because he cannot participate in an online race with initiatorId: %llu
+0x37e1d10	COnlineRaceMatchingHelper::HandleStartOnlineRaceMatchmaking() ignoring request from initiatorId: %llu
+0x37e1ff0	COnlineRaceMatchingHelper::OnMatchmakingFinished()
+0x37e2028	COnlineRaceMatchingHelper::OnMatchmakingFinished
+0x37e24e8	COnlineRaceMatchmakingManager
+0x37e2508	COnlineRaceMatchmakingManager::StartOnlineRaceMatchmaking()
+0x37e2548	COnlineRaceMatchmakingManager::StartOnlineRaceMatchmaking
+0x37e2590	K:\Code\DriverGameMissions\CityActivities\Racing\Online\OnlineRaceMatchmakingManager.cpp
+0x37e25f0	COnlineRaceMatchmakingManager::StopOnlineRaceMatchmaking()
+0x37e2630	COnlineRaceMatchmakingManager::StopOnlineRaceMatchmaking
+0x37e2670	COnlineRaceMatchmakingManager::OnMatchingStarted()
+0x37e26a8	COnlineRaceMatchmakingManager::OnMatchingStarted
+0x37e26e0	COnlineRaceMatchmakingManager::OnMatchingFinished()
+0x37e2718	COnlineRaceMatchmakingManager::OnMatchingFinished
+0x37e2750	COnlineRaceMatchmakingManager::OnMatchingFinished() we are now alone in the session, so fail matchmaking
+0x37e27c0	COnlineRaceMatchmakingManager::OnVotingStarted() isHost: %u
+0x37e2800	COnlineRaceMatchmakingManager::OnVotingStarted
+0x37e2830	COnlineRaceMatchmakingManager::OnVotingFinished()
+0x37e2868	COnlineRaceMatchmakingManager::OnVotingFinished
+0x37e28a0	COnlineRaceMatchmakingManager::OnMergingAllowCandidateMergingFinished()
+0x37e28e8	COnlineRaceMatchmakingManager::AllowCandidateMerging
+0x37e2920	COnlineRaceMatchmakingManager::OnMergingFinished()
+0x37e2958	COnlineRaceMatchmakingManager::OnMergingFinished
+0x37e2990	COnlineRaceMatchmakingManager::OnMergingFinished() we are now alone in the session, so fail matchmaking
+0x37e2a00	COnlineRaceMatchmakingManager::OnMatchmakingSuccess() numJoinedPlayers: %u, isHost: %u
+0x37e2a58	COnlineRaceMatchmakingManager::OnMatchmakingSuccess
+0x37e2a90	COnlineRaceMatchmakingManager::StartOnlineRace()
+0x37e2ac8	COnlineRaceMatchmakingManager::StartOnlineRace
+0x37e2b00	COnlineRaceMatchmakingManager::RefreshRacersFoundInfo() found: %u, required: %u
+0x37e2b50	COnlineRaceMatchmakingManager::RefreshRacersFoundInfo
+0x37e2b90	COnlineRaceMatchmakingManager::OnMatchmakingFailed() reason: %u
+0x37e2bd0	COnlineRaceMatchmakingManager::OnMatchmakingFailed
+0x37e2c10	COnlineRaceMatchmakingManager::DisconnectPlayerOnMatchmakingFailed() peersInMergingSession: %u
+0x37e2c70	COnlineRaceMatchmakingManager::DisconnectPlayerOnMatchmakingFailed
+0x37e2cb8	COnlineRaceMatchmakingManager::OnMatchmakingFinished()
+0x37e2cf0	COnlineRaceMatchmakingManager::OnMatchmakingFinished
+0x37e2d30	COnlineRaceMatchmakingManager::OnClientLeft() We are now alone in the merging session during the voting phase, so cancel matchmaking
+0x37e2db8	COnlineRaceMatchmakingManager::OnClientLeft
+0x37e2df0	COnlineRaceMatchmakingManager::OnClientLeft() We are now alone in the merging session during the merging phase, so cancel matchmaking
+0x37e2e80	COnlineRaceMatchmakingManager::OnMigrationEnded() sessionId: %s, newHostId: %llu, isNewHost: %u
+0x37e2ee0	COnlineRaceMatchmakingManager::OnMigrationEnded
+0x37e2f10	COnlineRaceMatchmakingManager::OnMigrationEnded() The host role has migrated to us before the race mission was started, so we are starting it now.
+0x37e2fb0	COnlineRaceMatchmakingManager::OnHostMigration() newHostId: %llu, isNewHost: %u
+0x37e3000	COnlineRaceMatchmakingManager::OnHostMigration
+0x37e3030	COnlineRaceMatchmakingManager::LeaveGameplaySession() canLeaveGameplaySession: %u
+0x37e3088	COnlineRaceMatchmakingManager::LeaveGameplaySession
+0x37e30c0	COnlineRaceMatchmakingManager::LeaveGameplaySession()
+0x37e30f8	COnlineRaceMatchmakingManager::LeaveAllOnlineSessions()
+0x37e3130	COnlineRaceMatchmakingManager::LeaveAllOnlineSessions
+0x37e3168	COnlineRaceMatchmakingManager::OnLocalPlayerDisconnected()
+0x37e31a8	COnlineRaceMatchmakingManager::OnLocalPlayerDisconnected
+0x37e31f0	COnlineRaceMatchmakingManager::CreateOnlineRaceMatchmakingOp() availability: %u
+0x37e3240	COnlineRaceMatchmakingManager::CreateOnlineRaceMatchmakingOp
+0x37e3280	COnlineRaceMatchmakingManager::OnClientsFoundCountChanged() found: %u, required: %u
+0x37e32d8	COnlineRaceMatchmakingManager::OnClientsFoundCountChanged
+0x37e3320	COnlineRaceMatchmakingManager::DoCancelMatchmaking() initiatorId: %u
+0x37e3368	COnlineRaceMatchmakingManager::OnCancelMatchmaking
+0x37e33a0	COnlineRaceMatchmakingManager::OnPawnDied() local pawn died
+0x37e33e0	COnlineRaceMatchmakingManager::OnPawnDied
+0x37e3410	COnlineRaceMatchmakingManager::OnStartChase() local pawn was engaged in a chase
+0x37e3460	COnlineRaceMatchmakingManager::OnChaseStarted
+0x37e3490	COnlineRaceMatchmakingManager::OnLocalPlayerRespawnEvent() local pawn has respawned because %d
+0x37e34f0	COnlineRaceMatchmakingManager::OnLocalPlayerRespawnEvent
+0x37e3530	COnlineRaceMatchmakingManager::OnReceivedStartRaceMissionMsg()
+0x37e3570	COnlineRaceMatchmakingManager::OnReceivedStartRaceMissionMsg
+0x37e35b0	COnlineRaceMatchmakingManager::OnPlayerCanceled() local player canceled matchmaking
+0x37e3608	COnlineRaceMatchmakingManager::OnPlayerCanceled
+0x37e3638	COnlineRaceMatchmakingManager::BlockClientsJoining() block: %u
+0x37e3678	COnlineRaceMatchmakingManager::BlockClientsJoining
+0x37e36b0	COnlineRaceMatchmakingManager::BlockCandidatesMerging() block: %u
+0x37e36f8	COnlineRaceMatchmakingManager::BlockCandidatesMerging
+0x37e38b8	NetPeerChannel.OnlineRaceMatchmakingNetwork
+0x37e38f0	COnlineRaceMatchmakingNetwork::SendPeerUnicast() cannot send msg with protocolId: '%s' because we are not in a merging session
+0x37e3970	COnlineRaceMatchmakingNetwork::SendPeerUnicast
+0x37e39a0	K:\Code\DriverGameMissions\CityActivities\Racing\Online\OnlineRaceMatchmakingNetwork.cpp
+0x37e3a00	COnlineRaceMatchmakingNetwork::SendPeerBroadcast() cannot send msg with protocolId: %s because we are not in a merging session
+0x37e3a80	COnlineRaceMatchmakingNetwork::SendPeerBroadcast
+0x37e3ac0	COnlineRaceMatchmakingOperation::opBegin() candidates count: %u
+0x37e3b00	COnlineRaceMatchmakingOperation::opBegin
+0x37e3b30	K:\Code\DriverGameMissions\CityActivities\Racing\Online\OnlineRaceMatchmakingOperation.cpp
+0x37e3b90	COnlineRaceMatchmakingOperation::InitWithConnectedPlayers()
+0x37e3bd0	COnlineRaceMatchmakingOperation::InitWithConnectedPlayers
+0x37e3c10	COnlineRaceMatchmakingOperation::opUpdate() All clients ready!
+0x37e3c50	COnlineRaceMatchmakingOperation::opUpdate
+0x37e3c80	COnlineRaceMatchmakingOperation::OnMatchmakingOpFailed()
+0x37e3cc0	COnlineRaceMatchmakingOperation::OnMatchmakingOpFailed
+0x37e3cf8	COnlineRaceMatchmakingOperation::OnFinishedMerging()
+0x37e3d30	COnlineRaceMatchmakingOperation::OnFinishedMerging
+0x37e3d70	COnlineRaceMatchmakingOperation::OnClientJoined() sessionId: %s, clientId: %llu
+0x37e3dc0	COnlineRaceMatchmakingOperation::OnClientJoined
+0x37e3df0	COnlineRaceMatchmakingOperation::OnClientLeft() sessionId: %s, clientId: %llu
+0x37e3e40	COnlineRaceMatchmakingOperation::OnClientLeft
+0x37e3e70	COnlineRaceMatchmakingOperation::OnPreSessionJoined() sessionId: %s
+0x37e3eb8	COnlineRaceMatchmakingOperation::OnPreSessionJoined
+0x37e3ef0	COnlineRaceMatchmakingOperation::OnSessionJoined() sessionId: %s, flags: %u
+0x37e3f40	COnlineRaceMatchmakingOperation::OnSessionJoined
+0x37e3f80	COnlineRaceMatchmakingOperation::OnPreSessionDeleted() sessionId: %s
+0x37e3fc8	COnlineRaceMatchmakingOperation::OnPreSessionDeleted
+0x37e4000	COnlineRaceMatchmakingOperation::OnSessionDeleted() sessionId: %s, flags: %u
+0x37e4050	COnlineRaceMatchmakingOperation::OnSessionDeleted
+0x37e4090	COnlineRaceMatchmakingOperation::OnClientLeftMatching() clientId: %llu
+0x37e40d8	COnlineRaceMatchmakingOperation::OnClientLeftMatching
+0x37e4110	COnlineRaceMatchmakingOperation::OnClientLeftGameplay() clientId: %llu
+0x37e4158	COnlineRaceMatchmakingOperation::OnClientLeftGameplay
+0x37e4190	COnlineRaceMatchmakingOperation::opEnd()
+0x37e41c0	COnlineRaceMatchmakingOperation::opEnd
+0x37e4200	COnlineRaceMatchmakingOperation::AddJoinCandidate() clientId: %llu, joinCandidates: %s
+0x37e4258	COnlineRaceMatchmakingOperation::AddJoinCandidate
+0x37e4290	COnlineRaceMatchmakingOperation::RemoveJoinCandidate() clientId: %llu, joinCandidates: %s
+0x37e42f0	COnlineRaceMatchmakingOperation::RemoveJoinCandidate
+0x37e4330	COnlineRaceMatchmakingOperation::AddJoinedClient() clientId: %llu, joinedClients: %s
+0x37e4388	COnlineRaceMatchmakingOperation::AddJoinedClient
+0x37e43c0	COnlineRaceMatchmakingOperation::RemoveJoinedClient() clientId: %llu, joinedClients: %s
+0x37e4418	COnlineRaceMatchmakingOperation::RemoveJoinedClient
+0x37e4870	COnlineRaceMergingHelper::OnMatchmakingSuccess()
+0x37e48a8	COnlineRaceMergingHelper::OnMatchmakingSuccess
+0x37e48d8	COnlineRaceMergingHelper::OnMatchmakingFailed()
+0x37e4908	COnlineRaceMergingHelper::OnMatchmakingFailed
+0x37e4938	COnlineRaceMergingHelper::OnMatchmakingFinished()
+0x37e4970	COnlineRaceMergingHelper::OnMatchmakingFinished
+0x37e59c0	COnlineRaceVotingHelper::OnMatchmakingSuccess()
+0x37e59f0	COnlineRaceVotingHelper::OnMatchmakingSuccess
+0x37e7ca0	%s() peersInMergingSession: %u
+0x37e7d10	CRaceGameplay::OnSessionMasterRoleAcquired
+0x37e7d98	CRaceGameplay::OnSessionJoined
+0x37e7db8	%s() sessionId: %s
+0x37e7dd0	CRaceGameplay::OnPreSessionDeleted
+0x37e8150	CRaceGameplay::HandleMergingSessionOnMergeEndEvent
+0x37eec10	K:\Code\DriverGameMissions/CityActivities/Racing/Online/OnlineRaceMatchmakingManagerNetwork.h
+0x3812c30	CBountyHunterMission
+0x3812c48	BountyHunterMission.NetObject
+0x3812c68	CBountyHunterMission::LeaveGameplaySession
+0x3812cb0	Leave session requested
+0x3812cc8	Leave session NOT requested
+0x3812ce8	CBountyHunterMission::RequestMissionEnd
+0x3812d10	K:\Code\DriverGameMissions\Missions\BountyHunter\BountyHunterMission.cpp
+0x3812d60	CBountyHunterMission::StartSystemicChase
+0x3812dd8	IBountyHunterMissionNetworkInterface.RequestTargetIdentity
+0x3812e18	IBountyHunterMissionNetworkInterface.SetupTarget
+0x3812e50	IBountyHunterMissionNetworkInterface.HunterIsEngaged
+0x3812e88	IBountyHunterMissionNetworkInterface.NewHunterReady
+0x3812ec0	IBountyHunterMissionNetworkInterface.PlayerAvailability
+0x3812ef8	IBountyHunterMissionNetworkInterface.NewTargetProtectorReady
+0x3812f38	IBountyHunterMissionNetworkInterface.PlayerKilled
+0x3812f70	IBountyHunterMissionNetworkInterface.TargetTeamVehicleActionByHunter
+0x3812fb8	IBountyHunterMissionNetworkInterface.TargetVehicleDestroyed
+0x3813000	IBountyHunterMissionNetworkInterface.FriendlyEscapePhaseStarted
+0x3813040	IBountyHunterMissionNetworkInterface.TargetLOSUpdate
+0x3813078	IBountyHunterMissionNetworkInterface.TargetVisibilityToHunters
+0x38130b8	IBountyHunterMissionNetworkInterface.TeleportForActivity
+0x38130f8	IBountyHunterMissionNetworkInterface.ReplicaResolved
+0x3813130	IBountyHunterMissionNetworkInterface.MissionDataCorrection
+0x3813170	IBountyHunterMissionNetworkInterface.GameModeEnded
+0x381dc78	COnlineHackingMission::LeaveSession
+0x3820a40	CVersusShowdownLobbyMission
+0x3820a60	VersusShowdownLobbyMission.NetObject
+0x3820a88	Versus Showdown Lobby Mission Started
+0x3820ab0	CVersusShowdownLobbyMission::DoStart
+0x3820ae0	K:\Code\DriverGameMissions\Missions\VersusShowdownLobby\VersusShowdownLobbyMission.cpp
+0x3820b38	Versus Showdown Lobby Mission Ended With End Reason : %s
+0x3820b78	CVersusShowdownLobbyMission::DoStop
+0x3820ba0	Versus Showdown Lobby Mission Ended In Game Alone : %s
+0x3820be0	Versus Showdown Lobby Mission Ended In Showdown Online Activity : %s
+0x3820c30	[{ "name": "m_endReason", "type": "CVersusShowdownLobbyMissionEndReasonContainer", "max_size": "sizeof(CVersusShowdownLobbyMissionEndReason)", "value": "
+0x3820cd0	IVersusShowdownLobbyMissionNetworkInterface.EndReason
+0x3820d08	IVersusShowdownLobbyMissionNetworkInterface.ReplicaResolved
+0x3827800	K:\Code\DriverGameMissions/Missions/VersusShowdownLobby/VersusShowdownLobbyMissionNetworkInterface.h
+0x383aad0	selOnlineInvasionSettingTileId
+0x383aaf0	enumOnlineInvasionSettingTileId
+0x383ab10	selFriendInvasionSettingTileId
+0x383ab30	enumFriendInvasionSettingTileId
+0x383e570	CUIMenuTileDescriptorUbisoftClubBackground
+0x383e5d0	CUIMenuTileDataUbisoftClubBackground
+0x383e728	selUbisoftClubTileId
+0x383e740	enumUbisoftClubTileId
+0x383e7b8	selUbisoftClubPanelTileId
+0x383e7d8	enumUbisoftClubPanelTileId
+0x383eb00	CUIMenuPageDescriptorUbisoftPresentsScreen
+0x383ee38	CUIMenuPageLogicControllerUbisoftPresentsScreen
+0x383f3b8	selQuitOnlineSessionTileId
+0x383f3d8	enumQuitOnlineSessionTileId
+0x3843cb8	locstridConfirmStopMatchmakingTitle
+0x3843ce0	locstridConfirmStopMatchmakingMessage
+0x3843d08	locstridConfirmStopMatchmakingAccept
+0x3849330	CUIMenuPageDescriptorContactListAppActivityProfileBounty
+0x3849510	CUIMenuPageLogicControllerContactListAppActivityBountyProfile
+0x3849698	locstridTriggerBounty
+0x38496b0	locstridTriggerBountyOnMe
+0x38496e8	uimenutileGridContainerFourPlayerBounty
+0x384a0e8	locstridJoinSessionButtonLocId
+0x384a108	locstridInviteToSessionButtonLocId
+0x3850db0	CUIMenuPageDescriptorUbisoftClubApp
+0x3850f78	CUIMenuPageLogicControllerUbisoftClubApp
+0x3850fd8	CUIMenuTileDataUbisoftClubLink
+0x3851010	selUbisoftClubBackgroundTileId
+0x3851030	enumUbisoftClubBackgroundTileId
+0x3851050	selUbisoftClubOpenTileId
+0x3851070	enumUbisoftClubOpenTileId
+0x3861a48	EPriorityGroup_MatchingSession_MainPart
+0x3861a70	EPriorityGroup_MatchingSession_PostMainPart
+0x38896f0	K:\Code\OnlineSession/Core/Network/NetDataContainer.h
+0x3889a30	K:\Code\OnlineSession/Core/Utils/StormDeleter.h
+0x388f278	CGameModeBaseSessionNode
+0x388f8f0	Session
+0x3890988	sessionType
+0x3890998	sessionGameMode
+0x38909a8	serverMatchmakingSessionType
+0x38909c8	serverMatchmakingSessionId
+0x3895fb0	[{ "name": "m_peerID", "type": "storm::DataNumber<storm::echo::SessionPeerId, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "sizeof(SessionPeerId)"},{ "name": "m_radius", "type": "storm::DataFloat<0, storm::NetDataFloatEpsilon_0_001>", "max_size": "float(0, storm::NetDataFloatEpsilon_0_001)"}
+0x3897f48	CMultiNetworkObjectOwner::OnEnterSessionEvent
+0x3897f90	CMultiNetworkObjectOwner::OnLeaveSessionEvent
+0x3897ff8	%s|ObjectType: %s, SessionRefId: %d
+0x389b2d0	[storm::ResultEvent] Failed - %s : %s [m_role: %d] [m_sessionRefId: %d] [m_descriptor: %s]
+0x389b500	CNetworkObjectManager::OnLeaveSessionEvent
+0x389bef0	CUniqueNetworkObject::OnSessionConstructed
+0x389bf70	CUniqueNetworkObject::OnSessionDestroyed
+0x389bfa0	CUniqueNetworkObject::OnSessionEnterFailed
+0x38ac2f0	ProfiledInSession
+0x38ac328	MetrixSession
+0x38ae370	msr-wd2-gdt01.ubisoft.org
+0x38ae390	msr-tst-sds02.ubisoft.org
+0x38b3e88	nouplayflow
+0x38b5ce0	UPLAY: %s, Installer system is not initialized
+0x38bd340	JoiningStartupSession
+0x38bd358	InNoMatchmakingZone
+0x38bd3f0	BountyTargetDEXDirectorCooldown
+0x38bd410	BountyHunterDEXDirectorCooldown
+0x38bd4b8	BountyHunterDisabled
+0x38bd4d0	BountyTargetDisabled
+0x38bd528	BountyMissionRunning
+0x38bd540	BountySessionFull
+0x38bd558	BountyModeEnding
+0x38bd570	InCoopSession1
+0x38bd580	InCoopSession2
+0x38bd5b8	NoSeamlessHuntersAllowed
+0x38bd6b0	InBountyTarget1
+0x38bd6c0	InBountyTarget2
+0x38bd6d0	InSeamlessHunterVsInstigatedTarget1
+0x38bd6f8	InSeamlessHunterVsInstigatedTarget2
+0x38bd720	InInstigatedTargetVsSeamlessHunter1
+0x38bd748	InInstigatedTargetVsSeamlessHunter2
+0x38bd770	InMostWantedBountyTarget1
+0x38bd790	InMostWantedBountyTarget2
+0x38bd7b0	InBountyHunter1
+0x38bd7c0	InBountyHunter2
+0x38bd7d0	InMostWantedBountyHunter1
+0x38bd7f0	InMostWantedBountyHunter2
+0x38bd880	ReservedForBountyTarget
+0x38bd898	ReservedForBountyHunter
+0x38bd918	SeamlessCoopMissionNotRunning
+0x38bd938	SeamlessCoopMissionOwner
+0x38bd958	SeamlessCoopMissionOwnerDisabled
+0x38bd980	SeamlessCoopMissionPlayerDisabled
+0x38bda78	InInstigatedBountyTarget1
+0x38bda98	InInstigatedBountyTarget2
+0x38bdb58	InMostWantedInstigatedBountyTarget1
+0x38bdb80	InMostWantedInstigatedBountyTarget2
+0x38bdba8	InInstigatedBountyHunter1
+0x38bdbc8	InInstigatedBountyHunter2
+0x38bdbe8	InMostWantedInstigatedBountyHunter1
+0x38bdc10	InMostWantedInstigatedBountyHunter2
+0x38bdc38	InInstigatedBountyIntruderRequested
+0x38bdc60	BountyOnMePullRequested
+0x38bdc78	InInstigatedBountyIntruderNotRequested
+0x38bdca0	InInstigatedBountyTargetNotRequested
+0x38bdcc8	BountyTargetsAreInCoop
+0x38bdce0	BountyHuntersAreInCoop
+0x38bdcf8	IsBountyTargetProtector
+0x38bdd10	MaxBountyHuntersReached
+0x38bdd28	SeamlessPVPProgressionNotUnlocked
+0x38bdd50	SeamlessNeutralProgressionNotUnlocked
+0x38bddc8	JoiningCoopGameplaySession
+0x38bde00	CoopMatchmakingInProgress
+0x38be0e0	SessionMigration
+0x38be118	OnlineBountySettingDisabled
+0x38be178	LeavingSession
+0x38be248	InBountyHunterEmergentCollab
+0x38be288	NoLinkedUplayAccount
+0x38be2d8	SeamlessDisabled
+0x38be538	NotHostingGroupSession
+0x38be550	HostingGroupSession
+0x38be568	InGroupSession
+0x38be578	GroupMatchmakingInProgress
+0x38be598	JoiningGroupSession
+0x38be740	JoiningGroupSessionThroughInvite
+0x38be798	GroupMatchmakingInProgressViaHost
+0x38be7e8	KeepSessionAlive
+0x38bec18	AvailablityState::SetSessionKeepAliveTypeMask
+0x38d1820	UiEnvironmentSettingsVolumeComponentNoMatchMakingZonePriorityEnum
+0x38d19e0	bIsNoMatchmakingZone
+0x38d19f8	selNoMatchMakingZonePriority
+0x38ec058	eGameResCode_Error_ConnectionLostUbisoft
+0x38ec088	eGameResCode_Error_ConnectionFailureUbisoft
+0x38ec218	eGameResCode_Error_Join_PrivateSession
+0x38ec240	eGameResCode_Error_Join_SessionFull
+0x38ecd88	BountyHunterGameData
+0x38ecf00	UbisoftClubUserData
+0x38f1940	K:\Code\OnlineSession/Voice/VoiceChatQueryEvent.h
+0x38f2108	CGOSessionNode
+0x38f3a28	m_onlineBountyEnabled
+0x38f3d38	Software\Ubisoft\
+0x38f3d68	uplay_
+0x38f40e0	bFirstUplayBoot
+0x38f4100	bNeverShowUplayFlow
+0x38f4170	m_firstUplayBoot
+0x38f41b8	m_neverShowUplayFlow
+0x38f6ba8	Part types to remove on avatar for invasion attacker
+0x38f6be0	PartTypesToRemoveForInvasionAttacker
+0x38fcd50	[{ "name": "m_groupId", "type": "CNetPersistenceEventGroupId", "max_size": "sizeof(CPersistenceEventGroupId)"},{ "name": "m_instigatorPeer", "type": "storm::DataNumber<ndSessionPeerId, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "sizeof(ndSessionPeerId)"},{ "name": "m_lifetime", "type": "storm::DataFloat<0, storm::NetDataFloatEpsilon_0_001>", "max_size": "float(0, storm::NetDataFloatEpsilon_0_001)"},{ "name": "m_lifetimeActive", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_lifetimeTimestamp", "type": "TNetGameTime", "max_size": "sizeof(TGameTime)"},{ "name": "m_lifetimeType", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 1>", "max_size": "1"},{ "name": "m_timestamp", "type": "TNetGameTime", "max_size": "sizeof(TGameTime)"}
+0x38fd840	CPersistenceService::OnSessionEnter
+0x38fd868	CPersistenceService::OnSessionLeft
+0x38fe6c0	[{ "name": "m_eventGroupId", "type": "CNetPersistenceEventGroupId", "max_size": "sizeof(CPersistenceEventGroupId)"},{ "name": "m_eventTypeId", "type": "CNetDataStringId<CStringID>", "max_size": "sizeof(CStringID)"},{ "name": "m_instigatorPeerId", "type": "storm::DataNumber<ndSessionPeerId, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "sizeof(ndSessionPeerId)"}
+0x391bfc0	uimenupageUbisoftPresentsMenuPage
+0x391c3c0	uimenupageContactListActivityBountyProfilePage
+0x391c808	uimenupageUbisoftClubChallengesPage
+0x391d0e8	UbisoftPresents (Mandatory)
+0x39851b0	ArbitrationProtocol::StartBountyHuntingActivity_V1
+0x39851e8	ArbitrationProtocol::StopBountyHuntingActivity_V4
+0x3985220	ArbitrationProtocol::StopBountyHuntingActivity_V5
+0x3985258	ArbitrationProtocol::StartBountyHuntingAsTargetForHunter_V1
+0x3985298	ArbitrationProtocol::StartBountyHuntingAsTargetForProtector_V1
+0x39852d8	ArbitrationProtocol::StartBountyHuntingAsHunter_V1
+0x3985310	ArbitrationProtocol::StartBountyHuntingAsProtector_V1
+0x3985348	ArbitrationProtocol::StopBountyHuntingAsTargetForHunter_V2
+0x3985388	ArbitrationProtocol::StopBountyHuntingAsTargetForProtector_V2
+0x39853c8	ArbitrationProtocol::StopBountyHuntingAsHunter_V4
+0x3985400	ArbitrationProtocol::StopBountyHuntingAsHunter_V5
+0x3985438	ArbitrationProtocol::StopBountyHuntingAsProtector_V4
+0x3985470	ArbitrationProtocol::StopBountyHuntingAsProtector_V5
+0x39856d0	ServerMatchMaking2
+0x3985740	RdV.GameSession
+0x3985770	RdV.ServerMatchMaking
+0x3985788	RdV.ServerMatchMaking2
+0x3985f98	K:\Code\OnlineSession/Core/PlatformId/PlayerPlatformId.h
+0x3986180	K:\Code\OnlineSession\Core\AsyncOperations\AsyncModulesMonitorOperation.cpp
+0x39864c0	K:\Code\OnlineSession\Core\AsyncOperations\AsyncOperationHTTPUS.cpp
+0x3986740	K:\Code\OnlineSession\Core\AsyncOperations\AsyncOperationUbiServices.cpp
+0x3986830	K:\Code\OnlineSession\Core\AsyncOperations\AsyncOperationWaitForAllOperationsByRequiredModule.cpp
+0x3986ac0	K:\Code\OnlineSession\Core\Client\Info\ClientInfo.cpp
+0x3986c20	K:\Code\OnlineSession\Core\Client\Info\ClientInfo_RdV.cpp
+0x3987040	CSessionEntityUsProvider
+0x3987128	K:\Code\OnlineSession\Core\Factories\BaseFactory.cpp
+0x39873f8	K:\Code\OnlineSession\Core\Logger\StormLogManager.cpp
+0x3987678	K:\Code\OnlineSession\Core\Network\NetDataContainerRef.cpp
+0x3987710	K:\Code\OnlineSession\Core\Network\NetTypeRegistry.cpp
+0x39879d0	CPeerChannelSessionObserver
+0x39879f0	CPeerChannelSessionObserver::OnRemoveHandler
+0x3987a20	%s|SessionRefId %u
+0x3987a38	K:\Code\OnlineSession\Core\Network\PeerChannelHandlers.cpp
+0x3987a78	CPeerChannelSessionObserver::OnSessionCreation
+0x3987aa8	%s|Type: %s, SessionId: %s, Result: %s
+0x3987ad0	CPeerChannelSessionObserver::OnSessionJoined
+0x3987b00	CPeerChannelSessionObserver::OnPreSessionDeleted
+0x3987b38	%s|Type: %s, SessionId: %s, Reason: %s
+0x3987b60	CPeerChannelSessionObserver::OnSessionDeleted
+0x3987b90	CPeerChannelSessionObserver::OnClientJoined
+0x3987bc0	%s|Type: %s, SessionId: %s, Client: %s
+0x3987be8	CPeerChannelSessionObserver::OnClientLeft
+0x3987c18	%s|Type: %s, SessionId: %s, Client: %s.
+0x3987c40	in session
+0x3987c50	not in session
+0x3987c60	CPeerChannelSessionObserver::OnMigrationStarted
+0x3987c90	%s|Type: %s, SessionId: %s. %s
+0x3987cb0	CPeerChannelSessionObserver::OnMigrationEnded
+0x3987ce0	%s|Type: %s, SessionId: %s, New Host: %lld. %s
+0x3987d38	%s|SessionId: %d
+0x3987e88	K:\Code\OnlineSession\Core\Network\PeerChannelSolver.cpp
+0x39880e8	K:\Code\OnlineSession\Core\Ping\PingManager.cpp
+0x3988338	K:\Code\OnlineSession\Core\Provider\ProviderBase.cpp
+0x39883e0	K:\Code\OnlineSession\Core\Provider\ProviderObserverInterface.cpp
+0x39884c8	K:\Code\OnlineSession\Core\RendezVousCore\RdVCore.cpp
+0x3988520	K:\Code\OnlineSession\Core\RendezVousCore\RdVLogDevice.cpp
+0x3988670	K:\Code\OnlineSession\Core\RendezVousCore\SessionParamConverter.cpp
+0x39886b8	K:\Code\OnlineSession\Core\RendezVousCore\Variant.cpp
+0x3988a08	K:\Code\OnlineSession\Core\StormCore\StormCore.cpp
+0x3988c50	K:\Code\OnlineSession\Core\StormCore\StormDataContainerRegistry.cpp
+0x3988e30	SESSION_JOIN_TIMED_OUT
+0x3988e98	INVALID_SESSION_GUID
+0x3988fa8	JOIN_FAILED_SESSION_NOT_FOUND
+0x3988fc8	JOIN_FAILED_SESSION_FULL
+0x39890d0	Network_ConnectionLostUbisoftServer
+0x3989118	Network_ConnectionFailureUbisoftServer
+0x3989350	Authentication_RequiredUbisoft
+0x3989488	Session_NotFound
+0x39894a0	Session_Full
+0x39894b0	Session_JoinFailureMissingDLC
+0x39894d0	Session_GetPropositionFailed
+0x39894f0	Session_VersionMismatch
+0x3989508	Session_Refused
+0x3989518	Session_MigrationFailed
+0x3989530	Session_HostUnreachable
+0x3989548	Session_ClientNotFound
+0x3989560	Session_InvalidSessionID
+0x3989580	Session_InvalidSessionInfo
+0x39895a0	Session_InvalidSessionType
+0x39895c0	Session_InvalidPeerID
+0x39895d8	Session_1stPartySessionPrivate
+0x39895f8	Session_Error_UnknownErrorCode
+0x3989618	Session_LeaveGracefully
+0x3989630	Session_AlreadyInSession
+0x3989688	Server_Matchmaking_Error_Unknown
+0x39896b0	Server_Matchmaking_Error_Timeout
+0x39896d8	Server_Matchmaking_Error_Invalid_State
+0x3989700	Server_Matchmaking_Error_Full_Group
+0x3989728	Server_Matchmaking_Error_Seamless_Incompatible
+0x3989758	Server_Matchmaking_Error_Invalid_SubProposition
+0x398a6b0	GameSessionErrorCode::Unknown
+0x398a6d0	GameSessionErrorCode::InvalidArgument
+0x398a6f8	GameSessionErrorCode::InvalidSessionKey
+0x398a720	GameSessionErrorCode::InvalidQueryID
+0x398a748	GameSessionErrorCode::HostPrivilegeRequired
+0x398a778	GameSessionErrorCode::NotEnoughPublicSlotAvailable
+0x398a7b0	GameSessionErrorCode::NotEnoughPrivateSlotAvailable
+0x398a7e8	GameSessionErrorCode::HostOrParticipantRequired
+0x398a818	GameSessionErrorCode::ParticipantNotConnected
+0x398a848	GameSessionErrorCode::NotSessionParticipant
+0x398a878	GameSessionErrorCode::AlreadySessionParticipant
+0x398a8a8	GameSessionErrorCode::InvalidPrincipalID
+0x398a8d8	GameSessionErrorCode::ConfigurationFileNotFound
+0x398a908	GameSessionErrorCode::SessionNotReadyToMigrate
+0x398a938	GameSessionErrorCode::PrivilegeNotFound
+0x398a990	EMatchmaking2Error::Unknown
+0x398a9b0	EMatchmaking2Error::Timeout
+0x398a9d0	EMatchmaking2Error::InvalidArgument
+0x398a9f8	EMatchmaking2Error::UnknownSession
+0x398aa20	EMatchmaking2Error::NotEnoughSlots
+0x398aa48	EMatchmaking2Error::RequestRejected
+0x398aa70	EMatchmaking2Error::NotAllowed
+0x398aa90	EMatchmaking2Error::TemporarilyBanned
+0x398aab8	EMatchmaking2Error::PlayerInfoNotFound
+0x398aae0	EMatchmaking2Error::PermanentlyBanned
+0x398ab08	EMatchmaking2Error::VersionIncompatible
+0x398ab30	EMatchmaking2Error::SeamlessIncompatible
+0x398ab60	EMatchmaking2Error::ProfileNotSet
+0x398b110	AUTH_SESSION_NOT_CREATED
+0x398b130	AUTH_PLAYER_HAS_NO_UPLAY_ACCOUNT
+0x398b358	AUTH_SESSION_CREATION_IN_PROGRESS
+0x398b8c0	PROFILES_REQUEST_ID_FROM_UPLAY_GUID_FAILURE
+0x398c298	K:\Code\OnlineSession\Core\UbiServicesCore\UbiServicesCore.cpp
+0x398c2e0	K:\Code\OnlineSession\Core\UbiServicesCore\UbiServicesOperationSemaphore.cpp
+0x398c430	K:\Code\OnlineSession\Core\Utils\ObjectGUIDUtils.cpp
+0x398c498	K:\Code\OnlineSession\Core\Utils\ResultHandler.cpp
+0x398c4d0	CSessionLogger
+0x398c4e0	wdSessionId
+0x398c4f0	Session creation succeeded: %s
+0x398c510	CSessionLogger::OnSessionCreation
+0x398c538	K:\Code\OnlineSession\Core\Utils\SessionLogger.cpp
+0x398c570	Session creation failed with error : %s
+0x398c598	Session join succeeded: %s
+0x398c5b8	CSessionLogger::OnSessionJoined
+0x398c5d8	Session join failed with error : %s
+0x398c600	Session deletion failed with error : %s
+0x398c628	CSessionLogger::OnSessionDeleted
+0x398c650	Session search failed with code : %s
+0x398c678	CSessionLogger::OnSessionsFound
+0x398c6b8	CSessionLogger::OnMigrationEnded
+0x398c740	K:\Code\OnlineSession\Core\Utils\SessionNotifier.cpp
+0x398c778	K:\Code\OnlineSession\Core\Utils\SessionObserver.cpp
+0x398c7c0	K:\Code\OnlineSession\Core\Utils\SessionUtils.cpp
+0x398c908	K:\Code\OnlineSession\Core\Utils\StormPeerDescriptor.cpp
+0x398cbe8	K:\Code\OnlineSession\Core\OnlineInterface.cpp
+0x398cd70	K:\Code\OnlineSession\Core\OnlineTrap.cpp
+0x398cdf0	OnlinePlaySession
+0x398ce60	K:\Code\OnlineSession\debugevents\DebugEventOnlineListener.cpp
+0x398cf50	execSessionUID
+0x398cf70	http://uco-dev-wd2-log.ubisoft.com:8000/
+0x398d050	K:\Code\OnlineSession\debugevents\RemoteLogSender.cpp
+0x398d1a0	k:\code\onlinesession\services\arbitration\ddl\ArbitrationProtocolDDL.h
+0x398d1e8	BountyHunterResult
+0x398d340	CStartBountyHuntingActivityOperation
+0x398d368	CStartBountyHuntingActivityOperation:: failed
+0x398d420	CStartBountyHuntingAsHunterOperation
+0x398d448	CStartBountyHuntingAsHunterOperation:: failed
+0x398d500	CStartBountyHuntingAsProtectorOperation
+0x398d528	CStartBountyHuntingAsProtectorOperation:: failed
+0x398d5e0	CStartBountyHuntingAsTargetForHunterOperation
+0x398d610	CStartBountyHuntingAsTargetForHunterOperation:: failed
+0x398d6d0	CStartBountyHuntingAsTargetForProtectorOperation
+0x398d708	CStartBountyHuntingAsTargetForProtectorOperation:: failed
+0x398da40	CStopBountyHuntingActivityOperation
+0x398da68	CStopBountyHuntingActivityOperation:: failed
+0x398db20	CStopBountyHuntingAsHunterOperation
+0x398db48	CStopBountyHuntingAsHunterOperation:: failed
+0x398dc00	CStopBountyHuntingAsProtectorOperation
+0x398dc28	CStopBountyHuntingAsProtectorOperation:: failed
+0x398dce0	CStopBountyHuntingAsTargetForHunterOperation
+0x398dd10	CStopBountyHuntingAsTargetForHunterOperation:: failed
+0x398ddd0	CStopBountyHuntingAsTargetForProtectorOperation
+0x398de00	CStopBountyHuntingAsTargetForProtectorOperation:: failed
+0x398e490	K:\Code\OnlineSession\Services\Arbitration\Provider\ArbitrationProvider.cpp
+0x398e540	division_bounty_hunter
+0x398e648	K:\Code\OnlineSession\Services\Auth\AuthAccount.cpp
+0x398e740	K:\Code\OnlineSession\Services\Auth\AuthModule.cpp
+0x398e7c8	K:\Code\OnlineSession\Services\Auth\AuthModuleBlocker.cpp
+0x398eae0	K:\Code\OnlineSession\Services\Auth\AuthModuleExternalIPAndNAT_AddUPnPPortMapping.cpp
+0x398ef90	K:\Code\OnlineSession\Services\Auth\AuthModuleExternalIPAndNAT_Detect.cpp
+0x398f198	K:\Code\OnlineSession\Services\Auth\AuthModuleRdV.cpp
+0x398f3f0	K:\Code\OnlineSession\Services\Auth\AuthModuleRdV_LoginOperation.cpp
+0x398f9f0	K:\Code\OnlineSession\Services\Auth\AuthModuleRdV_LogoutOperation.cpp
+0x398faf8	K:\Code\OnlineSession/Core/Client/Net/ClientDescriptor_RdV.h
+0x398fb38	K:\Code\OnlineSession/Core/Client/Net/ClientDescriptor.h
+0x398fb78	K:\Code\OnlineSession/Core/Client/Net/NetDataClientId.h
+0x398fbb0	K:\Code\OnlineSession/Core/Network/ApplicationDescriptor.h
+0x398fbf0	K:\Code\OnlineSession/Core/Network/PeerChannelRequestsProtocol.h
+0x3990797	=ArbitrationProtocol::StartBountyHuntingAsTargetForProtector_V1
+0x399080e	L>ArbitrationProtocol::StartBountyHuntingAsProtector_V1
+0x3990887	=ArbitrationProtocol::StopBountyHuntingAsTargetForProtector_V2
+0x39908ff	=ArbitrationProtocol::StopBountyHuntingAsHunter_V5
+0x3990936	 AArbitrationProtocol::StopBountyHuntingAsProtector_V4
+0x3990e30	ServerMatchMaking2Protocol::SetProfileSmm2_V1
+0x3990e60	ServerMatchMaking2Protocol::SetProfileSmm2_V2
+0x3990e90	ServerMatchMaking2Protocol::SetProfileSmm2_V3
+0x3990ec0	ServerMatchMaking2Protocol::CreateSessionSmm2_V1
+0x3990ef8	ServerMatchMaking2Protocol::RequestDirectJoinSessionSmm2_V1
+0x3990f38	ServerMatchMaking2Protocol::RequestDirectJoinSessionSmm2_V2
+0x3990f78	ServerMatchMaking2Protocol::UpdateSessionSmm2_V1
+0x3990fb0	ServerMatchMaking2Protocol::GetSessionSmm2_V1
+0x3990fe0	ServerMatchMaking2Protocol::GetPlayersSessionsSmm2_V1
+0x3991040	ServerMatchMaking2Protocol::GetPlayersSessionsSmm2_V2
+0x3991090	ServerMatchMaking2Protocol::GetPlayersAvailabilitiesSmm2_V1
+0x39910d0	ServerMatchMaking2Protocol::GetPlayersOnlineSmm2_V1
+0x3991108	ServerMatchMaking2Protocol::LeaveSessionSmm2_V1
+0x3991138	ServerMatchMaking2Protocol::SetAvailableSmm2_V1
+0x3991168	ServerMatchMaking2Protocol::SetAvailableSmm2_V2
+0x3991198	ServerMatchMaking2Protocol::UpdateAvailabilitiesSmm2_V1
+0x39911d0	ServerMatchMaking2Protocol::UpdateAvailabilitiesSmm2_V2
+0x3991208	ServerMatchMaking2Protocol::SetUnavailableSmm2_V1
+0x3991240	ServerMatchMaking2Protocol::PropositionAcceptSmm2_V1
+0x3991278	ServerMatchMaking2Protocol::PropositionAcceptDetailedSmm2_V1
+0x39912b8	ServerMatchMaking2Protocol::PropositionDenySmm2_V1
+0x39912f0	ServerMatchMaking2Protocol::PropositionDenySmm2_V2
+0x3991328	ServerMatchMaking2Protocol::MigrateSessionSmm2_V1
+0x3991360	ServerMatchMaking2Protocol::ReportMigrationSuccessSmm2_V1
+0x39913a0	ServerMatchMaking2Protocol::QosAnswerSmm2_V1
+0x39913d0	ServerMatchMaking2Protocol
+0x3992320	K:\Code\OnlineSession\Services\Auth\AuthModuleSmm2.cpp
+0x3992570	K:\Code\OnlineSession\Services\Auth\AuthModuleStorm.cpp
+0x3993350	K:\Code\OnlineSession\Services\Auth\AuthModuleStormPunch.cpp
+0x3993490	K:\Code\OnlineSession\Services\Auth\AuthModuleStormPunch_Initialize.cpp
+0x3993590	K:\Code\OnlineSession\Services\Auth\AuthModuleStormPunch_InitializeDetect.cpp
+0x39936e0	K:\Code\OnlineSession\Services\Auth\AuthModuleStormPunch_Shutdown.cpp
+0x39937e0	K:\Code\OnlineSession\Services\Auth\AuthModuleStormPunch_StartUsingServer.cpp
+0x3993980	K:\Code\OnlineSession\Services\Auth\AuthModuleStormPunch_StopUsingServer.cpp
+0x3993a60	K:\Code\OnlineSession\Services\Auth\AuthModuleStorm_Initialize.cpp
+0x3993cc0	K:\Code\OnlineSession\Services\Auth\AuthModuleStorm_Shutdown.cpp
+0x3993e60	K:\Code\OnlineSession\Services\Auth\AuthModuleUbi_UserOperations.cpp
+0x3994110	K:\Code\OnlineSession\Services\Auth\AuthModuleUS.cpp
+0x3994340	K:\Code\OnlineSession\Services\Auth\AuthModuleUS_LoginOperation.cpp
+0x3994500	K:\Code\OnlineSession/Services/GameConfig/DDL/GameConfigProtocolDDL.h
+0x3994570	CPlaySeamlessOnlineBlocker
+0x3994670	K:\Code\OnlineSession/Services/Friends/DDL/FriendsProtocolDDL.h
+0x39947b0	K:\Code\OnlineSession/Services/ServerMatchMaking2/DDL/ServerMatchMaking2ProtocolDDL.h
+0x39948e0	K:\Code\OnlineSession/Services/Entitlements/DDL/EntitlementsProtocolDDL.h
+0x3994a70	K:\Code\OnlineSession/Services/Leaderboards/DDL/LeaderboardsProtocolDDL.h
+0x3994b10	K:\Code\OnlineSession\Services\Base\ServiceClientWrapper.cpp
+0x3994dd0	K:\Code\OnlineSession\Services\Entitlements\Provider\EntitlementsProvider.cpp
+0x3995180	K:\Code\OnlineSession\Services\EntityUs\Provider\GameEntityUsProvider.cpp
+0x3995238	K:\Code\OnlineSession\Services\EntityUs\EntityUsOperations.cpp
+0x3995478	CSessionFriendProvider
+0x39954e0	CSessionOnlineFriendProvider
+0x3995bc0	K:\Code\OnlineSession\Services\Friends\Operations\OnlineFriendSyncOperation.cpp
+0x39963f0	K:\Code\OnlineSession\Services\Friends\Provider\GameFriendProvider_RdV.cpp
+0x3996540	K:\Code\OnlineSession\Services\Friends\Provider\OnlineFriendProvider.cpp
+0x3996690	K:\Code\OnlineSession\Services\Friends\BlockedPlayerManager.cpp
+0x3996850	K:\Code\OnlineSession\Services\Friends\FriendsOperations_RdV.cpp
+0x3996a68	CSessionGameConfigProvider
+0x3996bf0	K:\Code\OnlineSession\Services\gameconfig\Operations\GetConfigsOperation.cpp
+0x3996d70	K:\Code\OnlineSession\Services\gameconfig\Provider\GameGameConfigProvider_RdV.cpp
+0x3996ea0	K:\Code\OnlineSession\Services\gameconfig\gameconfigmanager.cpp
+0x3997520	K:\Code\OnlineSession\Services\gameconfig\gameconfigmanagerimpl.cpp
+0x3997880	K:\Code\OnlineSession\Services\gameconfig\gameconfigvalue.cpp
+0x3997f20	K:\Code\OnlineSession\Services\leaderboards\Provider\LeaderboardsProvider.cpp
+0x39982a0	K:\Code\OnlineSession\Services\leaderboards\LeaderboardsUSOperations.cpp
+0x3998340	CSessionNewsFeedProvider
+0x39985a0	CSessionNewsFeedProvider::SyncNews::<lambda_d2fb1bff287dede98716b652f31a10da>::operator ()
+0x3998630	K:\Code\OnlineSession\Services\News\Provider\SessionNewsFeedProvider.cpp
+0x3998680	CSessionNewsFeedProvider::FetchNews::<lambda_0528dc72db898c94bcae7cf1e54ab697>::operator ()
+0x3998858	K:\Code\OnlineSession\Services\OnlinePicture\OnlinePicture.cpp
+0x39989a0	K:\Code\OnlineSession\Services\OnlinePicture\OnlinePictureOperation.cpp
+0x3998d28	CSessionPartyProvider
+0x3998f90	K:\Code\OnlineSession\Services\Party\Provider\SessionPartyProvider.cpp
+0x39991b8	CSendSessionInviteToPartyMembersOperation
+0x39991f0	CSendSessionInviteToPartyMembersOperation - Failed to send invites. No session was provided.
+0x3999250	CSendSessionInviteToPartyMembersOperation::opBegin
+0x3999288	K:\Code\OnlineSession\Services\Party\PartyOperations.cpp
+0x39992d0	CSendSessionInviteToPartyMembersOperation - %s is not a member of the party, removing them from the destination list.
+0x3999350	CSendSessionInviteToPartyMembersOperation - Failed to send invites to session %s. Failed to get session information. [result=%s]
+0x39993d8	CSendSessionInviteToPartyMembersOperation::OnSessionGet
+0x3999410	CSendSessionInviteToPartyMembersOperation - Getting session information for session %s.
+0x3999470	CSendSessionInviteToPartyMembersOperation::StartGetSessionInfoAsync
+0x39994c0	CSendSessionInviteToPartyMembersOperation - Not Implemented Sending invites to session %s.
+0x3999520	CSendSessionInviteToPartyMembersOperation::StartSendSessionInviteAsync
+0x3999670	CSessionProfileClientUsProvider
+0x3999720	K:\Code\OnlineSession\Services\ProfileClientUs\Provider\GameProfileClientUsProvider.cpp
+0x39997d0	K:\Code\OnlineSession\Services\ProfileClientUs\ProfileClientUsOperations.cpp
+0x3999910	ServerMatchMaking2AvailabilityRequest
+0x3999938	ServerMatchMaking2PlayerAvailabilities
+0x3999960	ServerMatchMaking2PlayerSessions_v2
+0x3999988	ServerMatchMaking2PositionGranularity
+0x39999b0	ServerMatchMaking2PropositionType
+0x39999d8	ServerMatchMaking2DenyReasons
+0x39999f8	ServerMatchMaking2QosPlayerInfo
+0x3999a18	ServerMatchMaking2Session
+0x3999a38	ServerMatchMaking2SessionInfo
+0x3999a58	ServerMatchMaking2SessionMember
+0x3999aa0	Received an event ServerMatchMaking2LeaveNotification with the following body : %s
+0x3999af8	ServerMatchMaking2LeaveNotification::InitFromRDVEvent
+0x3999b30	K:\Code\OnlineSession\Services\ServerMatchMaking2\Notifications\ServerMatchMaking2LeaveNotification.cpp
+0x3999ba0	Event ServerMatchMaking2LeaveNotification
+0x3999c00	Received an event ServerMatchMaking2PropositionNotification with the following body : %s
+0x3999c60	ServerMatchMaking2PropositionNotification::InitFromRDVEvent
+0x3999ca0	K:\Code\OnlineSession\Services\ServerMatchMaking2\Notifications\ServerMatchMaking2PropositionNotification.cpp
+0x3999d10	Event ServerMatchMaking2PropositionNotification
+0x3999d40	Received an event ServerMatchMaking2QosNotification with the following body : %s
+0x3999d98	ServerMatchMaking2QosNotification::InitFromRDVEvent
+0x3999dd0	K:\Code\OnlineSession\Services\ServerMatchMaking2\Notifications\ServerMatchMaking2QosNotification.cpp
+0x3999e38	Event ServerMatchMaking2QosNotification
+0x3999e60	m_sessionFlags
+0x3999ee0	m_sessionViable
+0x3999ef0	m_friendInvasionPull
+0x3999f08	m_invasionPull
+0x3999f18	m_bountyTargetPull
+0x3999f30	m_bountyHunterPull
+0x3999fc8	m_sessionType
+0x3999fd8	m_sessionId
+0x399a048	m_session
+0x399a0a8	m_sessionInfo
+0x399a110	CServerMatchMaking2BaseOperation
+0x399a2a0	CGetPlayersSessionsSmm2Operation
+0x399a2c8	CGetPlayersSessionsSmm2Operation:: failed
+0x399a380	CGetSessionSmm2Operation
+0x399a3a0	CGetSessionSmm2Operation:: failed
+0x399a6c0	CRequestDirectJoinSessionSmm2Operation
+0x399a6e8	CRequestDirectJoinSessionSmm2Operation:: failed
+0x399b7c7	?ServerMatchMaking2Protocol::LeaveSessionSmm2_V1
+0x399b9ae	 AServerMatchMaking2Protocol::PropositionDenySmm2_V2
+0x399c2b8	K:\Code\OnlineSession/Session/SessionTypes.h
+0x399c400	CUpdateSessionParam
+0x399c428	CCreateGameSessionParam
+0x399c4d0	CGetSessionParam
+0x399c4f8	CSessionResolutionParam
+0x399c520	CDeleteSessionParam
+0x399c548	CPlayerAddSessionParam
+0x399c570	CPlayerMetSessionParam
+0x399c598	CPlayerRemoveSessionParam
+0x399c5c0	K:\external\technology-group\online\Storm\SDKs\Include\Echo/EchoSessionDescriptor.h
+0x399c6b0	CSessionServerMatchMaking2Provider
+0x399c708	CSessionInfo
+0x399c7d8	CGameServerMatchMaking2Provider_RdV
+0x399c9f8	CSessionManagerImp
+0x399cae0	CSessionManagerImp_RdV
+0x399cc30	Setting profile: stationUrls=[%s], matchKey=%s, gameVersion=%s, sessionIds=[%s], seamlessVersion=%u
+0x399cc98	CGameServerMatchMaking2Provider_RdV::SetProfile
+0x399ccd0	K:\Code\OnlineSession\Services\ServerMatchMaking2\Provider\GameServerMatchMaking2Provider_RdV.cpp
+0x399cd60	CGameServerMatchMaking2Provider_RdV::OnQosReceived
+0x399ce98	CGameServerMatchMaking2Provider_RdV::OnQosCallback
+0x399cf18	ServerMatchMaking2.AvailabilityProvider.%s
+0x399cf48	CServerMatchMaking2AvailabilitySemaphore
+0x399cf78	ServerMatchMaking2 client is unavailable
+0x399d020	ServerMatchMaking2SessionToSessionInfo
+0x399d050	K:\Code\OnlineSession\Services\ServerMatchMaking2\ServerMatchMaking2Utils.cpp
+0x399d1e0	k:\code\onlinesession\services\shop\ddl\ShopProtocolDDL.h
+0x399d648	CSessionUplayProvider
+0x399d680	K:\Code\OnlineSession\Services\shop\Provider\ShopProvider.cpp
+0x399da20	%s: Failed to fetch refresh Uplay rewards
+0x399db18	CSessionSocialFeedProvider
+0x399dff0	K:\Code\OnlineSession\Services\SocialFeed\SocialFeedOperations_RdV.cpp
+0x399e448	K:\Code\OnlineSession\Services\TrackingSystem\Data.cpp
+0x399e860	BlendedRankBounty
+0x399e888	BlendedRankInvasion
+0x399e8f0	BountyBestScore
+0x399e900	BountyEndReason
+0x399e910	BountyHuntsCompleted
+0x399e928	BountyMedal
+0x399e938	BountyParticipate
+0x399e950	BountyTargetsNeutralized
+0x399f290	InvasionOptionEnabled
+0x399f2a8	InvasionParticipate
+0x399f2c0	InvasionVictim
+0x399f510	MatchSessionID
+0x399f9e0	OnLineBounty
+0x399fa10	OnLineInvasion
+0x399fd30	RDVSessionID
+0x399fe20	SessionType
+0x399ff78	StormSessionId
+0x39a0020	TimeBountyHunter
+0x39a0038	TimeBountyVictim
+0x39a0398	BountyAccepted
+0x39a03a8	BountyEscaped
+0x39a03b8	BountyHuntCompleted
+0x39a03d0	BountyHunterKilled
+0x39a03e8	BountyTargetNeutralized
+0x39a0650	InvasionOptionEnabledChanged
+0x39a0940	SeamlessSeen
+0x39a0b38	ILikeTheBounty
+0x39a0c70	PlayTimeOfLastInvasion
+0x39a0cb8	ShakeYourBounty
+0x39a0cf0	StatBountyHunter
+0x39a0d08	StatBountyTarget
+0x39a0f50	StatInvasionVictim
+0x39a1128	StatTimeBountyHunter
+0x39a1140	StatTimeBountyVictim
+0x39a1290	UplayBountyEscaped
+0x39a12a8	UplayBountyTargetNeutralized
+0x39a12c8	UplayCoopSucceeded
+0x39a12e0	UplayFollowersAdded
+0x39a12f8	UplayGameProgress
+0x39a1310	UplayHackerNeutralized
+0x39a1328	UplayHackingSucceeded
+0x39a13c0	K:\Code\OnlineSession\Services\TrackingSystem\Stat.cpp
+0x39a1440	K:\Code\OnlineSession\Services\TrackingSystem\StatListener.cpp
+0x39a14f8	K:\Code\OnlineSession\Services\TrackingSystem\StatSample.cpp
+0x39a1770	K:\Code\OnlineSession\Services\TrackingSystem\TrackingSystemImpl.cpp
+0x39a1be8	K:\Code\OnlineSession\Services\TrackingSystem\UploadBuffer.cpp
+0x39a1c28	Invalid (nullptr) Session Manager
+0x39a1dc8	CUplayOperation
+0x39a1ec8	CUplayCompleteActionsFetchNamesOperation
+0x39a1f88	CUplayGetRewardsOperation
+0x39a2038	CUplayGetProgressionPanelUrlOperation
+0x39a20e8	CUplayGetBadges
+0x39a2188	CUplayGetChallengesDetails
+0x39a22c8	CUplayGetCompletedActionsOperation_Native
+0x39a2388	CUplayCompleteActionsOperation_Native
+0x39a23b0	CGameUplayProvider_RdV
+0x39a23e0	CGameUplayProvider_RdV::HandleBadgeNotification::<lambda_df6714d66def978f259f2e6c664db8c7>::operator ()
+0x39a2448	%s: failed to retrieve Uplay progression image URL
+0x39a2480	K:\Code\OnlineSession\Services\Uplay\Provider\GameUplayProvider_RdV.cpp
+0x39a24d0	CGameUplayProvider_RdV::HandleChallengeCompletedNotification::<lambda_da25c3bd4059a02efca148d9aaa2daca>::operator ()
+0x39a2590	CGameUplayProvider_RdV::HandleChallengeCompletedNotification::<lambda_fe95e8cb263481753c47d9513c0bcb0e>::operator ()
+0x39a2610	CGameUplayProvider_RdV::HandleChallengeBankedNotification::<lambda_b233322ea218a7b864bd6f1ed503284e>::operator ()
+0x39a2690	CGameUplayProvider_RdV::FetchProgressionPanelPicture::<lambda_fbc26526a63904051af2172bfcbcff72>::operator ()
+0x39a2700	K:\Code\OnlineSession\Services\Uplay\UplayOperations.cpp
+0x39a2740	CUplayCompleteActionsFetchNamesOperation::CompleteActions() - No Uplay account linked, display generic action completed pop up
+0x39a27c0	CUplayCompleteActionsFetchNamesOperation::Begin
+0x39a27f0	CUplayCompleteActionsOperation operation failed! Action not already completed, displaying generic action completed pop up if required. Error: '%s'
+0x39a2890	CUplayCompleteActionsFetchNamesOperation::HandleOperationCompleteActions
+0x39a28e0	CUplayGetCompletedActionsOperation operation failed!. Error: '%s'
+0x39a2930	CUplayCompleteActionsFetchNamesOperation::HandleOperationGetCompletedActions
+0x39a2980	K:\Code\OnlineSession\Session\Info\SessionInfo.cpp
+0x39a29c0	Ptr[%p],RefId[%d],SessionDesc[%s],HostDesc[%s],HostName[%S],MaxPublic[%d],PublicFilled[%d],Dissolve[%s]
+0x39a2a28	CSessionInfo::AddDiscoveredClientDescriptor
+0x39a2a58	%s Adding discovered clientId[%llu] for sessionId[%s]
+0x39a2ac0	K:\Code\OnlineSession/Session/Invites/SessionInviteServiceImpBase.h
+0x39a2c58	Destroying invite data - sessionid = %s
+0x39a2ca0	K:\Code\OnlineSession\Session\Invites\SessionInviteService.cpp
+0x39a2ce0	CInviteData[sessionId=%s (platform=%s) userId=%llu fromPartyJoin=%s fromGameInvite=%s fromResume=%s directFriendsInvasion=%d]
+0x39a2d60	K:\Code\OnlineSession\Session\Net\SessionDescriptor.cpp
+0x39a2da0	Id[%s],Name[%s],Migration[%d],HostId[%lld],HostPeerId[%d],Type[%d],PrivateId[%d],SessionFlags[%s],SessionStringId[%d],SystemMatchId[%s]
+0x39a2ee0	CSessionClearActivityOperation
+0x39a2fa8	CSessionCreateGameOperation
+0x39a3030	CSessionCreateOperation
+0x39a30d0	CSessionCreateServiceOperation
+0x39a3150	CSessionDeleteOperation
+0x39a3170	K:\Code\OnlineSession\Session\Operations\Creation\SessionCreateOperation.cpp
+0x39a31d0	No local client found to create session
+0x39a31f8	CSessionCreateServiceOperation::InitClientInfo
+0x39a3230	K:\Code\OnlineSession\Session\Operations\Creation\SessionCreateServiceOperation.cpp
+0x39a3310	CSessionCreateServiceOperation_Smm2
+0x39a3340	K:\Code\OnlineSession\Session\Operations\Creation\SessionCreateServiceOperation_Smm2.cpp
+0x39a33a0	CServerMatchMaking2Client::DoBegin() Bypass session creation for session withs flags: %d, session %s already created by backend
+0x39a3420	CSessionCreateServiceOperation_Smm2::opBegin
+0x39a3450	CServerMatchMaking2Client::DoBegin()  Throttled because of failure for %.1f secs
+0x39a34b0	CServerMatchMaking2Client::CreateSessionSmm2() Created session sessionId[%s]
+0x39a3500	CSessionCreateServiceOperation_Smm2::opUpdate
+0x39a3530	CServerMatchMaking2Client::CreateSessionSmm2() Failed %s, next call will be throttled
+0x39a35b8	CSessionCreateServiceOperation_Smm2::HostSession
+0x39a3698	CSessionDeleteGameOperation
+0x39a38b0	K:\Code\OnlineSession\Session\Operations\Delete\SessionDeleteGameOperation.cpp
+0x39a3960	CSessionDeleteRemoveClientsOperation
+0x39a3a10	CSessionDeleteServiceOperation
+0x39a3a30	m_params.sessionInfo[
+0x39a3a48	sessionId[%s]
+0x39a3ae0	CSessionDeleteServiceOperation_Smm2
+0x39a3b10	CSessionDeleteServiceOperation_Smm2 deleting session sessionId[%s]
+0x39a3b58	CSessionDeleteServiceOperation_Smm2::opBegin
+0x39a3b90	K:\Code\OnlineSession\Session\Operations\Delete\SessionDeleteServiceOperation_Smm2.cpp
+0x39a3bf0	CServerMatchMaking2Client::LeaveSessionSmm2() immediately failed with error (%s)
+0x39a3cf8	CSessionGetOperation
+0x39a3d10	K:\Code\OnlineSession\Session\Operations\Get\SessionGetOperation.cpp
+0x39a3e08	CSessionGetOperation_Smm2
+0x39a3e30	K:\Code\OnlineSession\Session\Operations\Get\SessionGetOperation_Smm2.cpp
+0x39a3e80	GetSession() failed with error (%s)
+0x39a3ea8	CSessionGetOperation_Smm2::DoBegin
+0x39a3ed0	RdvSessionId[%s]
+0x39a3f98	CSessionAcceptInviteOperation
+0x39a4068	CSessionCancelInviteOperation
+0x39a4138	CSessionDeclineInviteOperation
+0x39a4158	CSessionSendInviteOperation
+0x39a4228	CSessionJoinGameOperation
+0x39a42d0	CSessionJoinServiceOperation
+0x39a42f0	K:\Code\OnlineSession\Session\Operations\Joining\SessionJoinGameOperation.cpp
+0x39a43a0	CSessionJoinOperation
+0x39a43c0	K:\Code\OnlineSession\Session\Operations\Joining\SessionJoinOperation.cpp
+0x39a4410	K:\Code\OnlineSession\Session\Operations\Joining\SessionJoinServiceOperation.cpp
+0x39a4518	CSessionMigrationSyncClientOperation
+0x39a45e8	CSessionMigrationSyncClientOperation_Smm2
+0x39a4620	K:\Code\OnlineSession\Session\Operations\Migration\Client\RendezVous\SessionMigrationSyncClientOperation_Smm2.cpp
+0x39a46a0	CSessionMigrationSyncClientOperation_RDV::DoBegin: oldSessionId %s / newSessionId %s
+0x39a46f8	CSessionMigrationSyncClientOperation_Smm2::DoBegin
+0x39a4730	CServerMatchMaking2Client::ReportMigrationSuccessSmm2() failed with error (%s)
+0x39a4828	CSessionMigrateHostOperation
+0x39a48f8	CSessionMigrateHostOperation_Smm2
+0x39a4920	K:\Code\OnlineSession\Session\Operations\Migration\Host\RendezVous\SessionMigrateHostOperation_Smm2.cpp
+0x39a4990	CSessionMigrateHostOperation_Smm2::MigrateSessionSmm2() failed with error (%s)
+0x39a49e0	CSessionMigrateHostOperation_Smm2::DoBegin
+0x39a4a10	CSessionMigrateHostOperation_Smm2 succeeded newGameSessionId[%s], newSessionId[%s]
+0x39a4a68	CSessionMigrateHostOperation_Smm2::DoUpdate
+0x39a4aa0	Host migration changing old session id(%u) = %s, and new session id(%u) = %s
+0x39a4af0	CSessionMigrateHostOperation::DoBegin
+0x39a4b20	K:\Code\OnlineSession\Session\Operations\Migration\Host\SessionMigrateHostOperation.cpp
+0x39a4be0	CSessionMigrateOperation
+0x39a4c00	CSessionMigrateOperation::DoBegin : cannot find new host[%lld].  Aborting operation.
+0x39a4c58	CSessionMigrateOperation::Begin
+0x39a4c80	K:\Code\OnlineSession\Session\Operations\Migration\SessionMigrateOperation.cpp
+0x39a4ce0	CSessionMigrateOperation::EndMigration
+0x39a4e18	CSessionTransferHostOperation
+0x39a4e38	Cannot transfer the host of a session we are not the host of
+0x39a4eb0	client: %llu, reason ID: %d, sessionInfo: %s
+0x39a4f90	CSessionPlayerAddOperation
+0x39a5060	CSessionPlayerResolveNameOperation
+0x39a5138	CSessionPrepareAddPlayerOperation
+0x39a5358	CSessionPlayerAddOperation waitForNameOp
+0x39a5388	Client[%s], RdvSessionId[%s]
+0x39a53b0	K:\Code\OnlineSession\Session\Operations\PlayerAdd\SessionPlayerResolveNameOperation.cpp
+0x39a5410	K:\Code\OnlineSession\Session\Operations\PlayerAdd\SessionPreparePlayerAddOperation.cpp
+0x39a54f0	CSessionPlayerMetOperation
+0x39a5578	CSessionPlayerRemoveOperation
+0x39a5620	CSessionPlayerRemoveServiceOperation
+0x39a5650	K:\Code\OnlineSession\Session\Operations\PlayerRemove\SessionPlayerRemoveOperation.cpp
+0x39a56a8	clientInfo[%s], sessionInfo[%s]
+0x39a5750	CSessionPlayerRemoveOperation_Smm2
+0x39a5840	CSessionUpdateOperation
+0x39a5860	K:\Code\OnlineSession\Session\Operations\Update\SessionUpdateOperation.cpp
+0x39a5968	CSessionUpdateOperation_Smm2
+0x39a5990	K:\Code\OnlineSession\Session\Operations\Update\SessionUpdateOperation_Smm2.cpp
+0x39a59e0	UpdateSession() failed with error (%s)
+0x39a5a08	CSessionUpdateOperation_Smm2::UpdateRdVSession
+0x39a5a60	K:\Code\OnlineSession\Session\AddPeerRequestHandler.cpp
+0x39a5a98	session::CAddPeerRequestHandler::Register
+0x39a5ac8	%s: Added missed clientId[%llu] for sessionId[%s]
+0x39a5b00	%s: Added [%d] missed clients (out of [%d] cached clients) for sessionId[%s]
+0x39a5b50	session::CAddPeerRequestHandler::NetInvoke
+0x39a5ba0	session::CAddPeerRequestHandler::OnGroupAddPeerRequest
+0x39a5be0	%s: RefuseAddPeerRequest for ClientId[%llu] for sessionId[%s]: [%s]
+0x39a5db0	CLeaveMergingSessionEvent
+0x39a5e30	CEnterMatchingSessionEvent
+0x39a5eb0	CLeaveMatchingSessionEvent
+0x39a5f30	CEnterCoopSessionEvent
+0x39a5fb0	CLeaveCoopSessionEvent
+0x39a6030	CEnterGroupSessionEvent
+0x39a60b0	CLeaveGroupSessionEvent
+0x39a62c0	K:\Code\OnlineSession\Session\HomeSession.cpp
+0x39a62f0	[HomeSession] RefId[%d]
+0x39a6308	session::CHomeSession::CHomeSession
+0x39a6330	[HomeSession] RequestAddPlayer: localClient[%s]
+0x39a6360	[HomeSession] PlayerJoined : PeerId(%d), SessionRefId(%d) , ResultCookie(0x%X) , ClientId(%lld)
+0x39a63c0	session::CHomeSession::NetInvoke
+0x39a63e8	[HomeSession] Event [%s] is not handled.
+0x39a6538	CMetaSessionManager
+0x39a6550	K:\Code\OnlineSession\Session\MetaSessionManager.cpp
+0x39a65b8	K:\Code\OnlineSession\Session\PeerChannelManager.cpp
+0x39a66b0	%s|session: %p, reg: %d, han: %d
+0x39a6760	%s|session: %d, peer: %d, num flushed: %d, still bufferred: %d
+0x39a67c8	%s|session: %d, peer: %d, num cleared: %d, still buffered: %d
+0x39a6890	K:\Code\OnlineSession\Session\SessionImp.cpp
+0x39a68f0	CSessionImpl::OnPlayerJoined
+0x39a6950	CSessionImpl::OnPlayerLeft
+0x39a69a8	CSessionImpl::Create
+0x39a6a20	Session creation failed with (%s) {handlerRefId[0x%08x],m_info[%s]}
+0x39a6a68	CSessionImpl::Join
+0x39a6ac0	CSessionImpl::Destroy
+0x39a6b10	Session deletion failed with (%s) {handlerRefId[0x%08x],m_info[%s]}
+0x39a6b58	Session creation failed {handlerRefId[0x%08x],m_info[%s]}
+0x39a6b98	CSessionImpl::OnSessionCreation
+0x39a6bb8	Session created. {handlerRefId[0x%08x],m_info[%s]}
+0x39a6bf0	Join session failed. reason[%s], reasonId[%s], result[%s] {handlerRefId[0x%08x],m_info[%s]}
+0x39a6c50	CSessionImpl::OnSessionJoining
+0x39a6ca0	%s: GOT sessionDescriptor[%s] {handlerRefId[0x%08x],m_info[%s]}
+0x39a6d10	CSessionImpl::OnSessionLeave
+0x39a6db0	CSessionImpl::ManageJoinRequest
+0x39a6dd0	Session accepting new peer at %s {handlerRefId[0x%08x],m_info[%s]}
+0x39a6e18	CSessionImpl::OnSessionJoinRequest
+0x39a6e40	%s sessionId[%s],players[%s] {handlerRefId[0x%08x],m_info[%s]}
+0x39a6e80	CSessionImpl::OnHostMigrationStart
+0x39a6ee8	CSessionImpl::OnHostElected
+0x39a6fc0	CSessionImpl::OnHostMigrationEnd
+0x39a7040	%s: We are already leaving the session. {handlerRefId[0x%08x],m_info[%s]}
+0x39a7090	%s: The last CSessionMigrateOperation failed. {handlerRefId[0x%08x],m_info[%s]}
+0x39a70e0	CSessionImpl::OnPeerDiscovered
+0x39a7138	CSessionImpl::OnPeerConnected
+0x39a7270	CSessionImpl::OnPeerGone
+0x39a72d0	[SessionEvents] Wrong SessionRefId in event. %s{refId[%d]}. {handlerRefId[0x%08x],m_info[%s]}
+0x39a7330	CSessionImpl::NetInvoke
+0x39a7350	[SessionEvents] PlayerJoined : PeerId(%d), ResultCookie(0x%X) , ClientId(%lld) {handlerRefId[0x%08x],m_info[%s]}
+0x39a73d0	[SessionEvents] PlayerLeft : ClientId(%lld), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7440	[SessionEvents] PlayerLeft : ClientId(%lld) , ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a74b0	[SessionEvents] AddPlayerRequest : ClientId(%lld), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7520	[SessionEvents] Create : ErrorCode(%u)(ErrorFeed = %s, logStr=%s), SessionRefId(%d) , ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a75b0	[SessionEvents] SessionCreated : SessionRefId(%d), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7620	[SessionEvents] Leave : Reason(%s) ReasonId(%s), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7690	[SessionEvents] RequestJoin : Result{%s}, ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a76f0	[SessionEvents] JoinRequest : %s, ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7750	[SessionEvents] HostMigrationStart : Reason(%s) ReasonId(%s), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a77d0	[SessionEvents] HostElected : HostPeerId(%d), PrevHostPeerId(%d), ResultCookie(0x%X), SessionId(%s) {handlerRefId[0x%08x],m_info[%s]}
+0x39a7860	[SessionEvents] HostMigrationEnd : HostPeerId(%d), PrevHostPeerId(%d), ResultCookie(0x%X), HostDesc{%s} {handlerRefId[0x%08x],m_info[%s]}
+0x39a78f0	[SessionEvents] PeerGone : PeerId(%d), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7950	[SessionEvents] JoinRequestMissingPlayers : ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a79c0	[SessionEvents] FollowHost : GetDestinationSessionId(%s), clientId(%lld), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7a40	[SessionEvents] NetworkInactivityRaised :  ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7ab0	[SessionEvents] NetworkInactivityCleared : ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7b20	[SessionEvents] PeerInactivityRaised : PeerId(%d), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7b90	[SessionEvents] PeerInactivityCleared : PeerId(%d), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7c00	[SessionEvents] PeerStreamOpen : PeerId(%d), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7c70	[SessionEvents] SessionDescriptorUpdate : ResultCookie(0x%X), SessionDescriptor ( %s) {handlerRefId[0x%08x],m_info[%s]}
+0x39a7cf0	[SessionEvents] ResultEvent : Result(%s), SessionRefId(%d), ResultCookie(0x%X)  {handlerRefId[0x%08x],m_info[%s]}
+0x39a7da0	FAILED! Leaving session! %s
+0x39a7dc0	CSessionImpl::HandleMigrationOperation
+0x39a7e18	CSessionImpl::LeaveCurrentSession
+0x39a7e78	CSessionImpl::OnGroupCreated
+0x39a7ec0	CSessionImpl::OnGroupCreateFailed
+0x39a7ee8	CSessionImpl::OnGroupAddPeerSuccessful
+0x39a7f58	CSessionImpl::OnGroupAddPeerFailed
+0x39a8000	CSessionImpl::OnGroupAddPeerRequest
+0x39a8118	CSessionImpl::OnGroupPeerDiscovered
+0x39a8140	%s SessionPeerId[%u], %s {handlerRefId[0x%08x],m_info[%s]}
+0x39a8180	Updated pending client peer descriptor SessionPeerId[%u], %s {handlerRefId[0x%08x],m_info[%s]}
+0x39a81e0	Updated client peer descriptor SessionPeerId[%u], %s {handlerRefId[0x%08x],m_info[%s]}
+0x39a8238	CSessionImpl::OnGroupPeerConnected
+0x39a8260	CSessionImpl::OnGroupPeerGone
+0x39a8280	%s SessionPeerId[%u], reason[%s], reasonId[%s], %s {handlerRefId[0x%08x],m_info[%s]}
+0x39a8368	CSessionImpl::OnGroupConnectionEvent
+0x39a8590	CSessionImpl::ScheduleRequestAddPeerOperations
+0x39a86e8	%s Attempting to connect to %d group peers for sessionId[%s]
+0x39a8730	%s Attempting to connect to %d group peers for sessionId[%s]! Max is %d
+0x39a8778	CreateSession %s
+0x39a8790	CSessionManager::CreateSession
+0x39a87b0	K:\Code\OnlineSession\Session\SessionManager.cpp
+0x39a87e8	UpdateSession %s
+0x39a8800	CSessionManager::UpdateSession
+0x39a8820	CSessionManagerImp::SetGameSessionVersion
+0x39a8878	K:\Code\OnlineSession\Session\SessionManagerImp.cpp
+0x39a88b0	CSessionManagerImp::SetGameMatchKey
+0x39a8960	CSessionManagerImp::ValidatePeerJoinCheckList
+0x39a89b0	Rejected peer from %s, reason: joining a non-existant session (wanted to join - %llu, current session - %llu
+0x39a8a20	Joining non-existant session
+0x39a8aa0	Session is full (public and private)
+0x39a8b08	SessionManagerImp
+0x39a8b20	K:\Code\OnlineSession\Session\SessionManagerImp_RdVCommon.cpp
+0x39a8b60	DefSessionName
+0x39a8b70	m_sessionName[%s],m_privateId[%d],m_publicSlots[%d] 
+0x39a8bb0	%s,m_sessionType[%d],m_userId[%llu],m_statsEnabled[%d],m_hostmigrationEnabled[%d]
+0x39a8c08	%s, m_sessionInfo{%d}
+0x39a8c20	Session [m_sessionId: %s]
+0x39a8c40	K:\Code\OnlineSession\Session\SessionOperationParam.cpp
+0x39a8ce0	K:\Code\OnlineSession\Utils\DiscoveryLeakDetection.cpp
+0x39a8ee8	OnlineSessionVersions
+0x39a93b8	K:\Code\OnlineSession\Voice\VoiceChatManager.cpp
+0x39a94d0	K:\Code\OnlineSession\Voice\VoiceChatter.cpp
+0x39a9910	CSessionSendInviteOperation_UPlayPC
+0x39a99e8	CSessionAcceptInviteOperation_UPlay
+0x39a9ab8	CSessionDeclineInviteOperation_UPlay
+0x39a9b88	CSessionCancelInviteOperation_UPlay
+0x39a9c58	CSessionManagerImp_UPlay
+0x39a9ee0	K:\Code\platforms\win32\OnlineSession\Services\Auth\AuthModuleNetwork.cpp
+0x39a9f30	UPLAY_Event_UserConnectionLost
+0x39a9f50	Auth::CModuleNetwork::OnUplayPCEvent
+0x39a9f78	UPLAY_Event_UserConnectionRestored
+0x39a9fa0	UPLAY_Event_UserAccountSharing
+0x39a9fc0	UPlay force quit
+0x39a9fd8	Auth::CModuleNetwork::OnUplayForceQuit
+0x39aa000	Failed to query current UPLAY user
+0x39aa028	Auth::CModuleNetwork::GetUPlayAccountId
+0x39aa1e0	UPLAY_FRIENDS_GetFriendList failed with %s
+0x39aa210	K:\Code\platforms\win32\OnlineSession\Services\Friends\FriendsOperations_Native.cpp
+0x39aaaa0	K:\Code\platforms\win32\OnlineSession\Services\Mercury\MercuryManager.cpp
+0x39aae80	K:\Code\platforms\win32\OnlineSession\Services\Mercury\MercuryShopSvcOps.cpp
+0x39adf80	CSendSessionInviteToPartyMembersOperation_Native
+0x39adfb8	UPLAY: Failed to initialize party system
+0x39ae020	K:\Code\platforms\win32\OnlineSession\Services\Party\Provider\GamePartyProvider_Native.cpp
+0x39ae0b8	UPLAY: Party leader changed to %s
+0x39ae110	UPLAY: Party member joined
+0x39ae1c8	UPLAY: Failed to check if current user is a party leader
+0x39ae208	CGamePartyProvider_Native::UpdatePartyGameSession
+0x39ae240	UPLAY: Failed to clear game session data
+0x39ae960	K:\Code\platforms\win32\OnlineSession\Services\Shop\ShopOperations_Native.cpp
+0x39aeac0	K:\Code\platforms\win32\OnlineSession\Services\Shop\ShopProvider_Native.cpp
+0x39aeb50	SteamMatchMaking009
+0x39aeb68	SteamMatchMakingServers002
+0x39aedf0	EUPlayResult::PartyFailedToInit
+0x39aee10	EUPlayResult::PartyFailedToGetInGameMembersList
+0x39aee40	EUPlayResult::PartyFailedToGetPartyMembersList
+0x39aee70	EUPlayResult::PartyFailedToGetLeader
+0x39aee98	EUPlayResult::PartyFailedToCheckPartyLeader
+0x39aeec8	EUPlayResult::PartyFailedOpNotInParty
+0x39aeef0	EUPlayResult::PartyFailedToCheckIfUserIsInParty
+0x39aef20	EUPlayResult::InviteSvcFailedToInit
+0x39aef48	EUPlayResult::GenericAsyncOpsCancelNotSupported
+0x39aef78	EUPlayResult::OverlayFailedToShowHomeScreen
+0x39aefa8	EUPlayResult::OverlayFailedToShowActivateProductScreen
+0x39aefe0	EUPlayResult::ConnectionNoClientConnection
+0x39af010	EUPlayResult::ConnectionWrongInitOrder
+0x39af038	EUPlayResult::ActionsFailedToFetchActions
+0x39af2e0	Uplay - Failed to get chunks %s
+0x39af300	CUplayPCClientManager::CInstallPackageUplayPCProxy::GetChunkIds
+0x39af340	K:\Code\platforms\win32\OnlineSession\Services\UplayPC\UplayPCClientManager.cpp
+0x39af390	Uplay - Failed to get chunks for tag
+0x39af3c0	CUplayPCClientManager::CInstallPackageUplayPCProxy::GetChunkIdFromTag
+0x39af420	CUplayPCClientManager could not initialise UPlay friends system, %s
+0x39af468	CUplayPCClientManager::Initialize
+0x39af490	UPLAY: Cannot initalize UPlay party system, %s
+0x39af4c0	CUplayPCClientManager::InitializePartySystem
+0x39af4f0	UPLAY: Cannot initialize party system - already initialized
+0x39af530	UPLAY: Cannot get in-game party members list - party system is not initialized
+0x39af580	CUplayPCClientManager::GetPartyInGameMembersList
+0x39af5b8	UPLAY: Cannot get party members list, %s
+0x39af5e8	UPLAY: In-game party members list has been returned
+0x39af620	UPLAY: Cannot get party members list - party system is not initialized
+0x39af668	CUplayPCClientManager::GetPartyMembersList
+0x39af698	UPLAY: Party members list has been returned
+0x39af6d0	UPLAY: Cannot get party leader - party system is not initialized
+0x39af718	CUplayPCClientManager::GetPartyLeader
+0x39af740	UPLAY: No party leader has been found
+0x39af768	UPLAY: Party leader has been returned
+0x39af790	UPLAY: Cannot check if user is in party - party system is not initialized
+0x39af7e0	CUplayPCClientManager::IsInParty
+0x39af810	UPLAY: The check of whether the user is in part has been performed
+0x39af860	UPLAY: Cannot check if current user is the party leader - party system is not initialized
+0x39af8c0	CUplayPCClientManager::IsCurrentUserPartyLeader
+0x39af8f0	UPLAY: The check of whether the current user is the party leader has been performed
+0x39af9d0	CUplayPCClientManager::ShowUPlayOverlayShop::<lambda_4aa6764a25cbf81dceccfecaf7949732>::operator ()
+0x39afa38	Uplay - Failed to set active game session. %s.
+0x39afa68	CUplayPCClientManager::SetGameSession
+0x39afa90	Uplay - Failed to clear active game session: %s
+0x39afac0	CUplayPCClientManager::ResetGameSession
+0x39afae8	UPLAY: Party system is not initialized
+0x39afb10	CUplayPCClientManager::SetPartyUserData
+0x39afbc0	CUplayOnNewRewardsUpdate
+0x39afc20	K:\Code\platforms\win32\OnlineSession\Services\UplayPC\UPWTask.cpp
+0x39afc68	Uplay - Failed to start Uplay overlapped operation. %s.
+0x39afcb0	Uplay operation %s timed out
+0x39afd00	Uplay %s error: %s , %d
+0x39afd18	CUPWTask::PrintUplayOverlappedOperationError
+0x39afd48	Uplay earn achievement error: Unknown error
+0x39afd80	Uplay earn achievement error: The achievement could not be found
+0x39afdd8	Uplay UPLAY_FRIENDS_ShowFriendSelectionUI: Connection error
+0x39afe18	Uplay - UPLAY_FRIENDS_InviteToGame: Connection error
+0x39afe50	Uplay - UPLAY_FRIENDS_InviteToGame: Invalid account ID
+0x39afe88	Uplay - UPLAY_PARTY_InvitePartyToGame: Connection error
+0x39afec0	Uplay - UPLAY_PARTY_InvitePartyToGame: The current user isn't the party leader
+0x39aff40	CUPWShowOverlayHomeScreenTask::StartUplayOverlappedOperation
+0x39aff80	CSessionInviteServiceImp
+0x39affa0	Failed to show UPlay invite UI for user: %s
+0x39affd0	CSessionInviteServiceImp::Update
+0x39b0000	K:\Code\platforms\win32\OnlineSession\Session\Invites\SessionInviteServiceImp.cpp
+0x39b0070	Cannot invite player due to no active session
+0x39b00a0	CSessionInviteServiceImp::OnInviteeSelectionUIFinished
+0x39b00d8	Cannot invite a player that is already in the session
+0x39b0110	UPLAY: Accepted game invite to %s
+0x39b0138	CSessionInviteServiceImp::HandleFriendsGameInviteAccepted
+0x39b0178	UPLAY: Failed to show game invite overlay, %s
+0x39b01a8	CSessionInviteServiceImp::HandlePartyGameInviteReceived
+0x39b01e0	Rejecting invite since we already in this session
+0x39b0218	UPLAY: Failed to respond to game invite with rejection: %s
+0x39b0258	UPLAY: Accepted party game invite, %s
+0x39b0280	CSessionInviteServiceImp::HandlePartyGameInviteAccepted
+0x39b02c0	UPLAY: Session invite service is not initialized to set uplay session data
+0x39b0310	CSessionInviteServiceImp::SetUPlaySessionData
+0x39b0340	UPLAY: Failed to set session
+0x39b0360	UPLAY: Successfully set session id for invitation
+0x39b0398	UPLAY: Session creation
+0x39b03b0	CSessionInviteServiceImp::OnSessionCreation
+0x39b03e0	UPLAY: session joined
+0x39b03f8	CSessionInviteServiceImp::OnSessionJoined
+0x39b0428	UPLAY: Client has joined the session
+0x39b0450	CSessionInviteServiceImp::OnClientJoined
+0x39b0480	UPLAY: Client has left the session
+0x39b04a8	CSessionInviteServiceImp::OnClientLeft
+0x39b04d0	UPLAY: Session deleted
+0x39b04e8	CSessionInviteServiceImp::OnSessionDeleted
+0x39b0518	UPLAY: Migration started
+0x39b0538	CSessionInviteServiceImp::OnMigrationStarted
+0x39b0568	UPLAY: Migration ended
+0x39b0580	CSessionInviteServiceImp::OnMigrationEnded
+0x39b05d0	CSessionInviteServiceImp::OnPartyMemberJoined
+0x39b0600	Uplay: session invite service is not initialized
+0x39b0638	CSessionInviteServiceImp::ClearSession
+0x39b0660	K:\Code\platforms\win32\OnlineSession\Session\Operations\Invite\Decline\SessionDeclineInviteOperation_UPlay.cpp
+0x39b06d0	K:\Code\platforms\win32\OnlineSession\Session\Operations\Invite\Send\SessionSendInviteOperation_UPlayPC.cpp
+0x39b0770	CSessionManagerImp_UPlay::SetPlatformClientData
+0x39b07a0	K:\Code\platforms\win32\OnlineSession\Session\SessionManagerImp_UPlay.cpp
+0x39b07f0	Current UPlay account id is invalid
+0x39b0a50	K:\Code\platforms\generic\OnlineSession\Services\Auth\AuthModuleExternalIPAndNAT_Native.cpp
+0x39b0ec0	K:\Code\OnlineSession/Session/Net/SessionDescriptor.h
+0x39b0ef8	K:\Code\OnlineSession/Session/Net/SessionMessages.h
+0x39b0f90	K:\external\technology-group\online\Storm\SDKs\Include\Echo/EchoSession.h
+0x39b1d90	K:\code\OnlineSession\Core\RendezVousCore\RendezVousBackEndServices.cpp
+0x39bcd7e	]?0x1d2ed7ff-0x21662ce5:2017-10-19.Physics.UbisoftMontreal_WatchDogs2_Windows-PS4-XboxOne
+0x39bcddf	@0x24ffcbfc-0x18b730e6:2017-10-19.Animation.UbisoftMontreal_WatchDogs2_Windows-PS4-XboxOne
+0x3a02a58	CUIElementCatsInvasion
+0x3a08728	hackinginvasion
+0x3a08738	bounty
+0x3a08740	bountyonme
+0x3a087a0	hackingInvasion
+0x3a09dc0	CUIElementDescriptorCatsInvasion
+0x3a09e88	CUILogicCatsInvasion
+0x3a11c88	insession
+0x3a20e50	CUIMenuTileUbisoftClubBackground
+0x3a20f80	CUIMenuTileUbisoftClubLink
+0x3a28308	mapicondescBounty
+0x3a2a0c0	mapicondescFindBountyTarget
+0x3a2a148	mapicondescTriggerBountyOnMeMapIconDescription
+0x3a2a628	mapicondescBountyHunterEvent
+0x3a2ae58	default icon to use for Bounty Hunter Target Objectives
+0x3a2ae90	mapicondescObjectiveBountyHunterTarget
+0x3a2aeb8	default icon to use for Bounty Hunter Protect Objectives
+0x3a2aef8	mapicondescObjectiveBountyHunterProtect
+0x3a2b710	UI setup for MP bounty matchmaking zones
+0x3a2b740	uizonesettingsMPBountyMatchZoneSettings
+0x3a2e580	locstridMissionCompletedBounty
+0x3a2e618	locstridMissionFailedBounty
+0x3a2e660	locstridMissionCancelledBounty
+0x3a300b0	HudContext_CounterHackerInvasionOccurring
+0x3a3b3e0	SOFTWARE\Wow6432Node\Ubisoft\Launcher
+0x3a3b408	SOFTWARE\Ubisoft\Launcher
+0x3a3b430	ReportManager: Could not read registry value HKLM\%s\%s.  Crash reports will not be sent to Uplay.
+0x3a3b4a0	ReportManager: Path to UplayCrashReporter is empty!  Crash reports will not be sent to Uplay.
+0x3a3b500	UplayCrashReporter.exe
+0x3a3b520	ReportManager: Path to UplayCrashReporter is too long: %s!  Crash reports will not be sent to Uplay.
+0x3a3b590	ReportManager::ProcessWithUplay: Could not get crash report file path.  Giving up.
+0x3a3b5f0	ReportManager::ProcessWithUplay: Uplay not installed.  Giving up.
+0x3a3b638	UplayCrashReporter.exe -ucr_report_filename %s -ucr_hash %s
+0x3a3b678	ReportManager::ProcessWithUplay: Starting Process: %s %s
+0x3a3b6c0	ReportManager::ProcessWithUplay: Could not start UplayCrashReporter process!  (GetLastError: %d).
+0x3a3b730	ReportManager::ProcessWithUplay: Could not delete file '%s'! (ret = %d)
+0x3a3d140	The *Break* or *Start Remote Debug Session* button was selected. Nothing will happen until a debugger is connected.
+0x3a8b010	http://
+0x3a8b018	https://
+0x3a8b168	http://www.macromedia.com
+0x3a8b1b8	http://www.macromedia.com/support/flashplayer/sys/
+0x3a8c020	http://www.w3.org/2000/svg
+0x3aac453	http://www.oberhumer.com $
+0x3ad5870	<DirectedGraph GraphDirection="TopToBottom" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+0x3af8c30	D:\P4\Clients\Ubisoft_Montreal\Watchdogs2\2015_1_0\Source\Common/Internal/GeometryProcessing/ConvexHull/hkgpConvexHullInternals.h
+0x3af9050	D:\P4\Clients\Ubisoft_Montreal\Watchdogs2\2015_1_0\Source\Common/Internal/GeometryProcessing/Mesh/hkgpMesh.h
+0x3af9370	D:\P4\Clients\Ubisoft_Montreal\Watchdogs2\2015_1_0\Source\Common/Internal/GeometryProcessing/Triangulator/hkgpTriangulator.inl
+0x3b1cbf0	E:\Other\DevRel\Clients\Ubisoft_Montreal\Watchdogs2\2015_1_0\Source\Geometry/Internal/DataStructures/StaticMeshTree/hkcdStaticMeshTree.inl
+0x3b1d080	E:\Other\DevRel\Clients\Ubisoft_Montreal\Watchdogs2\2015_1_0\Source\Geometry/Internal/DataStructures/SimdTree/hkcdSimdTree.inl
+0x3b1d220	E:\Other\DevRel\Clients\Ubisoft_Montreal\Watchdogs2\2015_1_0\Source\Geometry/Internal/DataStructures/DynamicTree/hkcdDynamicTree.inl
+0x3b34a80	Ubi-SessionId
+0x3b3e2d8	SessionDiscovery
+0x3b465b8	http://%s:%i/%s
+0x3b50c10	NbSessions
+0x3b50c28	session %d host migration
+0x3b50d98	echoctrlsession
+0x3b51090	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Include\Echo/EchoSessionDescriptor.h
+0x3b513a0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Include\Echo/EchoSession.h
+0x3b51650	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Include\Echo/EchoSessionTypes.h
+0x3b52d00	)(SessionPeerId 
+0x3b52d60	BandwidthRegulator::RemoveSessionPeer - No peer to remove (SRefId 
+0x3b52df8	BandwidthRegulator::RemoveSessionPeer - No peer to remove
+0x3b532a0	ObjectReplicationModeData::Serialize - Failed to write session peer id
+0x3b53360	ObjectReplicationModeData::Deserialize - Failed to read session peer id
+0x3b53f28	Invalid SessionRefId.
+0x3b53f60	Can't pass an invalid SessionPeerId.  Use the other SetRefreshRate function to set them for all peers.
+0x3b53fc8	peerId != SESSION_PEER_ID_INVALID
+0x3b54208	ObjectReplicationMode.ExcludeSessionPeerMode
+0x3b54238	ObjectReplicationMode.UniqueSessionPeerMode
+0x3b54268	ObjectReplicationMode.EverySessionPeerMode
+0x3b54340	ObjectMigrationMode.SessionHostOnly
+0x3b54368	SessionHostOnly
+0x3b54758	SessionId buffer overflow (SessionId 
+0x3b547e8	sessionIdCount < MAX_SESSION_GUID
+0x3b54ba0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/EchoSession.cpp
+0x3b54c10	Session GUID invalid
+0x3b54c28	Session HandlerRefId invalid
+0x3b55730	ECHO_SESSION_MAX_SESSION_PEER_POOL_SIZE must be bigger or equal to the max SessionsPeerCount.  Increased it in EchoExtConfig.h
+0x3b55820	m_maximumSessionPeerPoolSize <= 32
+0x3b55d00	ObjectTypeRegistry_Common::GetSessionPeerChannelProtocol - Session Network protocol not committed
+0x3b56888	session ID doesn't match the one that is playing
+0x3b568c0	sessionRefId == m_mappedSessionId
+0x3b568e8	NetObjectGroup.SessionChatter_Main
+0x3b57420	m_matchmakingSocket == 0
+0x3b574c8	 - LAN matchmaking socket not set
+0x3b57518	socket == m_matchmakingSocket
+0x3b57540	LanManager_Network::OnSessionCreated - SessionRefId already used
+0x3b57588	storm::echo::LanManager_Network::OnSessionLeave
+0x3b575c8	 - Unknown session ref id
+0x3b575e8	storm::echo::LanManager_Network::OnChangeSessionDescriptor
+0x3b57628	storm::echo::LanManager_Network::OnSessionMigrationStart
+0x3b57668	 - Session already in migration
+0x3b576a8	storm::echo::LanManager_Network::OnSessionMigrationEnd
+0x3b576e0	 - Session not in migrating state
+0x3b57708	session.m_migrating==true
+0x3b57d90	ObjectTypeRegistry_Common::CommitSession - One or more network object type validation has failed
+0x3b57e00	ObjectTypeRegistry_Common::CommitSession - A peer channel message entry validation has failed.
+0x3b57e60	ObjectTypeRegistry_Common::CommitSession - There are errors in the session protocol registration of the application; the session can't be created
+0x3b58340	PeerChannelDemux_Network::GetSessionRefId received invalid event type 
+0x3b58580	PeerChannelManager_Network::OnStartup: Could not find session or group
+0x3b585e0	PeerChannelManager_Network::OnStartup: SessionDescriptor is invalid
+0x3b58640	m_commonObjectTypeRegistry->IsSessionCommitted(descriptor)
+0x3b58c60	PeerChannelManager_Network::DeserializeMessage - Failed to read session time
+0x3b590e0	PeerChannelManager_Network::OnSessionPeerDiscovered - Transmission history vector too small for connection peer id
+0x3b59160	PeerChannelManager_Common::OnSessionPeerGone - Connection toward peer 
+0x3b59228	packet is not a session packet
+0x3b599b0	INVALID_SESSION_ID
+0x3b59d80	messageType == BasePacket::PacketMessageType_SessionStream || messageType == BasePacket::PacketMessageType_PlayerStream || messageType == BasePacket::PacketMessageType_PeerChannel|| messageType == BasePacket::PacketMessageType_PackerStream || messageType == BasePacket::PacketMessageType_NTPStream || messageType == BasePacket::PacketMessageType_RoutingProtocol
+0x3b5a660	PeerManager_Network::AddPeerPacketHandler - Session stream handler already present.
+0x3b5a6b8	m_sessionStreamHandler==0
+0x3b5b328	PingAgent::HandlePingReply could not read sessionIdCount
+0x3b5b368	sessionIdCount < SessionIdArraySize
+0x3b5bbf0	Session Data not found
+0x3b5bc90	sessionData != 0
+0x3b5bca8	Session Data already added !
+0x3b5bcc8	GetSession(netEvent.GetSessionRefId()) == 0
+0x3b5bdd8	Couldn't find source Session for ticket
+0x3b5be00	pSession != 0
+0x3b5be10	Should not be host of source session
+0x3b5be38	!pSession->IsHost(pSession->GetLocalPeerId())
+0x3b5bed8	SessionJoinAttachment should be of type PlayerJoinAttachment.
+0x3b5bf40	Couldn't find SessionData
+0x3b5bf60	sessionData
+0x3b5c050	SessionDemux not empty. (SessionRefId 
+0x3b5c080	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionDemux.h
+0x3b5c0f0	Element not found. (SessionRefId 
+0x3b5c118	SessionDemux index out of bounds. (Size 
+0x3b5c148	) (SessionRefId 
+0x3b5c160	(sessionRefId < m_size)
+0x3b5c178	Invalid session ref id.
+0x3b5c190	(sessionRefId != SESSION_REF_ID_INVALID)
+0x3b5c680	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionEvents.h
+0x3b5dad0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionTimeProtocol.cpp
+0x3b5db48	Invalid session ref (SessionRefId 
+0x3b5db70	session
+0x3b5db78	storm::echo::session::SessionTimeProtocol::Run
+0x3b5dba8	(HostSessionRefId 
+0x3b5dbc0	storm::echo::session::SessionTimeProtocol::HandlePacket
+0x3b5dbf8	) Session not found.
+0x3b5dc10	[SessionRefId 
+0x3b5dc20	] SessionTimeProtocol::HandlePacket - Failed to read time protocol packet type
+0x3b5dc70	] SessionTimeProtocol::HandlePacket - Failed to read sender system time
+0x3b5dcb8	(PeerSessionRefId 
+0x3b5dcd0	] SessionTimeProtocol::HandlePacket - Failed to read host session time
+0x3b5dd20	] SessionTimeProtocol::HandlePacket - Failed to read original request system time
+0x3b5dd80	] SessionTimeProtocol::HandlePacket - Packet system time is invalid
+0x3b5e650	StreamPacker_Main::OnSessionLeave - Not in a session
+0x3b5e688	m_activeSessionCount>0
+0x3b5e6a0	StreamPacker_Main::OnSessionLeave - Object manager missing for session
+0x3b5e768	Invalid session id
+0x3b5e780	sessionid.IsValid()
+0x3b5e938	remainingEmptySpaceInPacketInBits>cSessionRefIdSizeInBits
+0x3b5e9a0	 - Invalid remote session ref id!
+0x3b5e9c8	streamInfo->GetRemoteSessonRefId() != SESSION_REF_ID_INVALID
+0x3b5f1b0	StreamPacker_Network::OnPacketReceived - Unknowm session reference id
+0x3b5f3e0	StreamPacker_Network::OnSessionPeerDiscovered - Session peer not found.
+0x3b5f430	StreamPacker_Network::OnSessionPeerDiscovered - Voice Packet Handler missing for session
+0x3b5f490	StreamPacker_Network::OnSessionCreated - PeerChannelManager_Network missing for session
+0x3b5f4f0	StreamPacker_Network::OnSessionCreated - Voice Packet Handler missing for session
+0x3b5f550	StreamPacker_Network::OnSessionLeave - Voice Packet Handler missing for session
+0x3b5f5a0	StreamPacker_Network::ShutdownSession - Currently in any session
+0x3b5f5e8	StreamPacker_Network::OnSessionLeave - invalid peerStreamCount
+0x3b5f640	StreamPacker_Network::OnSessionHostMigrationStart - Voice Packet Handler missing for session
+0x3b5f6a0	StreamPacker_Network::OnSessionHostMigrationEnd - Voice Packet Handler missing for session
+0x3b5f700	StreamPacker_Network::OnSessionPeerDiscovered - Peer channel manager missing for session
+0x3b5f760	StreamPacker_Network::OnSessionPeerDiscovered - Object manager missing for session
+0x3b5f7c0	StreamPacker_Network::OnSessionPeerConnected - SessionRefId mismatch
+0x3b5f808	(SessionRefId 
+0x3b5f820	peerStreamInfo->GetSessionRefId() == netEvent.GetSessionRefId()
+0x3b5f860	StreamPacker_Network::OnSessionPeerConnected - Session peer not present 
+0x3b5f8b0	StreamPacker_Network::OnSessionPeerGone - session count is not zero.
+0x3b5f910	sessionStreamInfo->m_peerStreamCount == 0
+0x3b5f940	StreamPacker_Network::OnSessionPeerGone - Session peer not present 
+0x3b5f990	StreamPacker_Network::OnSessionHostMigrationStart - Peer channel manager missing for session
+0x3b5f9f0	StreamPacker_Network::OnSessionHostMigrationStart - Object manager missing for session
+0x3b5fa50	StreamPacker_Network::OnSessionHostElected - Object manager missing for session
+0x3b5faa0	StreamPacker_Network::OnSessionHostMigrationEnd - Peer channel manager missing for session
+0x3b5fb00	StreamPacker_Network::OnSessionHostMigrationEnd - Object manager missing for session
+0x3b5fb60	StreamPacker_Network::OnSessionDescriptorUpdate - Peer channel manager missing for session
+0x3b5fbc0	StreamPacker_Network::OnSessionDescriptorUpdate - Object manager missing for session
+0x3b5fcd0	StreamPacker_Network::OnSessionDescriptorUpdate - Currently in any session
+0x3b62028	RequestAddPeer failed to allocate SessionPeerId.
+0x3b620f0	groupConnection->GetPeerSessionRefId() != SESSION_REF_ID_INVALID
+0x3b62770	Failed to allocate session peer id.
+0x3b62be0	)(SessionRefId 
+0x3b64aa0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/InEvent/EchoSessionInEvent.h
+0x3b66c10	The EventSessionTime option is not compatible with NetTransportModeNetDataIndependent
+0x3b66d78	storm::echo::AgentMementoHierarchical::OnSessionPeerDiscovered
+0x3b672f0	NetObject.SessionChatter_Main
+0x3b67310	NetObjectDescriptor.SessionChatter_Main
+0x3b67390	ChatterUpdateActiveSessionBroadcast
+0x3b673b8	ChatterUpdateActiveSessionUnicast
+0x3b67780	storm::echo::AgentMessage::OnSessionPeerDiscovered
+0x3b67a40	 from a peer with SessionPeerId=
+0x3b67a68	. Current master's SessionPeerId=
+0x3b67ab0	Received a  NetProtocolEntryMasterUnicast from a peer that is not master. Peer's SessionPeerId=
+0x3b67bb0	Invalid replica initialization state from peer with SessionPeerId=
+0x3b67c88	deliveryEntry->GetSender()!=SESSION_PEER_ID_INVALID
+0x3b67f00	Should never have no history for a session peer 
+0x3b692c0	ObjectManagerDemux_Main::GetSessionRefId received invalid event type 
+0x3b69390	ObjectManagerDemux_Main::GetSessionRefId received invalid function type 
+0x3b69410	ObjectManagerDemux_Network::GetSessionRefId received invalid event type 
+0x3b69460	ObjectManagerDemux_Network::GetSessionRefId received invalid function type 
+0x3b6a650	ObjectManager_Network::OnStartup: Could not find session or group
+0x3b6aba8	Same activation session time expected
+0x3b6abd0	object->GetSessionActicationTimeInMs() == activationSessionTimeInMs
+0x3b6aca0	object->GetSessionActicationTimeInMs()==activationSessionTimeInMs
+0x3b6afd0	, SessionPeerId=
+0x3b6b650	(SessionPeerId 
+0x3b6ba70	ObjectManager_Network::OnSessionPeerGone - Amount of peers in session is invalid!
+0x3b6bac8	m_CommonData->m_amountPeersInSession>0
+0x3b6be68	(Local SessionPeerId 
+0x3b6c610	toPeerId != SESSION_PEER_ID_INVALID
+0x3b6c6f8	fromPeerId != SESSION_PEER_ID_INVALID
+0x3b6d030	sessionData->m_sessionInfo.GetLocalPeerId() != SESSION_PEER_ID_INVALID
+0x3b6eab0	SessionPeer::SetConnectionStatus - m_peerInfo is NULL.
+0x3b6eaf0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionPeer.h
+0x3b6eb70	SessionPeer::SetConnectionId - m_peerInfo is NULL.
+0x3b6fa10	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/Session.h
+0x3b70580	netEvent.IsA<player::inEvent::Event>() || netEvent.IsA<session::inEvent::Event>() || netEvent.IsA<session::ResultEvent>() || netEvent.IsA<session::outEvent::Event>() || netEvent.IsA<ResultEvent>()
+0x3b70720	netEvent.IsA<player::inEvent::Event>() | netEvent.IsA<session::inEvent::Event>() | netEvent.IsA<session::ResultEvent>() | netEvent.IsA<session::outEvent::Event>() |netEvent.IsA<ResultEvent>()
+0x3b70800	Session not found
+0x3b70818	session != 0
+0x3b71ef0	LocalDelete must be called before deleting a Session.
+0x3b71f30	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/Session.cpp
+0x3b72010	IsHost(m_sessionInfo.GetLocalPeerId())
+0x3b72038	!IsHost(m_sessionInfo.GetLocalPeerId())
+0x3b72060	m_sessionTable.IsSessionTableComplete()
+0x3b72090	m_sessionTable.GetSessionTableVersion() != SESSION_TABLE_VERSION_INVALID
+0x3b720e0	m_sessionInfo.GetLocalPeerId() != SESSION_PEER_ID_INVALID
+0x3b72150	Session::UpdatePeerListFromSessionTable - Host peer has no connection ID!!
+0x3b72218	Session::ReachPeer : Invalid color 
+0x3b722b0	(SessionId 
+0x3b72390	storm::echo::session::Session::AddTicketRequestInbound
+0x3b723c8	storm::echo::session::Session::AddTicketRequestOutbound
+0x3b72450	sessionDescriptor.GetObjectTypeId() == m_sessionDescriptor->GetObjectTypeId()
+0x3b724a0	Topology is not allowed to be changed once the session is created
+0x3b724f0	m_sessionDescriptor->GetSessionTopologyType() == sessionDescriptor.GetSessionTopologyType()
+0x3b72550	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionEvents.cpp
+0x3b725c0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionGroupPeerManager.cpp
+0x3b72640	packet->GetMessageType() == BasePacket::PacketMessageType_SessionStream
+0x3b726a0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionHelper.cpp
+0x3b72710	sessionPeer != 0
+0x3b72748	currentHostPeerId != SESSION_PEER_ID_INVALID
+0x3b727a8	(sessionPeer != 0)
+0x3b727c0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionManagerNotify_Common.cpp
+0x3b72840	SessionManager_Main::netInvoke received invalid event type 
+0x3b72880	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionManagerOnEvent_Main.cpp
+0x3b72900	netEvent.IsA<session::inEvent::Event>()
+0x3b72928	SessionRefId mismatch !
+0x3b72940	sessionRefId == eventSessionInfo.GetSessionRefId()
+0x3b72978	SessionManager_Network::netInvoke received invalid event type 
+0x3b729c0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionManagerOnEvent_Network.cpp
+0x3b72a40	netEvent.IsA<session::inEvent::Event>() || netEvent.IsA<peerManager::internal::Event>()
+0x3b72aa0	SessionManager_Network::OnPeerDiscovered - Failed to retrieve connection for peer!
+0x3b72b00	SessionManager_Network::OnPeerDiscovered - Peer is marked gone but not disconnected.
+0x3b72b60	(peerInfo->GetConnectionStatus() == SessionPeer::PeerInfo::EConnectionStatus_Disconnected)
+0x3b72bc0	SessionManager_Network::OnPeerReached - Peer is marked gone but not disconnected.
+0x3b72c18	SessionManager_Network::OnRequestJoin session already joined.
+0x3b72c60	SessionManager_Network::OnRequestJoin failed to generate session ref id
+0x3b72ca8	SessionManager_Network::OnRequestJoin failed to create
+0x3b72ce0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionManagerOnReceive_Network.cpp
+0x3b72d60	SessionManager_Network::OnReceiveHandshakeMessage - Requesting 
+0x3b72da0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionManager_Common.cpp
+0x3b72e20	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionManager_Main.cpp
+0x3b72ea0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionManager_Network.cpp
+0x3b72f18	m_sessionMainObserverRefId != HANDLER_REF_ID_INVALID
+0x3b72f50	m_sessionNetworkObserverRefId != HANDLER_REF_ID_INVALID
+0x3b72f88	SessionRefId is invalid
+0x3b72fa0	Session online protocol has failed validation: 
+0x3b72fd0	Session registry not commited: 
+0x3b72ff0	CreateSession - Session already exist (SessionRefId 
+0x3b73028	session == 0
+0x3b73040	SessionManager_Network::CreateHomeSession - Home session already created.
+0x3b73090	HomeSession
+0x3b730a0	SessionManager_Network::CreateHomeSession: 
+0x3b730d0	SessionManager_Network::CreateHomeSession - Failed to initialized home session: 
+0x3b73130	Invalid Session message. Does not have SessionId or SessionRefId
+0x3b731a8	Home session is NULL
+0x3b731c0	Session does not exist.
+0x3b73250	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionMessages.cpp
+0x3b73300	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionNotify.cpp
+0x3b733a8	Session::SetLocalTopology - Network Peer Manager not found !
+0x3b73400	Session::NotifyPeerConnected - Invalid color !
+0x3b73480	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionOnEvents.cpp
+0x3b73530	(peer->GetSessionStatus() == SessionPeer::ESessionStatus_JoinRequest)
+0x3b735e8	Accept peer join failed to send session table. 
+0x3b73618	Refuse peer join failed to send session table. 
+0x3b736c8	Session time is null.
+0x3b736e0	(sessionTime != 0)
+0x3b73920	Session::OnRequestJoin on leave or host migration
+0x3b73958	Session::OnRequestJoin Already in session
+0x3b73988	Session::OnRequestJoin received RequestJoin for ourself
+0x3b739c0	Session::OnRequestJoin invalid PeerGUID
+0x3b73a60	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionOnReceive.cpp
+0x3b73b38	Already rejoined a session.
+0x3b73c10	(peer->GetConnectionStatus() == SessionPeer::PeerInfo::EConnectionStatus_Connected)
+0x3b73d10	Peer already in session.
+0x3b73df8	(peerId != SESSION_PEER_ID_INVALID)
+0x3b73e20	SessionPeer not found
+0x3b73e50	Session::OnReceiveSessionHostElectedMessage(): SessionDescriptor is null
+0x3b73ef0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionPeer.cpp
+0x3b73ff0	PeerInfo::GetConnectionId - You should only call GetConnectionId when the session peer is connected!
+0x3b74090	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionSendMessage.cpp
+0x3b74188	SessionTable::LocalFree() not called before destruction.
+0x3b741d0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionTable.cpp
+0x3b74258	peerPerPart <= SessionTableMessage::PEERS_PER_TABLE_PART
+0x3b742d0	Session table not complete.
+0x3b742f0	Received an older session table part. Should not happen because these broadcasts are reliable/ordered.
+0x3b74358	SessionTime::GetTimeInMs - SessionTimeInMs is zero.
+0x3b74390	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionTime.cpp
+0x3b74440	SessionTime::GetTimeInCycles - Cycles is zero.
+0x3b744c0	] - SessionTimeStartup
+0x3b74500	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionTimeManager_Common.cpp
+0x3b745a8	SessionRefId out of bound. (SRefId 
+0x3b745d0	(sessionRefId < session::SessionManager_Common::MAX_SESSION_REF_ID)
+0x3b74618	SessionRefId is invalid.
+0x3b74638	] - SessionTimeManager_Common::AddSessionTime - Already Exist 
+0x3b74680	] - SessionTimeManager_Common::GetSessionTimeInMs - Timer not available.
+0x3b746d0	] - SessionTimeManager_Common::GetSessionTimeInCycles - Timer not available.
+0x3b74720	SessionRefId invalid.
+0x3b74738	] - SessionTimeManager_Common::RemoveSessionTime - Not found.
+0x3b74780	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionTimeManager_Main.cpp
+0x3b74800	netEvent.IsA<session_time::internal::inEvent::Event>() || netEvent.IsA<time::inEvent::Event>()
+0x3b74860	SessionTimeManager_Main::netInvoke received invalid function type 
+0x3b74900	SessionTimeManager_Main::netInvoke received invalid function return type 
+0x3b749b0	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/SessionTimeManager_Network.cpp
+0x3b74a30	SessionTimeManager_Network::netInvoke received invalid function type 
+0x3b74a80	SessionTimeManager_Network::netInvoke received invalid function return type 
+0x3b74b20	SessionTimeManager - Failed to read time protocol session ref id
+0x3b74b70	storm::echo::session::SessionTimeManager_Network::OnPacketReceived
+0x3b74bb8	 Invalid SessionRefId
+0x3b75150	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionMessages.h
+0x3b751c0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionGroupPeerManager.h
+0x3b75240	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionManagerEvents.h
+0x3b752c0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionManager_Common.h
+0x3b75c60	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionManager_Main.h
+0x3b75ce0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionManager_Network.h
+0x3b75d60	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionTimeManager_Main.h
+0x3b75de0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionTimeEvent.h
+0x3b75ed0	F:\Projects\wd2\wd2-temp\main\external\technology-group\online\Storm\SDKs\Private\Echo/Src/SessionTimeManager_Network.h
+0x3b79238	SessionChatter pointer cannot be NULL.
+0x3b79260	iterSession->second != 0
+0x3b792f8	Session chatter already exist.
+0x3b79320	m_sessionChatters.find(sessionRefId) == m_sessionChatters.end()
+0x3b79360	Use SessionChatterDiscovered() for remote chatter.
+0x3b79610	Only SessionChatter belonging to this Chatter can call this method.
+0x3b79658	sessionChatter.GetChatter() == this
+0x3b796a8	Use AddSession() for local chatter.
+0x3b796f0	Use RemoveSession() for local chatter.
+0x3b79718	SessionChatter cannot be NULL.
+0x3b79738	sessionChatter != 0
+0x3b797f0	Session already created
+0x3b79808	m_sessionInfos.find(sessionRefId) == m_sessionInfos.end()
+0x3b79848	sessionIter != m_sessionInfos.end()
+0x3b79a20	ChatterTable::AddAllSessionToChatter, localChatter parameter cannot be NULL.
+0x3b79a90	ChatterTable::AddAllSessionToChatter, only local chatter can call this method on chatter creation.
+0x3b79b10	ChatterTable::SessionChatterDiscovered(): Error in GenerateChatterRefId()
+0x3b79b90	ChatterTable::SessionChatterDiscovered(): Error ChatterRefId already allocated.
+0x3b79bf8	Can't find session info with sessionRefID
+0x3b79c90	ChatterManager_Main::OnSessionCreated VoicePacketHandler is null
+0x3b79f40	SessionChatter_Main::SessionChatter_Main - chatter cannot be NULL
+0x3b79f90	F:/Projects/wd2/wd2-temp/main/external/technology-group/online/Storm/SDKs/Private/Echo/Src/Voice/SessionChatter_Main.cpp
+0x3b7a020	SessionChatter_Main::SessionChatter_Main - coreImpl cannot be NULL
+0x3b7a080	SessionChatter_Main::CreateObjectMaster - Master object isn't local!
+0x3b7a0e0	SessionChatter_Main::CreateObjectMaster - ObjectRefId must be invalid.
+0x3b7a150	SessionChatter_Main::CreateObjectReplica - Replica object isn't remote!
+0x3b7a1b0	SessionChatter_Main::CreateObjectReplica - ObjectRefId must be invalid.
+0x3b7a1f8	SessionChatter_Main::ActivateObject - Error: 
+0x3b7a228	SessionChatter_Main::NetInvoke received invalid event type 
+0x3b7a2b8	SessionChatter_Main::NetInvoke received invalid function type 
+0x3b7a340	Only replica can handle SessionChatterUpdateRelationMessage. Use RelationMute for master.
+0x3b7a3a0	Only replica can handle SessionChatterUpdateLocalMessage. Use SendLocalMessage for master.
+0x3b7a400	Only replica can handle SessionChatterUpdateActiveSessionMessage. Use SendActiveSessionMessage for master.
+0x3b7a4a0	SessionChatter_Main::OnMasterBroadcast. DataContainer is not a s_protocolEntryUpdateLocalMessageBroadcast
+0x3b7a510	SessionChatter_Main::OnMasterBroadcast. DataContainer is not a s_protocolEntryUpdateActiveSessionMessageBroadcast
+0x3b7a5b0	SessionChatter_Main::OnMasterUnicast. DataContainer is not a s_protocolEntryUpdateRelationMessage
+0x3b7a620	SessionChatter_Main::OnMasterUnicast. DataContainer is not a s_protocolEntryUpdateLocalMessageUnicast
+0x3b7a690	SessionChatter_Main::OnMasterUnicast. DataContainer is not a s_protocolEntryUpdateActiveSessionMessageUnicast
+0x3b7a738	SessionChatter_Main::OnObjectReplicaGone invalid ObjectRefId.
+0x3b7a7a0	SessionChatter_Main::OnObjectMasterGone, only for replica.
+0x3b7a840	SessionChatter_Main::OnObjectReplicaResolved invalid ObjectRefId.
+0x3b7a890	SessionChatter_Main::OnObjectReplicaResolved Wrong ObjectRefId.
+0x3b7a900	SessionChatter : Object creation failure.
+0x3b7a9a8	Only the active SessionChatter can send a unicast message.
+0x3b7a9e8	m_sessionActive == true
+0x3b7abb0	EngineChatterId SessionRefId(
+0x3b7abd0	) SessionPeerId(
+0x3b7baf0	VoicePacketHandlerDemux::GetSessionRefId received invalid event type 
+0x3b7c5a8	storm::echo::Agent::OnSessionPeerDiscovered
+0x3b7c620	m_transmissionsHistoryCount<=m_netObjectStatus->GetObjectManager_Main()->GetStartupParams()->GetMaximumSessionPeerPoolSize()
+0x3b7c778	storm::echo::AgentMemento::OnSessionPeerDiscovered
+0x3b7cca8	SessionPeerId 
+0x3b7ccb8	 is greater than the maximum SessionPeerId of 
+0x3b86c60	sessiondirectory
+0x3b87a98	Matchmaking socket setup failed
+0x3b87b88	Module only available in a session
+0x3b87d98	Invalid session reference id
+0x3b87db8	Invalid group for session ticket
+0x3b87e20	Session peer kicked
+0x3b87e38	Session peer banned
+0x3b87e50	Session request refused
+0x3b87e68	Session host gone
+0x3b87e80	Session ticket invalid
+0x3b87e98	Session ticket pending
+0x3b87eb0	Session invalid
+0x3b87ec0	Session max reached
+0x3b8ce50	 ReadyForMatchMaking=
+0x3b8d270	SessionStream
+0x3b948c8	SeamlessLoginRetry
+0x3b948f8	SeamlessLogin
+0x3b95880	https://www.ubisoft.com
+0x3b95908	AuthenticationClient::deleteSession
+0x3b96140	FeatureSwitch CreateSession was disabled. Session invalidated
+0x3b96fb8	public-ubiservices.ubi.com
+0x3b97328	Delete session unnecessary (invalid session info).
+0x3b98a28	AuthenticationClient::getExternalSessionInfo
+0x3b99368	JobLogin::reportDeleteSession
+0x3b9c720	restartExtendSessionJob
+0x3b9c8d0	User creation succeeded but session initialization failed. You must perform a login with the new credentials
+0x3b9c970	createSessionRestPeriodMSec
+0x3b9d010	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/sessionManager.cpp
+0x3b9d2d8	JobQueueAndSendEvents::WaitOnStartEventSession
+0x3b9ed08	UplayPC
+0x3b9f9c0	Profile is successfully linked but session initialization failed. You must perform a login with the new credentials
+0x3b9fad8	FacadeInternal::createSession
+0x3ba0108	JobGetExternalSessionInfo::checkConditions
+0x3ba01e8	JobGetExternalSessionInfo/JobCreateSessionFromToken
+0x3ba0350	JobGetExternalSessionInfo/JobRequestConfig
+0x3ba0458	JobPostLogin::startEventsSession
+0x3ba0930	A session for the current profile has started.
+0x3ba0960	FacadeInternal::deleteSession
+0x3ba18e0	Event URL request invalid. Session was not valid at creation
+0x3ba25c8	JobGetExternalSessionInfo::createExternalSession
+0x3ba2860	{"info":{%s"userId":"%s","gameSessionId":"%s","playerSessionId":"%s","spaceId":"%s"},"events":[%s]}
+0x3ba3380	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/authentication/jobs/jobGetExternalSessionInfo.cpp
+0x3ba37a0	JobGetExternalSessionInfo::getSessionInfoExternal
+0x3ba3f68	JobGetExternalSessionInfo::getConfiguration
+0x3ba42e0	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/authentication/sessionErrorHandler.cpp
+0x3ba45e0	JobLinkExternalProfileToCurrentLinkedProfileUser/JobGetSessionInfo
+0x3ba4d00	No valid session information. Cannot retrieve profiles actions
+0x3ba5af0	JobLinkExternalProfileToCurrentLinkedProfileUser::createUplaySession
+0x3ba5b50	Player requested a Uplay session with a XBL/PSN token but is not linked
+0x3ba5b98	JobGetExternalSessionInfo::getConfigurationResult
+0x3ba5f98	ubiservices::SessionErrorHandler::handleErrorImpl
+0x3ba6fc0	JobLinkExternalProfileToCurrentLinkedProfileUser::getUplaySessionInfo
+0x3ba7388	firstSessionDate
+0x3ba7590	lastSessionDate
+0x3ba76d8	sessionsCount
+0x3ba7d38	JobGetSessionInfo::createSession
+0x3ba80f8	UplayDynamicPanelUrl
+0x3baa1b8	Restart periodic renew session job after suspended mode
+0x3baa2b8	JobGetSessionInfo::checkExternalTokenConditions
+0x3bab990	sessionId
+0x3babb08	sessionKey
+0x3bac970	Couldn't create session from external token due to invalid parameters
+0x3bad160	uplayGameCode
+0x3badc18	JobResumeSingleFacade::checkSessionCreated
+0x3badd58	JobResumeSingleFacade::createSession
+0x3bade78	This createSessionParamsType is not supported
+0x3baeb80	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/authentication/sessionInfo.cpp
+0x3baec08	JobGetSessionInfo::reportOutcome
+0x3baede0	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/authentication/jobs/jobGetSessionInfo.cpp
+0x3baf6c8	Failed to parse profile/sessions response. JSON: 
+0x3baf900	JobResumeSingleFacade::createUpdateSession
+0x3bb0438	JobResumeSingleFacade::createUpdateSessionResult
+0x3bb0970	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/secondaryStore/sessionManagerStore.cpp
+0x3bb2d40	SessionManagerStore/notifyPrimaryStoreUpdate
+0x3bb2e68	Session creation to UbiServices is in progress.
+0x3bb2f88	Session to UbiServices is not created
+0x3bb42c8	Player not connected to Uplay (disconnected?)
+0x3bb4500	The player does not have a Uplay account.
+0x3bb4930	sessions
+0x3bb5d28	JobLinkCurrentProfile/JobGetSessionInfo
+0x3bb6930	https://{env}public-ubiservices.ubi.com/{version}
+0x3bb7328	&platformType=uplay
+0x3bb74a0	Request event configuration failed. Current event session will remain offline.
+0x3bb7770	JobLinkCurrentProfile/JobGetExternalSessionInfo
+0x3bb7b38	?platformType=uplay&nameOnPlatform=
+0x3bb7c90	/profiles/sessions
+0x3bb7d50	profiles/sessions
+0x3bb8458	ubiservices.ubi.com
+0x3bb8c20	Creation of connection failed. There is no session info.
+0x3bb91e0	There shall not be any session currently opened when linking profile from an external token
+0x3bb9408	AuthenticationClient-ExtendSession
+0x3bb9578	SessionManager/DLC
+0x3bb9598	JobLinkCurrentProfile::createUplayAccountSession
+0x3bb9718	SessionManager/requestPrimaryStoreInventoryItems
+0x3bba558	JobLinkCurrentProfile::getExternalSessionInfo
+0x3bba598	Player has an invalid sessionInfo
+0x3bba810	Uplay PC or RememberMe profiles always have a user linked. Cannot create a user based on these credential types
+0x3bbb338	JobRequestUnsentEvents::queuePreviousSessions
+0x3bbb3a8	JobLinkCurrentProfile::getExternalSessionInfoResult
+0x3bbce08	Session ticket: 
+0x3bbd398	uplayServices
+0x3bbdb80	JobLinkCurrentProfile::getUplaySessionInfo
+0x3bbef90	CreateSession
+0x3bbf528	JobDetectLink:ExtendSession
+0x3bbf570	JobDetectLink::m_getSessionAsync
+0x3bbf5b8	ExtendSession
+0x3bc1730	JobDetectLink::getSessionInfo
+0x3bc28f0	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/core/log/remoteLogSession.cpp
+0x3bc2da8	JobRequestProfileInfoExternal/JobGetExternalSessionInfo
+0x3bc42b8	JobRequestProfileInfoExternal::getExternalSessionInfo
+0x3bc4e20	JobLinkCurrentProfileToExternalLinkedProfileUser/JobGetExternalSessionInfo
+0x3bc5110	JobRequestProfileInfoExternal::getExternalSessionResult
+0x3bc5510	JobDetectLink::onGetSessionResult
+0x3bc6300	JobLinkCurrentProfileToExternalLinkedProfileUser::getExternalSessionInfo
+0x3bc6980	JobExtendSession::sendRequest
+0x3bc6a68	No valid session information. Cannot purchase profiles rewards
+0x3bc6d28	External Session is null. Cannot request configuration
+0x3bc7110	JobLinkCurrentProfileToExternalLinkedProfileUser::getExternalSessionInfoResult
+0x3bc7528	JobRequestProfileInfoExternal::createSession
+0x3bc7b48	JobDeleteSession::deleteSession
+0x3bc8020	Calling DeleteSession.
+0x3bc8d40	Current session is not valid. Cannot extend such a session. A logout might have been called before.
+0x3bc9830	PlayerCredentials couldn't be retrieved. Session is not extended. ExtendSessionMode : OnlyOnce
+0x3bc9890	uplaypc_v1 t=
+0x3bc9c20	Failed to extend the current session because PlayerCredentials couldn't be retrieved. ExtensionMode : OnlyOnce
+0x3bca400	PlayerCredentials are not set. Session is not extended. ExtendSessionMode : Periodic
+0x3bca6d0	Internal error: ExternalSession shall not be NULL at this point.
+0x3bca8f8	Creation of profile entity failed. There is no session info.
+0x3bcaae8	JobDeleteSession::closeConnection
+0x3bcab90	JobExtendSession::handlePeriodicBehavior
+0x3bcad60	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/authentication/jobs/jobDeleteSession.cpp
+0x3bcafc0	Failed to extend the current session because PlayerCredentials couldn't be retrieved. ExtensionMode : Unknown
+0x3bcb2b0	JobStartEventSession::startAllFetching
+0x3bcb640	Creation of profile entity failed. ProfileId from session information is not valid
+0x3bcbb00	JobDeleteSession::reportOutcome
+0x3bcc640	JobStartEventSession::reportRequestEventConfiguration
+0x3bcc958	Event session start failed. There is no active session.
+0x3bcca20	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/authentication/jobs/jobExtendSession.cpp
+0x3bccb68	JobExtendSession::reportOutcome
+0x3bcd9e8	AuthenticationClient-DeleteSession
+0x3bcdfa8	AuthenticationClient::createSession
+0x3bcf968	Failed to extend the current session because of invalid JSON: 
+0x3bcfa88	JobLogin::getSessionInfo
+0x3bcfaa8	JobLogin/JobGetSessionInfo
+0x3bcfec0	JobLogin/JobDeleteSession
+0x3bd1318	Couldn't extend the session. A new session must be created.
+0x3bd13f0	The given credentials do not match those of the player binded to the current facade. Instantiate another facade to create a session with a new player
+0x3bd1ca0	The session is already created. You must do a deleteSession before creating a new session.
+0x3bd21c0	FeatureSwitch CreateSession was disabled. PostLogin operations are not launched
+0x3bd2410	JobLinkExternalProfile/JobGetSessionInfo
+0x3bd2540	The SDK couldn't get user info.  SessionInfo is invalid !
+0x3bd2580	The profileId retrieved does not match the player binded to the current facade. Instantiate another facade to create a session with a new player
+0x3bd2bf0	The session creation is in a rest period after a failed attempt.
+0x3bd2f50	ProfileClient::requestUplayProfiles
+0x3bd3358	A session creation is currently in progress
+0x3bd3ca0	There shall not be any session currently opened when linking an external profile to an existing user
+0x3bd4138	JobLinkExternalProfile::createUplayAccountSession
+0x3bd50f0	JobLinkExternalProfile::getUplaySessionInfo
+0x3c066f0	D:\P4\Clients\Ubisoft_Montreal\Watchdogs2\2015_1_0\Source\Geometry/Internal/DataStructures/SimdTree/hkcdSimdTree.inl
+0x3c06c60	Copyright (c) 1998-2009 Quazal Technologies Inc, 2009-2014 Ubisoft Entertainment
+0x3c08370	TRACE_SESSIONDISCOVERY
+0x3c0b5e7	<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:%s xmlns:u="%s"></u:%s></s:Body></s:Envelope>
+0x3c0b6b7	<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/" s:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><s:Body><u:%s xmlns:u="%s">
+0x3debaf0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CBountyHunterManager,struct UTDS::xxxUpdate>(void)
+0x3ded630	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CMatchmakingMetaSessionMan,struct UTDS::xxxUpdatePreMainPart>(void)
+0x3ded6c0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CMatchmakingMetaSessionMan,struct UTDS::xxxUpdateMainPart>(void)
+0x3ded750	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CMatchmakingMetaSessionMan,struct UTDS::xxxUpdatePostMainPart>(void)
+0x3df59a0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CMergingSession,struct UTDS::xxxUpdate>(void)
+0x3df7df0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CUplayManager,struct UTDS::xxxUpdate>(void)
+0x3dfe7a0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CUIUbisoftClubManager,struct UTDS::xxxUpdate>(void)
+0x3e16190	.?AV?$_Bind@$00XU?$_Pmf_wrap@P8IBountyHunterMissionNetworkInterface@@EAAXXZXV1@U_Nil@std@@U23@U23@U23@U23@U23@U23@@std@@QEAVIBountyHunterMissionNetworkInterface@@U_Nil@2@U42@U42@U42@U42@U42@@std@@
+0x3e18b90	.?AV?$_Bind@$00XU?$_Pmf_wrap@P8IVersusShowdownLobbyMissionNetworkInterface@@EAAXXZXV1@U_Nil@std@@U23@U23@U23@U23@U23@U23@@std@@QEAVIVersusShowdownLobbyMissionNetworkInterface@@U_Nil@2@U42@U42@U42@U42@U42@@std@@
+0x3e3f6f0	.?AV?$_Bind@$00XU?$_Pmf_wrap@P8CGameServerMatchMaking2Provider_RdV@@EAAXAEBV?$ndVector@VCPingEntry@@VNoLock@@UndVectorProperties@@@@VCSystemResult@@_K@ZXV1@AEBV2@V3@_KU_Nil@std@@U45@U45@U45@@std@@QEAVCGameServerMatchMaking2Provider_RdV@@AEAV?$_Ph@$00@2@AEAV?$_Ph@$01@2@AEAV?$_Ph@$02@2@U_Nil@2@U72@U72@@std@@
+0x3ea63b8	RTSP session error
+0x3ea6efc	# http://curl.haxx.se/docs/http-cookies.html
+0x3ea9bd8	old SSL session ID is stale, removing
+0x3ea9c18	failed to store ssl session
+0x3eaa5d8	SSL: SSL_set_session failed: %s
+0x3eaa680	SSL re-using session ID
+0x3ead8b8	ssl_session
+0x3eb8548	SSL SESSION PARAMETERS
+0x3ed2778	SSL_CTX_set_session_id_context
+0x3ed28d8	old session cipher not returned
+0x3ed2910	old session compression algorithm not returned
+0x3ed2b50	ssl_get_new_session
+0x3ed2b80	ssl_get_prev_session
+0x3ed3048	ssl_session_dup
+0x3ed3070	SSL_SESSION_new
+0x3ed3098	SSL_SESSION_print_fp
+0x3ed30d8	SSL_SESSION_set1_id_context
+0x3ed31f8	session id context uninitialized
+0x3ed3268	SSL_set_session
+0x3ed3298	SSL_set_session_id_context
+0x3ed32e0	SSL_set_session_ticket_ext
+0x3ed33d8	ssl23 doing session id reuse
+0x3ed3510	ssl3 session id too long
+0x3ed3550	ssl3 session id too short
+0x3ed38c8	ssl session id callback failed
+0x3ed3900	ssl session id conflict
+0x3ed3928	ssl session id context too long
+0x3ed3968	ssl session id has bad length
+0x3ed39a8	ssl session id is different
+0x3ed4f58	attempt to reuse session in different context
+0x3ed6400	d2i_SSL_SESSION
+0x3ed6988	bad ssl session id length
+0x3ed6f08	i2d_SSL_SESSION
+0x3ed78d8	ssl3_get_new_session_ticket
+0x3ed7a40	SSL3_NEW_SESSION_TICKET
+0x3edfd08	os.length <= (int)sizeof(ret->session_id)
+0x3ee3340	You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
+0x844ef52	UPLAY_PARTY_SetUserData
+0x844ef6c	UPLAY_FRIENDS_Init
+0x844ef82	UPLAY_PARTY_ShowGameInviteOverlayUI
+0x844efa8	UPLAY_FRIENDS_ShowFriendSelectionUI
+0x844efce	UPLAY_INSTALLER_Init
+0x844efe6	UPLAY_SAVE_Remove
+0x844effa	UPLAY_GetNextEvent
+0x844f010	UPLAY_PARTY_IsPartyLeader
+0x844f02c	UPLAY_PARTY_Init
+0x844f040	UPLAY_USER_GetAccountIdUtf8
+0x844f05e	UPLAY_USER_IsConnected
+0x844f078	UPLAY_PARTY_IsInParty
+0x844f090	UPLAY_AVATAR_Get
+0x844f0a4	UPLAY_SAVE_Write
+0x844f0b8	UPLAY_GetOverlappedOperationResult
+0x844f0de	UPLAY_USER_SetGameSession
+0x844f0fa	UPLAY_PARTY_GetFullMemberList
+0x844f11a	UPLAY_Start
+0x844f128	UPLAY_HasOverlappedOperationCompleted
+0x844f150	UPLAY_OVERLAY_ShowNotification
+0x844f172	UPLAY_USER_GetTicketUtf8
+0x844f18e	UPLAY_OVERLAY_Show
+0x844f1a4	UPLAY_OVERLAY_ShowShopUrl
+0x844f1c0	UPLAY_USER_GetNameUtf8
+0x844f1da	UPLAY_USER_ClearGameSession
+0x844f1f8	UPLAY_USER_IsOwned
+0x844f20e	UPLAY_USER_IsInOfflineMode
+0x844f22c	UPLAY_FRIENDS_GetFriendList
+0x844f24a	UPLAY_FRIENDS_InviteToGame
+0x844f268	UPLAY_ACH_EarnAchievement
+0x844f284	UPLAY_AVATAR_Release
+0x844f29c	UPLAY_INSTALLER_GetChunks
+0x844f2b8	UPLAY_INSTALLER_AreChunksInstalled
+0x844f2de	UPLAY_INSTALLER_GetChunkIdsFromTag
+0x844f304	UPLAY_INSTALLER_ReleaseChunkIdList
+0x844f32a	UPLAY_SAVE_Close
+0x844f33e	UPLAY_INSTALLER_GetLanguageUtf8
+0x844f360	UPLAY_PARTY_RespondToGameInvite
+0x844f382	UPLAY_PARTY_InvitePartyToGame
+0x844f3a2	UPLAY_SAVE_GetSavegames
+0x844f3bc	UPLAY_SAVE_ReleaseGameList
+0x844f3da	UPLAY_SAVE_Open
+0x844f3ec	UPLAY_SAVE_Read
+0x844f3fe	UPLAY_WIN_RefreshActions
+0x844f41a	UPLAY_Update
+0x844f42a	UPLAY_GetLastError
+0x844f43e	uplay_r1_loader64.dll
+0xc0440d8	" id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c014 79.156797, 2014/08/20-09:53:02        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmp:CreatorTool="Adobe Photoshop CC 2014 (Windows)" xmpMM:InstanceID="xmp.iid:3867A4A619E211E6842FEFCB76AE9E9C" xmpMM:DocumentID="xmp.did:3867A4A719E211E6842FEFCB76AE9E9C"> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:3867A4A419E211E6842FEFCB76AE9E9C" stRef:documentID="xmp.did:3867A4A519E211E6842FEFCB76AE9E9C"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>
+0x3757550	Gh_Uplay
+0x3757568	UplayAchievement
+0x3757fa0	UplayAnimationDone
+0x3757fc8	UplayHudLoaded
+0x38e9f70	 HandleCurrentError_Online : eGameResCode_Error_ConnectionFailureUbisoft
+0x38ea0b0	 HandleCurrentError_OnlineFeature : eGameResultCodeLow_Fail_FriendsInvasionsNoWDOnlineFriends
+0x38ea170	 HandleCurrentError_OnlineFeature : eGameResultCodeLow_Fail_FriendsInvasionsFriendNotAvailable
+0x3a02a88	CatsInvasion_Animation
+0x3a20e98	UbisoftClubBackgroundTile
+0x3a20fa0	UbisoftClubLink

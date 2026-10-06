@@ -1,0 +1,597 @@
+0x351f068	SocketUnlockDistanceFwd
+0x351f080	SocketUnlockDistanceSide
+0x351f0a0	SocketUnlockHeight
+0x351f0b8	SocketUnlockAngle
+0x351f0d0	SocketUnlockVelVertical
+0x3525358	CCinemaEventCharacterTeleport
+0x3528f08	CDebugClip
+0x3528f18	Debug Text
+0x3529100	CDebugTrack
+0x3529110	Debug Track
+0x3536bf0	CDebugEvent
+0x3536f08	Disrupt - Debug Tools
+0x3537170	EasyAntiCheat
+0x3537ab8	CDebugEventError
+0x3537be8	CDebugEventMsg
+0x3537c90	&Break in debugger
+0x3537cdc	Debug context:
+0x3537d70	CDebugEventMsgWithStats
+0x3537f8c	DEBUG
+0x355eee0	TeleportOnNavmesh
+0x35657f8	CTaskCheckDebugCommandData
+0x35658f8	CTaskCheckDebugCommand
+0x35706d8	CTaskTeleportOnNavmesh
+0x3570748	CTaskTeleportOnNavmeshData
+0x35721e8	CTaskDebugDrawData
+0x35725b8	CTaskDebugDraw
+0x35727e0	Debug
+0x3587bf0	OnPreTeleportEvent
+0x3594570	move/DecisionTrees/Player-Ai/Vehicles/PawnGeneric_VehicleBreakAndUnlock.move.bin
+0x3594818	Break_and_unlock
+0x359b4f0	[{ "name": "m_canEnterVehicle", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_canHijackVehicle", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_canSwitchToDriverSeat", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_forceInIfNotOnNavmesh", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_forceInVehicle", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_forceLockPick", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_interactiveMode", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 3>", "max_size": "3"},{ "name": "m_lockPickTimerAfterBeingSee", "type": "storm::DataFloat<20, storm::NetDataFloatEpsilon_0_1>", "max_size": "float(20, storm::NetDataFloatEpsilon_0_1)"},{ "name": "m_lockPickTimerBeforeBeingSee", "type": "storm::DataFloat<100, storm::NetDataFloatEpsilon_0_1>", "max_size": "float(100, storm::NetDataFloatEpsilon_0_1)"},{ "name": "m_removeDriverOnly", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_seatFilter", "type": "storm::DataNumber<ndU16, storm::DataNumberQualifier::ReadWriteInBits_Bit, 15>", "max_size": "15"},{ "name": "m_shouldBreakWindow", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_speed", "type": "storm::DataFloat<0, storm::NetDataFloatEpsilon_0_001>", "max_size": "float(0, storm::NetDataFloatEpsilon_0_001)"},{ "name": "m_teleportToEntry", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_vehicle", "type": "CNetDataEntityId", "max_size": "sizeof(CEntityHandle)"},{ "name": "m_vehicleBHVsetupID", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"}
+0x35a15f0	Cone in front of the player to search for potential targets, use toggle_debug_id taskgetbestscriptedsnipertarget to debug
+0x35a1690	Ignore targets that are too close to the player, use toggle_debug_id taskgetbestscriptedsnipertarget to debug
+0x35a1720	Ignore targets that are too far from the player, use toggle_debug_id taskgetbestscriptedsnipertarget to debug
+0x35a5c90	curveCheatGapCurve
+0x35a5d08	curveCheatLevelTimeScalingCurve
+0x35a5d28	CloseRangeCheatScale
+0x35a5d40	Amount to scale rubberband cheat value by (0.0 = no cheating, 1.0 = normal cheat level according to curve.
+0x35a5db0	fCheatScale
+0x35a5dc0	Maximum distance betweeen vehicles along road network to activate cheat scaling.
+0x35a5e30	Maximum distance betweeen vehicles along road network to deactivate cheat scaling.
+0x35a5ea0	Lower value for randomized maximum duration that cheat scaling will be applied.
+0x35a5f10	Upper value for randomized maximum duration that cheat scaling will be applied.
+0x35a5f78	Mimumum time interval between each period of cheat scaling.
+0x35a5fb8	fCheatScalingMinInterval
+0x35a5fd8	Mimumum time into chase before cheat scaling can be activated.
+0x35ad988	K:\Code\DriverData/Brick/DebugBricks/CounterBrickNetData.h
+0x35ad9c8	K:\Code\DriverData/Brick/DebugBricks/DebugCountBrickNetData.h
+0x35ada10	K:\Code\DriverData/Brick/DebugBricks/HostMigrationCounterBrickNetData.h
+0x35b2410	Number of gestures that are unlocked at the beginning of the game
+0x35b25c0	Photo camera filters that are unlocked at the beginning of the game
+0x35b4600	Rules to unlock all seamless and pvp
+0x35b4670	Rules to unlock seamless dedsec events and neutral encounter
+0x35b4730	If the player did an invasion through contact list, it unlocks seamless pvp
+0x35b79f0	DebugMatchingSessionConfig
+0x35b7b08	DebugMetalMatchingSessionConfig
+0x35b7d18	DebugMagnetMatchingSessionConfig
+0x35b87a0	availabilityrulegroupLocalPlayerFirstTimeUnlockedCondition
+0x35bd420	[{ "name": "m_forceTeleport", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_isHighImpact", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_isInVehicle", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_isPullRequest", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_position", "type": "storm::DataCntVec3<CNetSimulationDomain::m_position, CNetSimulationEpsilon::m_position>", "max_size": "sizeof(ndVec3)"}
+0x35bd5e0	[{ "name": "m_isTeleportRequired", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_orientation", "type": "CNetDataCntAng3F<CNetSimulationDomain::m_angle, CNetSimulationEpsilon::m_angle>", "max_size": "sizeof(ndAngle3F)"},{ "name": "m_position", "type": "storm::DataCntVec3<CNetSimulationDomain::m_position, CNetSimulationEpsilon::m_position>", "max_size": "sizeof(ndVec3)"},{ "name": "m_vehicleArchetypeID", "type": "CNetDataStringId<CPathID>", "max_size": "sizeof(CPathID)"},{ "name": "m_vehicleType", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 5>", "max_size": "5"}
+0x35bf810	Teleport to coop partner
+0x35bf830	fMergeTeleportFirstPassMinDistance
+0x35bf858	fMergeTeleportFirstPassMaxDistance
+0x35bf880	fMergeTeleportSecondPassMinDistance
+0x35bf8a8	fMergeTeleportSecondPassMaxDistance
+0x35bfc88	Debug Magnet
+0x35bfc98	Debug Metal
+0x35c0d48	CDebugMagnetMatchingSessionConfig
+0x35c0e18	CDebugMatchingSessionConfig
+0x35c0ee8	CDebugMetalMatchingSessionConfig
+0x35c8b40	[{ "name": "m_playerClientId", "type": "CNetDataClientId", "max_size": "sizeof(ClientId)"},{ "name": "m_teleportAngle", "type": "CNetDataCntAng3F<CNetSimulationDomain::m_angle, CNetSimulationEpsilon::m_angle>", "max_size": "sizeof(ndAngle3F)"},{ "name": "m_teleportPosition", "type": "storm::DataCntVec3<CNetSimulationDomain::m_position, CNetSimulationEpsilon::m_position>", "max_size": "sizeof(ndVec3)"},{ "name": "m_vehicleArchetypeID", "type": "CNetDataStringId<CPathID>", "max_size": "sizeof(CPathID)"}
+0x35c8d40	[{ "name": "m_teleportRequests", "type": "CNetVector<CPlayerTeleportRequestContainer, 4>", "max_size": "4*sizeof(CPlayerTeleportRequest)"
+0x35c8dd0	", "array_item_type": "CPlayerTeleportRequestContainer", "capacity": "4"}
+0x35cbd20	K:\Code\DriverData/Network/Matchmaking/MatchingSession/MatchingSessionDebugInfoNetData.h
+0x35ff128	CRacePathDebugObstacleComponent
+0x35ff478	CVehicleDebugNavTarget
+0x3600130	CHeatLevelChangeEvent
+0x36001c8	CHeatSyncEvent
+0x3603908	CTeleportEventChannel
+0x3603920	CPreTeleportEvent
+0x3603c80	CHeatEventCBParam
+0x3603fe0	bAutomaticHeatIncrease
+0x36061e0	CHeatSystem
+0x3607ab8	aireactions/aireactions_human_gameplay.fzl.debug
+0x3607af0	aireactions/aireactions_human_animation.fzl.debug
+0x3607b28	aireactions/aireactions_human_audio.fzl.debug
+0x3607b58	aireactions/aireactions_humancombat_gameplay.fzl.debug
+0x3607b90	aireactions/aireactions_humancombat_animation.fzl.debug
+0x3607bc8	aireactions/aireactions_humancombat_audio.fzl.debug
+0x3607c00	aireactions/aireactions_robot_gameplay.fzl.debug
+0x3607c38	aireactions/aireactions_robot_animation.fzl.debug
+0x3607c70	aireactions/aireactions_robot_audio.fzl.debug
+0x3607ca0	aireactions/aireactions_animal_gameplay.fzl.debug
+0x3607cd8	aireactions/aireactions_animal_animation.fzl.debug
+0x3607d10	aireactions/aireactions_animal_audio.fzl.debug
+0x362dca0	Distance from area considered too far, which will teleport back the player to start point or fail the mission
+0x3635e00	PawnDebug
+0x3636820	OnTeleportedToPositionEvent
+0x363d340	Debug -- Open all lights
+0x3640338	selGodMode
+0x3641be8	debug will be displayed to see stim parameters
+0x364e688	OnPostTeleportEvent
+0x3651800	Max number of segments when all progressionis unlocked.
+0x365f4d0	Debug_Magnet
+0x365f4e0	Debug_Metal
+0x3663ec0	bDebugDrawEnabled
+0x3669900	CSetInvincibleEvent
+0x366a560	bIsInvincibleExceptToPlayer
+0x366a580	bIsInvincibleToAI
+0x366a598	bIsInvincibleToPlayer
+0x366c9e8	Teleport_InteriorLoaderNotFound
+0x366d110	DebugManagerStims
+0x3672498	CInvincibilityOperation
+0x36725f8	CDriverTeleportPlayerOperationContainer
+0x36726d0	CDriverBaseTeleportOperationContainer
+0x3672818	CDriverStartTeleportOperation
+0x36728c8	CDriverEndTeleportOperation
+0x3672998	CTeleportOperation
+0x3672a58	CDriverSendPreTeleportEventOp
+0x3672b28	CDriverSendPostTeleportOp
+0x3672e08	CDriverPlayerService::DoTeleportLocalPlayer
+0x3672e38	%s: teleport position was invalid - teleport canceled
+0x3672eb8	%s: player entity invalid - teleport canceled
+0x36733e0	IPlayerRelationNetworkInterface.DEBUG_ONLY_ShowAllPlayers
+0x3674c48	%s - Player still has infinite invincibility, resetting...
+0x3675590	CDriverBaseTeleportOperationContainer::CreateAndPushSubOperations
+0x36755d8	TeleportInsideHmaDone
+0x3675690	CDriverTeleportPlayerOperationContainer::CreateAndPushTeleportOperations
+0x36756e0	Teleport
+0x3677950	Hub Unlocks: Loop
+0x3677968	Hub Unlocks: Mad Mile
+0x3677980	Hub Unlocks: The Wards
+0x3677998	Hub Unlocks: Brandon Docks
+0x36779b8	Hub Unlocks: Pawnee
+0x3677ab0	Hub_Unlocks.01_Loop_HubUnlock
+0x3678390	Hub_Unlocks.02_MadMile_HubUnlock
+0x36783b8	Hub_Unlocks.04_TheWards_HubUnlock
+0x36783e0	Hub_Unlocks.05_BrandonDocks_HubUnlock
+0x3678408	Hub_Unlocks.07_Pawnee_HubUnlock
+0x367a320	sndFastTravelTeleportSound
+0x367b9a8	eAccessRequestFlag_EasyAntiCheat
+0x3680848	CCorrectOverlappingPlayerZAfterTeleportOrRespawnOperation
+0x3683620	CDriverStartLoadingScreenOperation::CStartLoadingScreenSemaphore::OnUnlock
+0x3688548	CProgressionNodeUnlockedAvailabilityRule
+0x3688c98	CGameplayDataElementUnlockedItems
+0x36896d0	GameplayContentUnlockServiceSaveData
+0x3689d70	UlcDlcUnlocks
+0x3689d80	UlcUplayUnlocks
+0x3689d90	UlcLeaderboardsUnlocks
+0x3689da8	UlcCustomerSupportUnlocks
+0x3689dc8	UlcUplayChallengesUnlocks
+0x3689e18	ProductOwnedUnlocks
+0x3689e30	ProductInstalledUnlocks
+0x3689e78	CGameplayContentUnlockManager::OnShopReady
+0x3689eb0	K:\Code\DriverGame\Gameplays\GameplayContentUnlock\GameplayContentUnlockManager.cpp
+0x3689f08	SignalUnlockedSession: %llu
+0x3689f28	CGameplayContentUnlockManager::SignalNewContentForSession
+0x3689f68	SignalUnlockedFirstTime: %llu
+0x3689f88	CGameplayContentUnlockManager::CheckForNewContent
+0x368d828	accessidCarUnlockAccessId
+0x368dce0	sndLockBoxUnlockingSound
+0x368dd00	sndAccessCodeUnlockingSound
+0x368ddd0	locstridUnlockedAccessCodeNetworkMessage
+0x368de00	locstridUnlockedLockboxNetworkMessage
+0x368de28	locstridUnlockedAccessCodeIcon
+0x368de48	locstridUnlockedLockboxIcon
+0x3697260	If null or conditions met, perk is unlocked
+0x369e548	bindmanager_debug
+0x36bad28	bUnlockableOnEnter
+0x36c0c70	Item is locked in shop buy list until the accessId is owned/unlocked by the player
+0x36c1798	If set, item will be unlocked when condition is met.
+0x36c17d0	availabilityrulegroupItemUnlockCondition
+0x36cc340	%s|kOffline. Unlocking
+0x36cc550	%s|Host. Empty session. Unlocking. kHostResolved
+0x36ccba0	%s|%s|Client ms_ResolvedState received. Unlocking.
+0x36d2628	bIsInvincible
+0x36d6688	bIsAvailableDuringTowerUnlock
+0x36d66b0	Check this to make this icon show during tower unlock sequence grid script
+0x36d6700	bIsAvailableDuringHubUnlock
+0x36e0ce0	fTeleportPropositionDistance
+0x36e0d00	fTeleportPropositionDuration
+0x36e0d20	fTeleportPropositionDelay
+0x36e4940	CMissionActivationServiceMergeModule.Unicast_TeleportDetailsMsg
+0x36e4a00	%s Requesting from mission activation service master initial teleport details
+0x36e4a50	Message received from host: %d, Teleport required: %d, Mission conflict: %d, Has pending stopping mission brick flows: %d, Teleport requested: %d, Teleport started: %d, Teleport finished: %d
+0x36e4ba0	%s: Requesting from mission activation service master high impact teleport details
+0x36e4bf8	CMissionActivationServiceMergeModule::DoMergeTeleport
+0x36e4c30	%s Starting Merge Teleport to pos: (%.2f, %.2f, %.2f) - TimeLeft: %.2f
+0x36e4c78	Wait For Teleport Start Op
+0x36e4ca0	CMissionActivationServiceMergeModule: Merge Teleport didn't start in time - to pos: (%.2f, %.2f, %.2f)
+0x36e4d10	CMissionActivationServiceMergeModule::DoMergeTeleport::<lambda_a9c0f66dabb409bfd4cf964c2bd1f3ee>::operator ()
+0x36e4d80	Wait For Teleport End Op
+0x36e4da0	CMissionActivationServiceMergeModule: Merge Teleport didn't finish in time - to pos: (%.2f, %.2f, %.2f)
+0x36e4e10	CMissionActivationServiceMergeModule::OnMergeTeleportStart::<lambda_89f75e98555657a2de86010c3a725bb9>::operator ()
+0x36e4e90	CMissionActivationServiceMergeModule::OnMergeTeleportEnd - DoMergeTeleport operation failed with %s
+0x36e4ef8	CMissionActivationServiceMergeModule::OnMergeTeleportEnd
+0x36e4f40	CMissionActivationServiceMergeModule::OnMergeTeleportEnd - Merge Teleport Succeeded
+0x36e4fd0	%s Informing peerToMerge that a teleport is required: pos (%.0f, %.0f, %.0f)
+0x36e5020	%s Informing peerToMerge that a teleport isn't required
+0x36e7e18	unlocked
+0x36e8840	CMissionCriteriaUnlockedByULCContent
+0x36e88e0	CMissionCriteriaUnlockedByDLCContent
+0x36e8a18	selUnlockByDLC
+0x36eb400	Starting a bounty hunter activity while being in hacker space in coop. Teleport to coop partner in 5 seconds
+0x36eb470	CBountyHunterManager::CheckForTeleportToCoopPartner
+0x36eb4b0	Starting a bounty hunter activity while being in hacker space in coop. Teleport to coop partner requested
+0x36eb860	During Bounty Hunter the target benefit from overall damage reduction, from any source (1.0 = Normal game damage, 0.0 = Invincible)
+0x36eef10	[{ "name": "m_isInInvincibiliyPhase", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_readyToStart", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_team", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 2>", "max_size": "2"},{ "name": "m_watchersByType", "type": "CNetVector<CVersusShowdownWatchersListContainer, 3>", "max_size": "3*sizeof(CVersusShowdownWatchersList)"
+0x36f2410	"},{ "name": "m_isInvincibilityPhaseActivated", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_requestReadyToStart", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_requestTeam", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_requestUpdateInvincibility", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_validatedDataUnits", "type": "CNetVector<CNetBrickId, 3>", "max_size": "3*sizeof(CBrickId)"
+0x36f25f8	IVersusShowdownManagerNetworkInterface.SetDebugTeam
+0x36f2800	IVersusShowdownManagerNetworkInterface.SetClientInvincibilityPhaseActivated
+0x36f36f0	Script formats|*.lua;*.debug.lua
+0x36f3c50	hidMissionNameDebug
+0x36f4350	(Cheat)Reward List to be given at mission end to emulate game progression
+0x36f43a0	itemlistsRewardForCheat
+0x36f56d8	availabilityrulegroupDLCGuestModeUnlockCondition
+0x36f5988	Mission to prefetch ( hub unlock type only! )
+0x36f64f8	Token that will be given when unlocking a song.
+0x36f6d30	First line text when unlocking many audio files at once by using AudioFileController domino box.
+0x36f6d98	locstridAudiofileUnlockMultipleFiles
+0x36f6e50	Token that will be given when unlocking an audio file.
+0x36f89f8	DebugCommand
+0x3702ea8	OnUnlockEvent
+0x370c3c0	availabilityrulegroupIndependenceDayUnlockCondition
+0x370c790	NetObject.CReactionDebugManager
+0x370c7b0	TriggerDebugStimBroadcast
+0x370c7d0	TriggerDebugStimReplicaMessage
+0x370c7f0	TriggerDebugIncidentBroadcast
+0x370c810	TriggerDebugIncidentReplicaMessage
+0x370f4a0	K:\Code\DriverGame/Pawn/Debug/ReactionDebugManager.h
+0x3716b20	Color used for the debug text.
+0x371b3b8	sndPerkUnlockedSound
+0x371b3d0	sndWeaponUnlockedSound
+0x371b9d8	SurvivalGuideUnlocked
+0x371b9f0	SurvivalGuidesUnlocked
+0x371bca8	UnlockableKey
+0x371bcb8	UnlockableKeys
+0x371bff8	Tier is unlocked when this rule evaluates to true.
+0x371e2b0	ConnectionLines_DebugInfo
+0x371ec40	OnEntityUnlockEvent
+0x3722828	CheatNoFeedback
+0x3729dd0	If a striking event is WIP, the manager won't pick it and it can be spawned only by the Spawn debug command
+0x372a43c	bDebug
+0x3731768	rewarditemlistsCarOnDemandDebugRewardList
+0x3731820	Access id required to unlock the car on demand application on the PDA
+0x3731868	accessidCarOnDemandAccessIdUnlockAppPDA
+0x3733970	Description of weapon unlocked
+0x3733990	locstridWeaponUnlocked
+0x3736b10	IBossPhaseComponentNetworkInterface.DebugForcePhaseIndex
+0x3740868	    Module debug info: %s
+0x374bf88	SpawnDebugHelper_SpawnVehicleInFrontOfPlayer
+0x37561c0	ScoutXRewardUnlocked
+0x375dd18	sndRemoteUnlock
+0x37664c0	fFlashersBlinkingUnlockDuration
+0x3766820	OnEventForcedUnlock
+0x3766838	OnUnlockVehicleEvent
+0x37678a0	accessID required to unlock this zone
+0x37678c8	accessidAccessIdToUnlockFogOfWarZone
+0x37685f0	A locked node need every port specified to be powered before being unlocked and it can rotate.
+0x3769130	sndUnlockedSound
+0x376f7c0	CGamerProfileGameplayUnlocks
+0x3770938	-runscriptindebug
+0x3772518	[EAC]: EasyAntiCheat server library has been freed
+0x3772580	[EAC]: EasyAntiCheat client library has been freed
+0x37727d0	The host is not anti-cheat protected
+0x3772998	The client is not anti-cheat protected
+0x3785510	bTeleportToRoadNetwork
+0x37893e8	OnGraffitiUnlockEvent
+0x378bca0	K:\Code\DriverGame2/Network/debug/NetRoboPeerValidatorNetworkData.h
+0x3791088	UnlockAudioFile
+0x3791208	TeleportEntity
+0x3791a68	EnableDebugAnnotationEntity
+0x3791b80	DisableDebugAnnotationEntity
+0x3791ca0	SetDebugAnnotationEntityText
+0x3791d48	SetDebugAnnotationEntityShapeColor
+0x3791f28	SetDebugAnnotationEntityShapeColorAlpha
+0x3792760	UnlockAndBuyCarOnDemand
+0x3792b80	GetPlayerNameDebug
+0x3793368	TeleportToSpawnPoint
+0x3793500	TeleportToSpawnPoint_v2
+0x3793730	TeleportPlayerOutsideHMA
+0x37938e0	TeleportPlayerInsideHMA
+0x3794a90	EnableUnlockedLoading
+0x3795280	SetVehicleChaseCheats
+0x3795608	ActivateInvincibility
+0x37956e0	RemoveInvincibility
+0x3796b90	fProtectorDistanceFromTargetToTriggerATeleport
+0x3796bc0	fBountyHunterTeleportMinDistance
+0x3796be8	fBountyHunterTeleportMaxDistance
+0x3796c10	bBountyHunterTeleportForceVehicle
+0x3796de8	bIsUnlockedOnStart
+0x37992b0	Display debug in editor
+0x37992c8	bShowDebug
+0x37a4a18	CDebugBrickFlow
+0x37a4a90	CDebugCountBrick
+0x37a4aa8	CDebugDummyBrick
+0x37a4ac0	CDebugSimpleContainerBase
+0x37a4ae0	CDebugSimpleContainer
+0x37a4bd8	CDebugContainerBrickFlow
+0x37a4d28	Missions\brick_flows\debug_simple.container.brickflow.rml
+0x37a4dc8	CDebugContainerFlowCreationParams
+0x37a4e50	CDebugFlowCreationParams
+0x37aaff8	DebugEntityBrickDescriptor
+0x37ab018	DebugDummyBrick
+0x37ab028	DebugCountBrick
+0x37ab608	CDebugEntityBrickDescriptor
+0x37ab718	CDebugEntityBrickBase
+0x37ac368	CDebugCountBrickDescriptor
+0x37ac5b8	CDebugDummyBrickDescriptor
+0x37b2fe0	Number of succeeded events of this kind to unlock progression reward
+0x37b3028	uiNumberOfSucceededEventToUnlockProgressionReward
+0x37b8cb0	[{ "name": "m_decryptScoreArray", "type": "CDecryptScoreArrayEventContainer", "max_size": "sizeof(CDecryptScoreArrayEvent)"},{ "name": "m_nextDecryptScoreBase", "type": "CNextDecryptScoreBaseEventContainer", "max_size": "sizeof(CNextDecryptScoreBaseEvent)"},{ "name": "m_packageOwnerClientId", "type": "CNetDataClientId", "max_size": "sizeof(ClientId)"},{ "name": "m_partyTeleportData", "type": "CAllTeleportRequestContainer", "max_size": "sizeof(CAllTeleportRequest)"},{ "name": "m_playerSearchPhaseRemainingTime", "type": "storm::DataFloat<0, storm::NetDataFloatEpsilon_0_001>", "max_size": "float(0, storm::NetDataFloatEpsilon_0_001)"}
+0x37b96b0	ILootTruckGameplayBrickBaseNetworkInterface.TeleportForPartyActivity
+0x37c19b0	K:\Code\DriverGameMissions/Brick/DebugBricks/CounterBrickDirection.h
+0x37c1a00	K:\Code\DriverGameMissions/Brick/DebugBricks/CounterBrickBase.h
+0x37c1a90	K:\Code\DriverGameMissions/Brick/DebugBricks/HostMigrationCounterBrickBase.h
+0x37d3fb0	CKartRacerTeleportModule
+0x37d4060	CKartRacerNpcTeleportModule
+0x37d5fe0	Teleports the player to the spawn point after closing the race end menu pages. Otherwise, the player will be left in the car.
+0x37d6060	bTeleportPlayerBackToSpawnPoint
+0x37d6f10	[Optional] Where should the player be teleported at the end of a race. Is this is not specified, then the club spawn point will be used.
+0x37d6fa0	entPlayerTeleportPoint
+0x37d7a60	missionlistMissionThatUnlocksRaces
+0x37d7ac1	 Missing playerSpawnPoint. This means that we cannot teleport the player back at the end of a race.
+0x37dbfc0	%s() another teleport is in progress
+0x37dbfe8	CPlayerVehicleSpawnHelper::TeleportPlayer()
+0x37dc018	CPlayerVehicleSpawnHelper::TeleportPlayer
+0x37dc048	CPlayerVehicleSpawnHelper::OnPlayerTeleported
+0x37de0f8	CRaceSetupHelper::OnPlayerTeleportedToStart
+0x37de278	CRaceSetupHelper::TeleportPlayerToSpawnPoint
+0x37de2b0	%s() Cannot teleport the player because the game mode isn't running.
+0x37de2f8	CRaceSetupHelper::OnPlayerFinishTeleport
+0x37de328	CRaceSetupHelper::PreparePlayerForTeleport
+0x37de5c8	CRaceSetupHelper::UnlockActionMap
+0x37e5108	COnlineRaceSelectionHelper::TogglePlayerInvincible
+0x37e8c80	CRaceGameplay::TeleportPlayerOnMissionStoppped
+0x37e8cb0	%s() teleportPlayerToSpawnPoint: %u
+0x37ea508	CSpectatorRaceController::TeleportPlayerNearTarget
+0x37ea540	CSpectatorRaceController::OnTeleportFinished
+0x37ea820	Number of targets the player has to take photos of in order for the reward to be unlocked
+0x37ea898	bUnlocksPhotoFilter
+0x37ea8e0	bUnlocksGesture
+0x37eb0e8	bDrawDebug
+0x37ed480	fWaitSecondsBeforeTeleportAnimatedIn
+0x37ed4a8	fWaitSecondsBeforeTeleportAnimatedOut
+0x37ee818	bAllCustomFinishedUnlocked
+0x37ee838	bThreeSystemicsUnlocked
+0x37f6b10	ICargoVehicleGameplayBrickBaseNeworkInterface.CargoUnlocked
+0x37f6b90	ICargoVehicleGameplayBrickBaseNeworkInterface.DownloadUnlocked
+0x37f8030	IDataUnitGameplayBrickBaseNetworkInterface.InteractionUnlocked
+0x37f80b0	IDataUnitGameplayBrickBaseNetworkInterface.DownloadUnlocked
+0x3802da8	Display debug infos: bounding shape, magnet sphere
+0x380d830	If set, the difficulty will be unlocked when condition is met.
+0x380d870	availabilityrulegroupDifficultyUnlockCondition
+0x38130b8	IBountyHunterMissionNetworkInterface.TeleportForActivity
+0x3822e28	Show sniper point debug
+0x3822e40	bShowSniperDebug
+0x3826638	CDebugEntityBrick
+0x38270a0	debugentitybrickdescriptor
+0x382c368	NavigationTreeReadyToUnlock
+0x3830b88	fItemUnlockTime
+0x38335b8	fRCUnlockTime
+0x3840880	CUIMenuTileDataTreeItemUnlock
+0x3840a48	locstridUnlock
+0x3840b48	selTreeItemUnlockTileId
+0x3840b60	enumTreeItemUnlockTileId
+0x3840bb0	fTreeItemUnlockTime
+0x3840bc8	fTreeItemUnlockedAnimTime
+0x3840e80	uisoundUnlockSound
+0x3840eb8	uisoundUnlockNodeProgressSound
+0x3840ed8	uisoundUnlockNodeAbordSound
+0x3847048	fAppUnlockTime
+0x3852200	locstridUnlockPurchaseLocId
+0x3853c08	locstridUnlockTimerText
+0x385f5b0	CNetworkDebugViewConfig
+0x385fa18	DebugView
+0x3861060	EPriorityGroup_PoseComponentUnlock
+0x3877ed8	.debug.lua
+0x3895320	interfaceDebugLayer
+0x38981e0	K:\Code\Engine/network/Debug/CollectionContainers.h
+0x3898218	K:\Code\Engine/Network/Debug/MigrationRecordContainer.h
+0x389f968	UnlockPlayerActionMap
+0x38a1a38	Rate of update of the debug display (in s).
+0x38a1a68	fDebugDisplayUpdateRate
+0x38a6eb8	-noonlinedebuglistener
+0x38a7030	-vehiclecolordebug
+0x38a8ea0	Invalid debugger
+0x38a8eb8	CAsyncOperation::OutputDebugInfo
+0x38a91c0	Mgr[%s] Invalid (nullptr) debugger
+0x38a91e8	CAsyncOperationManager::OutputDebugInfo
+0x38ab1f8	CFakeNodeForJessysDebugger
+0x38ac420	DebugContext
+0x38ad1f0	DLCUnlockableKey
+0x38ad208	DLCUnlockableKeyList
+0x38ad260	UnlockedItems
+0x38ad270	UnlockedItem
+0x38ae258	StartupDebugDrawEnabled
+0x38ae290	AllowDebugInError
+0x38b1c78	unlocked references are obsolete
+0x38b756f	 debug
+0x38b7708	lua_debug> 
+0x38b7720	=(debug command)
+0x38bd260	DebugConsoleCommand
+0x38bd810	InDebugMagnet1
+0x38bd820	InDebugMagnet2
+0x38bd830	MaxDebugMagnetsReached
+0x38bd848	MaxDebugMetalsReached
+0x38bd860	InDebugMetal1
+0x38bd870	InDebugMetal2
+0x38bdd28	SeamlessPVPProgressionNotUnlocked
+0x38bdd50	SeamlessNeutralProgressionNotUnlocked
+0x38bdd78	EmergentProgressionNotUnlocked
+0x38bde20	DebugMatchingDisabled
+0x38be098	DriverTeleportPlayerOpInProgress
+0x38c2580	PawnDebugReference
+0x38c6cb0	K:\Code\Game/Camera/CameraDebugSync.h
+0x38e3d40	OnCinemaEventCharacterTeleport
+0x38eceb8	ContentUnlockUserData
+0x38ef848	CPawnInfoPlayerModule.PlayerRespawnOrTeleportPosBroadcast
+0x38ef888	CPawnInfoPlayerModule.PlayerRespawnOrTeleportPosUnicast
+0x38ef8c0	CPawnInfoPlayerModule.PlayerIsTeleportingBroadcast
+0x38ef8f8	CPawnInfoPlayerModule.PlayerIsTeleportingUnicast
+0x38f2958	isDebug
+0x38f2f6c	cheat_
+0x38f2f78	Sets the god mode cheat.
+0x38f2f98	GodMode
+0x38f3040	Sets the unlimited ammo cheat.
+0x38f3070	Sets the unlimited reliability cheat.
+0x38f30b0	Sets the unlimited battery cheat.
+0x38f30f0	Unlock all weapons at the bazaar.
+0x38f3118	AllWeaponsUnlock
+0x3904f30	bAllowDebugTextPerInstance
+0x390fd48	OnSelectDebugTarget
+0x390fd70	OnUnlockVehicle
+0x3913eb0	EasyCheat1
+0x3913ec0	EasyCheat2
+0x3913ed0	EasyCheat3
+0x3913ee0	EasyCheat4
+0x3913f50	HardCheat1
+0x3913f60	HardCheat2
+0x3913f70	HardCheat3
+0x3913f80	HardCheat4
+0x39141c8	DEBUG_TestPrototype
+0x39216e0	CSceneDebugText
+0x3921a68	CSceneDebugLine
+0x392da00	CWetnessOccluderRendererHelper::Unlock
+0x392e198	Debug Direct Lighting
+0x392e1b0	fileDebugDirectLighting0
+0x392e1d0	Debug Diffuse Lighting
+0x392e1e8	fileDebugDiffuseLighting0
+0x392f1d8	DebugFrameParity
+0x392f320	DEBUG_INVALID_COLOURS
+0x392f890	HMSSAO_DEBUG
+0x39642a8	DebugRW
+0x3964fd8	DebugSplineVertexBuffer
+0x39652b8	CWaterHeightMap::Unlock
+0x3965f48	InstancingDebugInfo
+0x3965f60	Debug_InstancingCount
+0x3966468	LongRangeShadowTileDebug
+0x39667d0	DEBUG_SHADOW_SLICE_COLOR
+0x3966c90	EnvironmentSampleDebug
+0x3969728	CFrameRendererBase::ExecuteOcclusionDebugTextureUpdate
+0x3969788	DebugValues
+0x3969a90	DebugDirectLightingTexture
+0x3969ab0	DebugDiffuseLightingTexture
+0x3969b88	ShaderDebugOutputBuffer
+0x3969d00	DebugColor
+0x396c240	RAIN_DEBUG
+0x396da60	DEBUG_DISPLAY
+0x396ebe0	ReflectionVolumeDebugColors
+0x3973a30	m_debugName
+0x3973d00	DEBUG_IMPOSTOR
+0x3974790	DEBUG_CLUSTERS_LOD
+0x39748e8	CTreeRenderer::UnlockTreeAttachmentDataSB
+0x397c548	Draw water debug.
+0x397c560	WaterDisplayDebug
+0x397c910	DebugParaboloidCamera
+0x397c988	DebugShadowCamera
+0x397cab8	Index of camera's plane to debug or -1 for nothing.
+0x397caf0	DebugWaterPlaneIndex
+0x3989650	Unlockable_ActivationError
+0x3989670	Unlockable_CodeInvalid
+0x398cdd0	CDebugEventOnlineListener
+0x398ce60	K:\Code\OnlineSession\debugevents\DebugEventOnlineListener.cpp
+0x398cef8	debugger
+0x398d050	K:\Code\OnlineSession\debugevents\RemoteLogSender.cpp
+0x399da98	unlocked_items
+0x399e768	AchievementUnlocked
+0x399f090	HackerSpaceUnlock
+0x399fe80	SkillAllSkillsUnlocked
+0x399ff48	SkillsUnlocked
+0x39a0828	PlatformAchievementUnlocked
+0x39a0988	SkillUnlocked
+0x39a0a20	AchievementsUnlocked
+0x39a0cc8	SkillsAllSkillsUnlocked
+0x39da194	Cheat
+0x39fe290	Color of the region used for debug display (try to avoid black)
+0x3a04580	worldstoryunlocked
+0x3a0f110	EndUnlock
+0x3a0fa20	UnlockScreen
+0x3a0fa30	UnlockProgress
+0x3a0fa40	UnlockPurchasingText
+0x3a1df10	CUIMenuTileTreeItemUnlock
+0x3a1df58	UnlockIcon
+0x3a27128	uicolorpalettesettingsNavigationTreeReadyToUnlock
+0x3a2da30	locstridLeaderboardDivisionUnlockTime
+0x3a33c28	-d3ddebug
+0x3a36130	EnableDebuggerDetectionFor
+0x3a36150	bloomberg_settings.ini: Could not convert EnableDebuggerDetectionFor='%s' (in the [Crash] section) to a ReportType value.
+0x3a371c8	m_enableDebuggerDetection
+0x3a3c490	CrashAnalyzerInterface::AnalyzePrologue: Quitting analysis for %s because debugger is present and because that report type is in the EnableDebuggerDetectionFor mask
+0x3a3d140	The *Break* or *Start Remote Debug Session* button was selected. Nothing will happen until a debugger is connected.
+0x3a689f0	Debug Assertion Failure!
+0x3a68a35	Select Retry to debug the application, or Abort to terminate the application.
+0x3a6dcf8	m_bUseFreeCam
+0x3a72640	m_fDEBUGForceScale
+0x3a72658	m_vDEBUGForceColour
+0x3a75b70	Use the free cam following effect
+0x3a79080	DEBUGGING: longitudinal reference vector for horizontal movement
+0x3a790c8	DEBUGGING: target acceleration before thrust vectoring
+0x3a7c310	[DEBUGLOG] Maximum lateral acceleration based on front and rear traction
+0x3a7c578	[DEBUGLOG] The amount of yaw torque missing at final balancing
+0x3a7e300	Scale for the debug graphic arrow
+0x3a7e328	Colour for the debug graphic arrow
+0x3a8d208	isDebugger
+0x3a98bf8	DebugDump
+0x3aae450	[G4::MapFileDebugSymbolDatabase] EAL_LOG_INFO: %02u: 
+0x3aae490	..\..\..\..\gear_core/services/dbghelp/private/mapfiledebugsymboldatabase.cpp
+0x3aae4e0	[G4::MapFileDebugSymbolDatabase] EAL_LOG_INFO: %s!
+0x3aae520	[G4::MapFileDebugSymbolDatabase] EAL_LOG_INFO: <unknown module>!
+0x3aae570	[G4::MapFileDebugSymbolDatabase] EAL_LOG_INFO: %s + %u (Line %d)
+0x3aae5b8	[G4::MapFileDebugSymbolDatabase] EAL_LOG_INFO: %X()
+0x3aae5f0	[G4::MapFileDebugSymbolDatabase] EAL_LOG_INFO: 
+0x3aaead0	[G4::W32DebugSymbolDataBase] EAL_LOG_ERROR: Could not load the symbols table. SymRefreshModuleList returns:0x%x.
+0x3aaeba0	[G4::W32DebugSymbolDataBase] EAL_LOG_ERROR: Could not initialize the Symbol Manager. SymInitialize returns:0x%x.
+0x3aaec18	[G4::W32DebugSymbolDataBase] EAL_LOG_INFO: %02u: 
+0x3aaec50	..\..\..\..\gear_core/services/dbghelp/private/w32debugsymboldatabase_ms_pc.cpp
+0x3aaeca0	[G4::W32DebugSymbolDataBase] EAL_LOG_INFO: %s!
+0x3aaecd0	[G4::W32DebugSymbolDataBase] EAL_LOG_INFO: <unknown module>!
+0x3aaed10	[G4::W32DebugSymbolDataBase] EAL_LOG_INFO: %s + %u 
+0x3aaed48	[G4::W32DebugSymbolDataBase] EAL_LOG_INFO: (Line %d) 
+0x3aaed80	[G4::W32DebugSymbolDataBase] EAL_LOG_INFO: 
+0x3aaedb0	[G4::W32DebugSymbolDataBase] EAL_LOG_INFO: %X(), err=%d
+0x3ab72f8	nameUnlock
+0x3ace888	hkContainerDebugAllocator
+0x3ad4190	%20i allocated by debug
+0x3ad4350	hkRecallAllocator(Debug)
+0x3ad4b30	MfUsing a debug/slow memory system.
+0x3adfe03	* Either debug information was not found or your version of
+0x3adfe3f	* dbghelp.dll may be too old to understand the debug format.
+0x3ae1750	footUnlockGain
+0x3b12d40	TtDebugPringGridSizes
+0x3b13280	BinaryBodyDebugEvent id[0]=
+0x3b132b0	UnaryBodyDebugEvent id=
+0x3b25218	hkDebugLineCommand Start=
+0x3b25590	Debug Display
+0x3b255c0	$hkDebugDisplay
+0x3b25788	hkDebugDisplayHandler.cpp
+0x3b28a08	displayConfig.coverDisplayDebugTriInfo
+0x3b28f20	SimplEdgesDebug_DispNone
+0x3b28f40	SimplEdgesDebug_DispRawSegments
+0x3b28f60	SimplEdgesDebug_DispGeometryAlignedSegments
+0x3b28f90	SimplEdgesDebug_DispExtendedSegments
+0x3b28fb8	SimplEdgesDebug_DispMergedPointsSegments
+0x3b28fe8	SimplEdgesDebug_DispFinalChains
+0x3b54c78	LockContainer::Unlock - Failed to unlock. (Value 
+0x3b74cb0	LockContainer::Unlock - Failed to unlock. (Thread 
+0x3b92c28	enabledebug
+0x3c08408	D_TRACE_DEBUG
+0x3dd20d0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CRacePathDebugObstacleComponent,struct UTDS::xxxUpdate>(void)
+0x3dd2160	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CVehicleDebugNavTarget,struct UTDS::xxxUpdate>(void)
+0x3def190	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CReactionDebugManager,struct xxxUpdate>(void)
+0x3e01390	.?AV?$_Bind@$00XU?$_Pmf_wrap@P8CDebugSimpleContainerBase@@EAAXXZXV1@U_Nil@std@@U23@U23@U23@U23@U23@U23@@std@@QEAVCDebugSimpleContainerBase@@U_Nil@2@U42@U42@U42@U42@U42@@std@@
+0x3e1c680	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CDebugMouseManager,struct UTDS::xxxUpdate>(void)
+0x3e28030	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CCameraDebugSync,struct UTDS::xxxUpdatePostCamera>(void)
+0x3e70880	.?AUAllocator@hkContainerDebugAllocator@@
+0x3e8c6a8	.?AVhkDebugCommandProcessor@@
+0x3e98428	.?AVhkDebugDisplayHandler@@
+0x3e98478	.?AVhkDebugDisplayProcess@@
+0x3e984a8	.?AVhkDebugDisplay@@
+0x3ead8f8	debug_malloc
+0x3ead940	debug_malloc2
+0x3effd60	ENGINE_UNLOCKED_FINISH
+0x8410500	This game is incompatible with CheatEngine. Please close CheatEngine and restart the game.
+0x8448492	?UnlockPlaylist@DynamicSequence@SoundEngine@AK@@YA?AW4AKRESULT@@K@Z
+0x844b7a2	GlobalUnlock
+0x844bae6	IsDebuggerPresent
+0x844bb9e	OutputDebugStringA
+0x844bc54	DebugBreak
+0x844d036	?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+0x844dd8e	_unlock
+0x844ddd6	__crt_debugger_hook
+0x37721b0	..\EasyAntiCheat\easyanticheat_x64.dll
+0x3772350	..\EasyAntiCheat\eac_server64.dll
+0x3a03d20	Reward_WorldStoryUnlockedContainer
+0x3a041e0	Reward_LeaderboardDivisionUnlockText
+0x3a1df30	TreeItemUnlockTile

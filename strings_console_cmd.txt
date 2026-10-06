@@ -1,0 +1,407 @@
+0x3517260	CCommandCBParam
+0x3517340	CCommandCBParamPair
+0x3537000	ConsoleCommands
+0x3537170	EasyAntiCheat
+0x3537280	AICommand
+0x355e630	CommandTargetInArrestVictim
+0x3560458	CTaskCheckCommandSetScriptedModeData
+0x3560488	CTaskCheckCommandSetScriptedMode
+0x3560758	CTaskReadCommandAimData
+0x3560788	CTaskReadCommandAim
+0x3560818	CTaskReadCommandFollowTargetData
+0x3560840	CTaskReadCommandFollowTarget
+0x35608b8	CTaskReadCommandGotoVehicleEntryData
+0x3560910	CTaskReadCommandGotoVehicleEntry
+0x3560998	CTaskReadCommandHuntData
+0x3560a08	CTaskReadCommandHunt
+0x3560a98	CTaskReadCommandPickAndShootNPCData
+0x3560ae0	CTaskReadCommandPickAndShootNPC
+0x3560b78	CTaskReadCommandScriptedSniperData
+0x3560d90	CTaskReadCommandScriptedSniper
+0x3560e18	CTaskReadCommandShootAtData
+0x3560e98	CTaskReadCommandShootAt
+0x3560f18	CTaskReadCommandUseCoverData
+0x3560f78	CTaskReadCommandUseCover
+0x3560ff8	CTaskReadCommandUseSTPData
+0x35610c0	CTaskReadCommandUseSTP
+0x3561758	CTaskSendAICommandResultEventData
+0x35617a8	UiTaskSendAICommandResultEventDataResultEnum
+0x35617f8	FactCommandID
+0x3561818	CTaskSendAICommandResultEvent
+0x3565308	CTaskCheckCommandBhvStateData
+0x3565350	UiTaskCheckCommandBhvStateDataDesiredStateEnum
+0x35653f8	ResetCommand
+0x3565408	CTaskCheckCommandBhvState
+0x35657f8	CTaskCheckDebugCommandData
+0x35658e8	selCommand
+0x35658f8	CTaskCheckDebugCommand
+0x3570e98	Command
+0x3571238	CTaskReadCommandGoToData
+0x35712c0	CTaskReadCommandGoTo
+0x3571338	CTaskReadCommandStandAndShootData
+0x35713c0	CTaskReadCommandStandAndShoot
+0x3571438	CTaskReadCommandPlayAnimData
+0x35714e8	CTaskReadCommandPlayAnim
+0x3571568	CTaskReadCommandEnticerData
+0x3571588	CTaskReadCommandEnticer
+0x3578718	selFloatingCommand
+0x35985b8	CAICommandEvent
+0x35986a8	CAICommandDispersionEvent
+0x3598908	CAICommandArrestLeaderEvent
+0x35997f8	CAICommandAimEvent
+0x35999d8	CAICommandChangeMindSetEvent
+0x3599bc8	CAICommandCowerEvent
+0x3599ff8	CAICommandExitVehicleEvent
+0x359a0f8	CAICommandFleeAddFleeFromEvent
+0x359a258	CAICommandFleeUpdateBasicParamsEvent
+0x359a358	CAICommandFleeUpdateParamsEvent
+0x359a458	CAICommandFleeEvent
+0x359a628	CAICommandFleeStartBasicEvent
+0x359a728	CAICommandFleeStartEvent
+0x359a888	CAICommandFleeStopEvent
+0x359aac8	CAICommandFollowAndPlayAnimEvent
+0x359aca8	CAICommandFollowTargetEvent
+0x359ae08	CAICommandGotoEvent
+0x359b0c8	CAICommandGoToMonitoredCLO
+0x359b238	CAICommandGotoUnspawnEvent
+0x359b4c8	CAICommandGotoVehicleEntryEvent
+0x359bc28	CAICommandIdleEvent
+0x359bd18	CAICommandPickAndShootNPCEvent
+0x359bf08	CAICommandPlayAnimEvent
+0x359c3f8	CAICommandResultEvent
+0x359c568	CAICommandScriptedSniperEvent
+0x359c8a8	CAICommandSetBHVStateEvent
+0x359cdc8	CAICommandSetDynamicCLOTriggerBHV
+0x359cf48	CAICommandSetScriptedModeEvent
+0x359d0d8	CAICommandShootAtEvent
+0x359d3a8	CAICommandTriggerCLOBehaviorEvent
+0x359d3d0	[{ "name": "m_cLOEntity", "type": "CNetDataEntityId", "max_size": "sizeof(CEntityHandle)"},{ "name": "m_isStopCommand", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_triggerAsParent", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_triggerEntity", "type": "CNetDataEntityId", "max_size": "sizeof(CEntityHandle)"},{ "name": "m_triggerName", "type": "CNetDataStringId<CStringID>", "max_size": "sizeof(CStringID)"}
+0x359d658	CAICommandUseCoverEvent
+0x359d9a8	CAICommandUseSTPEvent
+0x359df18	CAICommandSetDrivingBehaviorEvent
+0x359e0a8	CAICommandSetVehicleBHVStateEvent
+0x359e368	CAICommandSetVehicleDirectiveEvent
+0x359e598	CAICommandStartVehicleBHVEvent
+0x359e718	CAICommandStopVehicleBHVEvent
+0x359e770	[{ "name": "m_event", "type": "CAICommandResultEventContainer", "max_size": "sizeof(CAICommandResultEvent)"},{ "name": "m_uniqueCommandID", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"}
+0x359e940	[{ "name": "m_command", "type": "CDataContainerRef", "max_size": "sizeof(CDataContainerRef)", "value": "
+0x359e9b0	"},{ "name": "m_reliability", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 2>", "max_size": "2"},{ "name": "m_targetEntity", "type": "CNetDataEntityId", "max_size": "sizeof(CEntityHandle)"},{ "name": "m_uniqueCommandID", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"}
+0x359eb00	[{ "name": "m_uniqueCommandID", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"}
+0x359f020	K:\Code\DriverData/AI/Agent/Event/Common/AICommandDispersionEvent.h
+0x359f1b8	K:\Code\DriverData/AI/Agent/Event/Human/AICommandAimEvent.h
+0x359f200	K:\Code\DriverData/AI/Agent/Event/Human/AICommandChangeMindSetEvent.h
+0x359f248	K:\Code\DriverData/AI/Agent/Event/Human/AICommandCowerEvent.h
+0x359f288	K:\Code\DriverData/AI/Agent/Event/Human/AICommandEvent.h
+0x359f2e0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandExitVehicleEvent.h
+0x359f330	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFleeAddFleeFromEvent.h
+0x359f378	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFleeEvent.h
+0x359f3c0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFleeStartBasicEvent.h
+0x359f410	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFleeStartEvent.h
+0x359f460	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFleeUpdateBasicParamsEvent.h
+0x359f4b0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFleeUpdateParamsEvent.h
+0x359f500	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFollowAndPlayAnimEvent.h
+0x359f550	K:\Code\DriverData/AI/Agent/Event/Human/AICommandFollowTargetEvent.h
+0x359f598	K:\Code\DriverData/AI/Agent/Event/Human/AICommandGotoEvent.h
+0x359f5e0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandGoToMonitoredCLO.h
+0x359f628	K:\Code\DriverData/AI/Agent/Event/Human/AICommandGoToUnspawn.h
+0x359f670	K:\Code\DriverData/AI/Agent/Event/Human/AICommandGotoVehicleEntryEvent.h
+0x359f6c0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandPickAndShootNPCEvent.h
+0x359f710	K:\Code\DriverData/AI/Agent/Event/Human/AICommandPlayAnimEvent.h
+0x359f758	K:\Code\DriverData/AI/Agent/Event/Human/AICommandResultEvent.h
+0x359f7b0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandScriptedSniperEvent.h
+0x359f800	K:\Code\DriverData/AI/Agent/Event/Human/AICommandSetBHVStateEvent.h
+0x359f850	K:\Code\DriverData/AI/Agent/Event/Human/AICommandSetDynamicCLOTriggerBHV.h
+0x359f8a0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandSetScriptedModeEvent.h
+0x359f8f0	K:\Code\DriverData/AI/Agent/Event/Human/AICommandShootAtEvent.h
+0x359f930	K:\Code\DriverData/AI/Agent/Event/Human/AICommandTriggerCLOBehaviorEvent.h
+0x359f980	K:\Code\DriverData/AI/Agent/Event/Human/AICommandUseCoverEvent.h
+0x359f9c8	K:\Code\DriverData/AI/Agent/Event/Human/AICommandUseSTPEvent.h
+0x359fa40	K:\Code\DriverData/AI/Agent/Event/Vehicle/AICommandSetDrivingBehaviorEvent.h
+0x359fa90	K:\Code\DriverData/AI/Agent/Event/Vehicle/AICommandSetVehicleBHVStateEvent.h
+0x359fae0	K:\Code\DriverData/AI/Agent/Event/Vehicle/AICommandSetVehicleDirectiveEvent.h
+0x359fb30	K:\Code\DriverData/AI/Agent/Event/Vehicle/AICommandStartVehicleBHVEvent.h
+0x359fb80	K:\Code\DriverData/AI/Agent/Event/AICommandNetworkManagerCommandResult.h
+0x359fbd0	K:\Code\DriverData/AI/Agent/Event/AICommandNetworkManagerProtocol.h
+0x35a5c90	curveCheatGapCurve
+0x35a5d08	curveCheatLevelTimeScalingCurve
+0x35a5d28	CloseRangeCheatScale
+0x35a5d40	Amount to scale rubberband cheat value by (0.0 = no cheating, 1.0 = normal cheat level according to curve.
+0x35a5db0	fCheatScale
+0x35a5dc0	Maximum distance betweeen vehicles along road network to activate cheat scaling.
+0x35a5e30	Maximum distance betweeen vehicles along road network to deactivate cheat scaling.
+0x35a5ea0	Lower value for randomized maximum duration that cheat scaling will be applied.
+0x35a5f10	Upper value for randomized maximum duration that cheat scaling will be applied.
+0x35a5f78	Mimumum time interval between each period of cheat scaling.
+0x35a5fb8	fCheatScalingMinInterval
+0x35a5fd8	Mimumum time into chase before cheat scaling can be activated.
+0x35e1428	OnAICommandDispersionEvent
+0x35e7648	OnAICommandPlayAnimEvent
+0x35e7668	OnAICommandEvent
+0x35f4ca0	CAIAgentCommandManager
+0x35f4ee8	CAICommandNetworkManager::AddCommand
+0x35f4f10	%s|Command(0x%llx)
+0x35f4f28	K:\Code\DriverGame\AI\Agent\Event\AICommandNetworkManager.cpp
+0x35f4f68	CAICommandNetworkManager::RemoveCommandsForEntity
+0x35f4fb8	CAICommandNetworkManager::InternalRemoveCommand
+0x35f4fe8	CAICommandNetworkManager::DetachCommandCallback
+0x35f5018	CAICommandNetworkManager::TryApplyCommand
+0x35f5048	CAICommandNetworkManager::TryCeaseCommand
+0x35f5078	CAICommandNetworkManager::OnCommandResultEvent
+0x35f50b0	%s|Command(0x%llx) finished and requires validation. sending...
+0x35f50f0	%s|Command(0x%llx) finished but no validation required.
+0x35f5128	CAICommandNetworkManager::OnRemoveLocalCommand
+0x35f5158	CAICommandNetworkManager::OnRemoveRemoteCommand
+0x35f5188	CAICommandNetworkManager::SendAddToAll
+0x35f51b0	CAICommandNetworkManager::SendAddTo
+0x35f51d8	CAICommandNetworkManager::OnAddReceived
+0x35f5200	Number of remote commands exceeded limits, leaking?
+0x35f5238	CAICommandNetworkManager::SendRemoveToAll
+0x35f5268	CAICommandNetworkManager::OnRemoveReceived
+0x35f5298	CAICommandNetworkManager::OnFinishReceived
+0x35f52c8	%s|Command(0x%llx) local command executed remotely (res=%u)
+0x35f5308	%s|Command(0x%llx) not removed
+0x35f5328	%s|Received finish from unknown Command(0x%llx)
+0x35f5358	CAICommandNetworkManager::SendValidationRequestToAll
+0x35f5390	CAICommandNetworkManager::OnValidationRequest
+0x35f53c0	%s|Command(0x%llx) local command
+0x35f53e8	%s|Command(0x%llx) remote command
+0x35f5410	%s|Command(0x%llx) unknown command
+0x35f5438	Number of validation commands exceeded limits, leaking?
+0x35f5470	CAICommandNetworkManager::SendValidationResponse
+0x35f54a8	CAICommandNetworkManager::OnValidationResponse
+0x35f54d8	CAICommandNetworkManager::ProcessEndCommandResultEvent
+0x35f5510	%s|Command(0x%llx) local command executed (res=%u)
+0x35f5548	%s|Command(0x%llx) remote command executed (res=%u)
+0x35f5580	CAICommandNetworkManager::OnCommandValidated
+0x35f55b0	%s|Command(0x%llx) validated but has been ceased in the meantime.
+0x35f55f8	%s|Command(0x%llx) double validation received.
+0x35f5628	%s|Command(0x%llx) validated but entity is not gameplay ready.
+0x35f5668	%s|Command(0x%llx) vlist: %u
+0x35f5688	CAICommandNetworkManager::OnSessionEnter
+0x35f56b8	CAICommandNetworkManager::OnSessionLeft
+0x35f56e0	CAICommandNetworkManager::OnMigrationStarted
+0x35f5710	CAICommandNetworkManager::OnMigrationEnded
+0x35f5740	CAICommandNetworkManager::OnClientJoined
+0x35f5780	CAICommandNetworkManager::OnClientLeft
+0x3600130	CHeatLevelChangeEvent
+0x36001c8	CHeatSyncEvent
+0x3603c80	CHeatEventCBParam
+0x3603fe0	bAutomaticHeatIncrease
+0x36061e0	CHeatSystem
+0x36462c0	FSMCommandParam
+0x3646c58	FSMCommandParam_BeginInteract
+0x3646c78	FSMCommandParam_UseInterrupt
+0x3646c98	FSMCommandParam_NavEvent
+0x366d940	CDriverConsole
+0x366d9b8	CDriverGRConsole
+0x366da68	CDriverGRStateConsole
+0x36788d8	ConsoleCommand
+0x367ad48	CDriverGameModeConsoleNode
+0x367ae00	CreateConsoleNode
+0x367ae18	ConsoleMode
+0x367b160	CConsoleService
+0x367b9a8	eAccessRequestFlag_EasyAntiCheat
+0x3680d78	CDriverGOConsoleNode
+0x3680e60	CDriverGOBuilderConsole
+0x368add8	FSMCommandParam_StartConnection
+0x368adf8	FSMCommandParam_Disrupt
+0x368ae10	FSMCommandParam_Arm
+0x36a4098	CAICommandSayEvent
+0x36ab6f8	FSMCommandParam_RequestExplosion
+0x36ab720	FSMCommandParam_DoExplosion
+0x36b0b40	Commando552
+0x36b8030	FSMCommandParam_Connect
+0x36f4350	(Cheat)Reward List to be given at mission end to emulate game progression
+0x36f43a0	itemlistsRewardForCheat
+0x36f89f8	DebugCommand
+0x3715608	FSMCommandParam_Start
+0x3722828	CheatNoFeedback
+0x3729dd0	If a striking event is WIP, the manager won't pick it and it can be spawned only by the Spawn debug command
+0x3772518	[EAC]: EasyAntiCheat server library has been freed
+0x3772580	[EAC]: EasyAntiCheat client library has been freed
+0x37727d0	The host is not anti-cheat protected
+0x3772998	The client is not anti-cheat protected
+0x3791748	SendAICommand_ScriptedSniper
+0x3792188	SendAICommand_SetLKP
+0x3792338	GetAICommand_InvalidID
+0x37924a8	CancelAICommand
+0x3792a30	ExecuteConsoleCommand
+0x3792c20	SendAICommand_Goto
+0x3792de0	SendAICommand_GotoPos
+0x3793038	SendAICommand_FollowTarget
+0x3793190	SendAICommand_PlayAnim
+0x3793480	SendAICommand_ShootAt
+0x3793658	SendAICommand_Aim
+0x3793800	SendAICommand_PickAndShootNPC
+0x3793b40	SendAICommand_ScriptedSniper_v2
+0x3795280	SetVehicleChaseCheats
+0x37a4558	Benchmark control command
+0x37a4578	sConsoleName
+0x3802e18	sCommandName
+0x382f6d8	console-specific page index
+0x3832e78	console-specific page widget tile
+0x3835860	console-specific tabs tile
+0x3839450	This option is present only on consoles
+0x3842188	console-specific header tile
+0x3845b40	console-specific control reminder
+0x3847c58	console-specific page-switcher tile
+0x384c8d8	console-specific category tile
+0x384c968	console-specific left arrow tile
+0x384c9f0	console-specific right arrow tile
+0x384ca78	console-specific up arrow tile
+0x384caf0	console-specific down arrow tile
+0x384ec90	Console specific tile object
+0x385f2f0	UseInConsole
+0x385f300	ConsoleHelp
+0x385f310	ConsolePrefix
+0x385f320	ConsoleGroup
+0x385f330	ConsoleDeveloperOnly
+0x385f348	ConsoleInt
+0x385f358	ConsoleFloat
+0x38614d8	EPriorityGroup_SpawningDirectorPostPhysCommands
+0x389e7e0	CDominoConsoleCommandManager
+0x389e800	RegisterConsoleCommand
+0x389e818	UnregisterConsoleCommand
+0x389e8c0	SendCommand
+0x389f320	LogConsole
+0x389f878	DoConsoleCommand
+0x38a0500	RemoveCommandEventToEntity
+0x38a0520	SendCommandEventToEntity
+0x38a0540	SendCommandEventToEntity2
+0x38a0560	QueueCommandEventToEntity
+0x38a0580	QueueCommandEventToEntity2
+0x38a6ed0	Sound disabled by commandline
+0x38a6f38	Sound occlusion disabled by commandline
+0x38ac280	CommandLine
+0x38ac348	ConsoleType
+0x38b0e18	CCommandManagerThread
+0x38b0e30	commandset_results
+0x38b0e78	command
+0x38b7720	=(debug command)
+0x38bd260	DebugConsoleCommand
+0x38f2f6c	cheat_
+0x38f2f78	Sets the god mode cheat.
+0x38f3040	Sets the unlimited ammo cheat.
+0x38f3070	Sets the unlimited reliability cheat.
+0x38f30b0	Sets the unlimited battery cheat.
+0x38f35b8	AutoConsoleCommands
+0x3912a70	552Commando
+0x3913eb0	EasyCheat1
+0x3913ec0	EasyCheat2
+0x3913ed0	EasyCheat3
+0x3913ee0	EasyCheat4
+0x3913f50	HardCheat1
+0x3913f60	HardCheat2
+0x3913f70	HardCheat3
+0x3913f80	HardCheat4
+0x391df88	CSceneObjectManager::ExecuteCommands
+0x392cd38	CFrameJob::KickCommandBuffers
+0x3976d60	GPU capture is not enabled. Have you used "-gpucapture" on the command-line?
+0x397dfb8	console
+0x397fab0	CTextureRenderResourceUpdateFromCommand::Execute
+0x3980b88	ReleaseCommandList
+0x3984df8	CommandSequence
+0x398b0e8	AUTH_FETCH_CONSOLE_TICKET_TOKEN_FAILED
+0x398b4d0	FRIEND_CONSOLE_GENERIC_FAILURE
+0x398b4f0	FRIEND_CONSOLE_INVALID_CREDENTIALS
+0x398b518	FRIEND_CONSOLE_LOOKUP_FAILURE
+0x398b538	FRIEND_CONSOLE_REQUEST_FAILURE
+0x398b558	FRIEND_CONSOLE_ACCEPT_INVITATION_FAILURE
+0x398b588	FRIEND_CONSOLE_INVITE_CANCELLED
+0x3996cc8	pathOrCommand
+0x3997368	CGameConfigManager::ExecuteCommand for not created manager!
+0x39973b0	CGameConfigManager::ApplyConsoleCommands for not created manager!
+0x39973f8	CGameConfigManager::ApplyConsoleCommands
+0x39da194	Cheat
+0x3a2f910	Command prompt to skip the activity card. It displays the skip button and the text
+0x3a2f980	Command prompt to skip the activity card. It displays the skip button and the PC Specific text
+0x3a35a60	ReporterConsoleOutputDir
+0x3a3f7a0	reporterConsoleOutputDir
+0x3a8aeb8	FSCommand:
+0x3a8d2a8	FSCommand:showmenu
+0x3ac9790	scriptCommandLineArgs
+0x3b102e8	TtDispatchCommands
+0x3b108c8	LinearIntegrationClippedCommand Id=
+0x3b12070	updateBodyFlagsCommand Id=
+0x3b120d8	enableBodyDeactivationCommand Id=
+0x3b12318	motionCreatedReportCommand 
+0x3b12338	defragmentInactiveCacheStreamsCommand
+0x3b1240f	CCellIndexModifiedCommand Id=
+0x3b12460	hknpAtomSolverForceClippedCommand factor=
+0x3b12490	hknpValidateTriggerEventCommand id[0]=
+0x3b124c0	hknpMotionWeldTOICommand bodyIds=
+0x3b124e8	hknpAddContactConstraintRangeCommand idA=
+0x3b12518	hknpBodyBreachedExpandedAabbCommand id=
+0x3b25218	hkDebugLineCommand Start=
+0x3b871b0	console:
+0x3b882d0	A command is already in progress
+0x3b924e0	MessageWriter::Map<OptionCode::CommandExtension> must have a size which is a multiple of 4.
+0x3b94af8	Rejecting malformed Command(
+0x3b94e58	Index out of bound to erase upnp command queue
+0x3b94e90	numberEvents+m_nbDiscoveryInQueue <= m_networkToUpnpThreadCommands.size()
+0x3b9b7b8	JobLookupFriendsInfoConsole
+0x3ba10d8	ConsoleClient::requestUserInfo
+0x3ba4790	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/friend/jobs/jobRequestFriendsConsole.cpp
+0x3ba55f8	JobRequestFriendsConsole::onLookupInfoClubFriends
+0x3ba5d58	JobRequestFriendsClub::reportFriendsConsole
+0x3baa958	JobSendFriendInvite-Console
+0x3babb18	User must be logged in to perform this action on consoles
+0x3babfd8	JobSendFriendInvite::sendConsoleInvite
+0x3bac3e8	JobLookupFriendsInfoConsoleBase::sendUsersRequest
+0x3bac918	JobLookupFriendsInfoConsoleBase
+0x3bac9e0	JobLookupFriendsInfoConsoleBase::m_usersResult
+0x3bad5e8	ConsoleClient::requestStatsProfiles
+0x3bae4d8	Sending friend invite for Console failed: 
+0x3baf6a8	ConsoleClient::requestProfileId
+0x3bafba8	JobInviteFriendConsole::reportOutcome
+0x3bb1bc0	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/friend/jobs/jobLookupFriendsInfoConsole.cpp
+0x3bb1e90	JobLookupFriendsInfoConsoleBase::onUsersResponse
+0x3bb2550	Friends console information lookup failed for the following reason: 
+0x3bb8178	ConsoleClient::requestStatCardsProfiles
+0x3bb8350	JobRequestFriendsConsole::requestFirstPartyFriends
+0x3bb9ff0	JobRetrievePersonalInfoConsole::retrievePersonalInfo
+0x3bbb988	JobRequestFriendsConsole::onRequestFirstPartyFriends
+0x3bbc448	Request Friends Console failed: 
+0x3bbce20	R:/wd2-temp/dlc02/external/technology-group/online/UbiServices/client-sdk/private/ubiservices/services/friend/win32/jobLookupFriendsInfoConsole.cpp
+0x3bbf2f0	JobRequestFriendsConsole::onLookupProfileId
+0x3bc2de0	JobLookupFriendsInfoConsoleBase::lookupFriendConsole
+0x3bce518	Request Console friends
+0x3bd3b58	JobRequestFriends::fetchFriendsConsole
+0x3bd7a90	JobRequestFriendsConsole firstParyResult
+0x3bd7ac0	JobRequestFriendsConsole lookupClubFriendsResult
+0x3bd7af8	JobRequestFriendsConsole lookupProfilesResult
+0x3c0b2f0	..\..\..\..\..\..\..\SDKs\Private\External\MiniUPnP\upnpcommands.c
+0x3dd14f0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CAICommandNetworkManager,struct UTDS::xxxUpdate>(void)
+0x3df6df0	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CSpawningDirector,struct UTDS::xxxUpdatePostPhysCommands>(void)
+0x3e8c4d8	.?AVhkSecondaryCommandDispatcher@@
+0x3e8c510	.?AVhknpInternalCommandProcessor@@
+0x3e8c6a8	.?AVhkDebugCommandProcessor@@
+0x3e8c848	.?AVhknpApiCommandProcessor@@
+0x3ea59f8	FTP: The server did not accept the PRET command.
+0x3ea5b60	Quote command returned error
+0x3ea5c68	FTP: command PORT failed
+0x3ea5c88	FTP: command REST failed
+0x3ed6798	unknown cmd name
+0x3ed7700	invalid command
+0x3ed7768	invalid null cmd name
+0x3ef9618	command not supported
+0x3efef08	control command failed
+0x3eff808	unknown control command
+0x3f000b0	cmd not executable
+0x3f000c8	command takes input
+0x3f000e0	command takes no input
+0x3f00110	ctrl command not implemented
+0x3f002c0	invalid cmd name
+0x3f002d8	invalid cmd number
+0x3f17770	.?AVhkBlockStreamCommandWriter@@
+0x3f177a8	.?AVErrorCommandDispatcher@?A0xb2d071d8@@
+0x3f177e8	.?AVNopCommandDispatcher@?A0xb2d071d8@@
+0x8410500	This game is incompatible with CheatEngine. Please close CheatEngine and restart the game.
+0x844b25c	FlushConsoleInputBuffer
+0x844bafa	GetCommandLineW
+0x844df98	CommandLineToArgvW
+0x89023dc	Cmd<a
+0xb699310	$[cmD
+0x36dc710	CursorConsole
+0x37721b0	..\EasyAntiCheat\easyanticheat_x64.dll
+0x3772350	..\EasyAntiCheat\eac_server64.dll

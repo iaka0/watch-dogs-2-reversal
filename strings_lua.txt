@@ -1,0 +1,21 @@
+0x36f36f0	Script formats|*.lua;*.debug.lua
+0x36f3c78	Lua script file.
+0x37708a0	engine\scripts\MissionTools.lua
+0x3877ed8	.debug.lua
+0x38b1ff0	A lua warning has occurred: 
+0x38b2058	A lua error has occurred: 
+0x38b6f38	Lua function expected
+0x38b6f58	Lua 5.1
+0x38b7708	lua_debug> 
+0x38b92c0	luaopen_%s
+0x38b93d0	'module' not called from a Lua function
+0x38b9428	.\?.lua;!\lua\?.lua;!\lua\?\init.lua;!\?.lua;!\?\init.lua
+0x38b9468	LUA_PATH
+0x38b9498	LUA_CPATH
+0x974833e	LUA121c
+0x9bbbd1b	|Lua7u
+0x9fd5b41	LUAb 5KQ
+0xa5a17cc	<LUA1
+0xa7e91ae	Luad~
+0xaba98af	<LUA12
+0xaf1a814	LuAP^.

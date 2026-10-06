@@ -1,0 +1,1396 @@
+0x3527160	CRenderableComponent
+0x35272d8	Percentage of shadow to keep
+0x35272f8	fShadowFactor
+0x3527b80	Disable black bars rendered for cinematics with custom camera or with player character
+0x3528398	FOV in degrees
+0x35283a8	disFOV
+0x3528620	Enable near DOF
+0x3528630	bNearDOFEnabled
+0x3528640	Enable far DOF
+0x3528650	bFarDOFEnabled
+0x352df10	bAffectsParticlesShadow
+0x3533948	CSkinSSAOClip
+0x35343b0	SkinSSAO intensity
+0x35343c8	fSkinSSAO
+0x35343d8	SkinSSAOIntensity
+0x3539658	shadersobj.dat
+0x3539bb8	SetEndOfFile
+0x35650e0	HasWeaponInMainHandOfType
+0x356c038	CTaskIsRenderedOnScreen
+0x356c0a8	CTaskIsRenderedOnScreenData
+0x356c0c8	UseFOVTest
+0x3577c18	CheckInCameraFov
+0x3578458	ForwardOffset
+0x3579510	ForwardOffsetFact
+0x35797b8	TargetForwardOffset
+0x359cdf0	[{ "name": "m_cLODynamicTriggerBehaviorSettingsDB", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"}
+0x35a5430	fOverrideDetectionGaugeRaiseTime
+0x35a5458	fOverrideDetectionGaugeFallTime
+0x35afa80	[{ "name": "m_isHostMigrationResolution", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_item", "type": "CNetDataEntityId", "max_size": "sizeof(CEntityHandle)"},{ "name": "m_validatingClient", "type": "CNetDataClientId", "max_size": "sizeof(ClientId)"},{ "name": "m_validatingTeam", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 2>", "max_size": "2"}
+0x35b1220	[{ "name": "m_endResolution", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 1>", "max_size": "1"}
+0x35b1cb0	CFovFStopPoint
+0x35b2068	fSwitchSidesFovBlendTime
+0x35b2a10	How close to the center of the screen a face has to be in order for it to be detected for auto focus (percentage of FOV, default 0.80)
+0x35b2ab0	How close to the center of the screen a face has to be in order for it to be selectable for manual tracking focus (percentage of FOV, default 0.50)
+0x35b2e80	fRetinaViewFoVScaler
+0x35b3240	fMaxFov
+0x35b3248	fMinFov
+0x35b3338	fDefaultFov
+0x35b33a8	fDefaultSelfieFov
+0x35b3528	Enable FOV to FStop LERP (overrides default behavior)
+0x35b3560	bUseFovFStopPoints
+0x35b3578	FovFStopPoint
+0x35b3588	FovFStopPoints
+0x35b7bc0	FieldOfViewMatchingSessionConfig
+0x35c0288	UiOnlineFieldOfViewType
+0x35c03a8	CFieldOfViewMatchingSessionConfig
+0x35c0810	FieldOfViewConfig
+0x35c0f80	selFieldOfViewCheckType
+0x35c9df0	OnPropExploded
+0x35ca028	Explode
+0x35dbf60	CFOVSettings
+0x35dc788	FOVSettings
+0x35dc798	FOVSettingsCombat
+0x35ddac0	bUseTargetDistanceAndFOVRatioCurve
+0x35ddae8	curveDetectionTimeModifierByTargetDistanceAndFOVRatioCurve
+0x35ddbb8	curveMaxDepthFOVvsTimeModifierCurve
+0x35ddc60	ExplodedEntities
+0x35ddc78	ExplodedEntitiesDetectionRadius
+0x35de168	FOVSettingsSniper
+0x35de180	FOVSettingsSniperCombat
+0x35df970	FOV modifier when player use vehicle with emergency lights enabled
+0x35df9b8	fEmergencyLightsFOVMaxDepthModifer
+0x35dfcb8	FOVMaxDepthModifier
+0x35dfd40	FOV max depth modifier when the target is hidden inside a vehicle
+0x35e5600	CHumanPerceptionExplodedEntities
+0x35f5aa0	bEnableExplode
+0x35f6038	CHackResponseData_Explode
+0x35f6080	UiHackResponseExplodeTypeEnum
+0x35fbfb8	CFOVLOSVisibilityEvaluator
+0x35fe7c8	UiPathfindTesterComponentGenerationLodEnum
+0x35fe9f0	selGenerationLod
+0x35fea98	fOvertakeSpeedFalloffRate
+0x360c080	Should zone allow spawn in any camera FOV (will still perform cam raycast)
+0x360c0d0	bAllowSpawnInFOV
+0x3610668	fOverrideUselessUnspawnRadius
+0x3614358	bOnlyUnspawnIfNotInFOV
+0x3618558	SFOVSettings
+0x3618678	fovsettingsSettings
+0x36187f8	CFOVVisibilityEvaluator
+0x3619868	fOvershootTime
+0x3620568	CSquadSearchFOVFilter
+0x3621ab0	Maximum depth of FOV used by NPC to investigate the covers
+0x3621af0	fFovDepth
+0x3621b00	Close proximity FOV angle (in degrees)
+0x3621b28	fFovCloseAngle
+0x3621b38	Close proximity max distance of FOV
+0x3621b60	fFovCloseDist
+0x3621b70	Far distance FOV angle (in degrees)
+0x3621b98	fFovFarAngle
+0x3621ba8	Far max distance of FOV
+0x3621bc0	fFovFarDist
+0x3623d88	fOverridePauseTime
+0x3626c58	CFOVDetectionConfig
+0x3626fa0	FOVDetection
+0x3626fb0	FOVFront
+0x3626fc0	FOVFrontCombat
+0x3626fd0	FOVRear
+0x3626fd8	FOVRearCombat
+0x3626fe8	FOVSpotlight
+0x3626ff8	FOVSpotlightCombat
+0x3627010	FOVSides
+0x3627020	FOVSidesCombat
+0x3627030	FOVDown
+0x3627038	FOVDownCombat
+0x36270a0	EnableFOVDownDetection
+0x36270b8	FOVDownPitchDegrees
+0x36270d0	FOVFrontPitchDegrees
+0x36270e8	EnableFOVRearDetection
+0x3627100	EnableFOVFrontTracking
+0x3627118	EnableFOVRearTracking
+0x3627220	X = FOV max depth ratio (1.0 = max FOV depth distance, 0 = min FOV depth distance, Y = gauge time to reach top multiplier
+0x36272a0	curveGaugeMaxDepthFOVvsTimeModifierCurve
+0x36272d0	X = angle in degrees between FOV dir and target (high angle = slower detection), Y = gauge time to reach top multiplier
+0x3628628	vehicleinfoVehicleSpawnInfo
+0x3629b20	fOversteerMinRearLatSlip
+0x3629b90	fOversteerMinRearFrontLatSlipRatio
+0x3629c18	fOversteerMaxRearLongLatSlipRatio
+0x3629c80	fOversteerMinSpeedMs
+0x3629d00	fOversteerMinFutureHeadingDiff
+0x3629d60	fOversteerMinYawSpeed
+0x362fc08	IObjectiveBrickBaseNetworkInterface.ObjectiveEndResolution
+0x36377c8	Name of shader
+0x36377d8	ShaderName
+0x3646e58	NetObject.RC.Drone.Explode
+0x3648e90	NetObject.RC.Explode
+0x36523d8	should explode some time after spawn
+0x3652400	bExplodeOnTimer
+0x3652418	how long after spawn do we explode
+0x3652450	should explode some time after receiving the PawnPropEvent of type 'Activate' event
+0x3656e00	[{ "name": "m_deathType", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 2>", "max_size": "2"},{ "name": "m_hasExploded", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_isActive", "type": "storm::DataBool", "max_size": "1"}
+0x3657dc8	OnDoForceHack
+0x3659e60	Size of the obstacle left in the navmesh by the exploded steam pipe. Obstacle is a square AABB with each side of this length.
+0x3663310	OnExplode
+0x36721a8	CDriverSynchronizeRendererOperation
+0x367f8a8	CDriverApplyTextureResolutionOperation
+0x3683108	LoadOperation: Shader Creation Finished
+0x3683820	engine\shaders\bfn.xbt
+0x3683838	engine\shaders\iblBRDF_256.xbt
+0x3683858	engine\shaders\Grid.xbt
+0x3683870	engine\shaders\PreIntegratedSkinDiffuse.xbt
+0x36838a0	engine\shaders\PreIntegratedSkinShadow.xbt
+0x368dba0	sndToggledOffStart
+0x368dbb8	sndToggledOffEnd
+0x368e088	bNetHackDoFlyingDronePulse
+0x36a3958	fMapFieldOfView_LowerValue
+0x36a3978	fMapFieldOfView_UpperValue
+0x36aa810	fCamFOV
+0x36aba00	[{ "name": "m_exploded", "type": "storm::DataBool", "max_size": "1"}
+0x36aba48	IExplosiveComponentNetworkInterface.Explode
+0x36aba78	IExplosiveComponentNetworkInterface.ResolveExplode
+0x36b4c88	fDefaultFOV
+0x36b4c98	fMaxFOVAdjustment
+0x36b4cb0	fMaxFOV
+0x36b4cb8	fMinFOV
+0x36b4cc0	curveDesiredFOVForTargetDistance
+0x36b4ce8	FOVPIDController
+0x36b81b8	fZoomFovSpeed
+0x36b81c8	fDefaultZoomFov
+0x36b8350	When the player gets in the security cam, this will let the grid shader on (mainly for VR)
+0x36c4f30	CCLODynamicEventSettings
+0x36c6e48	CSniperObservationCLOData
+0x36cda18	CLODefaultKitFilterSettings
+0x36cf010	[{ "name": "m_cLOActionKey", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"},{ "name": "m_cLODynamicTriggerBehaviorSettingsDBKey", "type": "CNetDataStringId<CUniqueID>", "max_size": "sizeof(CUniqueID)"},{ "name": "m_cLOGroupLayer", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWritePkd_Bit>", "max_size": "9"},{ "name": "m_cLOStimType", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 4>", "max_size": "4"},{ "name": "m_doActionOnSpot", "type": "storm::DataBool", "max_size": "1"},{ "name": "m_netCLOId", "type": "CNetCityLifeObjectIdContainer", "max_size": "sizeof(CNetCityLifeObjectId)"},{ "name": "m_triggerBhvUsageInfo", "type": "CCLOTriggerBhvUsageInfoContainer", "max_size": "sizeof(CCLOTriggerBhvUsageInfo)"},{ "name": "m_usageMode", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 2>", "max_size": "2"},{ "name": "m_walkToCLOStatus", "type": "storm::DataNumber<ndU8, storm::DataNumberQualifier::ReadWriteInBits_Bit, 3>", "max_size": "3"}
+0x36cfff8	CloDefaultExcludeTags
+0x36d0c70	wluclodictionaryoverride.xml
+0x36d0cc8	WLUCLODictionaryOverride
+0x36d0e50	generated\patch\wluclodictionaryoverride.xml
+0x36d5230	fShapecastFrontSpeedOffset
+0x36d6670	vec2Position2DOffset
+0x36dc330	CUIRenderToTextureBase
+0x36de810	%x_UIRenderToTextureViewport
+0x36dfe60	SOnlineHackingResolution
+0x36e0828	locstridHackerResolution
+0x36e0858	locstridVictimResolution
+0x36e1038	fOnlineHackingProfilingFOVXModifier
+0x36e1240	fHackerKilledResolutionWarningDuration
+0x36e1268	fHackerKilledDelayBetweenWarningAndResolution
+0x36e1298	Resolution
+0x36e12a8	ResolutionsList
+0x36ec170	fTargetKilledResolutionWarningDuration
+0x36ec198	fTargetKilledDelayBetweenWarningAndResolution
+0x36f3c68	SoloDomino
+0x36f7d80	CMatchingSessionModuleFieldOfView
+0x36fcba0	CMatchingSessionModuleFieldOfView::ms_ModuleInfoUnicastMsg
+0x36fcbe0	CMatchingSessionModuleFieldOfView::ms_ModuleInfoBroadcastMsg
+0x3700dc8	fXFov
+0x3700dd0	fYFov
+0x3703ad0	fTimeLapseFov
+0x3703bf8	bUseBlackScreenInsteadOfHideOutCamera
+0x370b950	fBloodOffsetRnd
+0x3724348	fWorldOffset
+0x37246d8	fCamFieldOfView
+0x37246f0	Maximum variance which will be applied to the FOV.  E.g. 10 will give a variance ranging from -10 to 10.
+0x3724760	fCamFieldOfViewVariance
+0x3724cd0	fFovAngleXMultiplierForTargeting
+0x37261f0	default shader material of intercepted video
+0x372b138	fFoVAngleToAttractTarget
+0x372b928	uiBatteryUsedForExplode
+0x3747860	bOverrideCLODensity
+0x3747878	IsOverridingCLODensity
+0x37478b8	uiCLODensity
+0x374de88	UiVehicleSpawnInfoVehicleTypeEnum
+0x37605b8	OnVehicleExplodedEvent
+0x37621f8	fExplodeStimRadius
+0x37693d0	Reveal when in player's FOV. Pass thru walls in nethack, don't in real world.
+0x3769440	Used when reveal by in sight. Minimum duration the player must have the entity in the FOV without interruption to get the reveal.
+0x3769a88	World Story Foreshadow
+0x3770928	-norender
+0x37718d8	fovsettings
+0x3778328	Cast Shadow
+0x3778338	bCastShadow
+0x3778348	GetCastShadow
+0x3778368	bHighQualityShadowFiltering
+0x3778390	Distance to fade the shadow starting at the light's Z going down in world space
+0x37783e0	fShadowFadeRange
+0x3778b00	CCascadedShadowConfig
+0x3779398	CEnvironmentSSAOClip
+0x37793b8	Environment SSAO Intensity
+0x37793d8	Environment SSAO
+0x3779c18	CFixedLODClip
+0x3779c28	FixedLOD
+0x377a868	CShadowBiasOverrideCGClip
+0x377a950	ShadowBiasOverrideCG
+0x377ab28	CShadowQualityClip
+0x377abc0	Disables static shadow maps.
+0x377abde	All shadow slots will be used for dynamic shadows.
+0x377ac18	bDisableStaticShadowMaps
+0x377ac40	Disables light occlusion test that's used to disable shadow on invisible lights.
+0x377ac92	May solve popping shadows after camera cuts.
+0x377ad00	Makes it possible to use all available shadow maps for dynamic lights.
+0x377ad78	Override sun cascaded shadow configuration.
+0x377ada8	bOverrideCascadedShadowConfig
+0x377ade8	ShadowConfig
+0x377adf8	How the first sun shadow cascaded should be positioned.
+0x377aef0	ShadowQuality
+0x377b9c8	Render time scale.
+0x377b9e0	fRenderTimeScale
+0x378a8a8	SEndOfSeasonSaveData
+0x378a8c0	SEndOfSeasonRewardPair
+0x378aa18	EndOfSeasonSaveData
+0x3792ae0	SetLRShadowHighPriorityNearDistance
+0x37930f0	ExplodeVehicle
+0x37932e0	IsLookAtTriggerInsideFOV
+0x37936e8	InitUIRenderToTexture
+0x37938a8	ResetUIRenderToTexture
+0x3794328	EnableCameraDoF
+0x3794830	SteamPipeExplode
+0x379bbb0	UIRenderToTexture
+0x37a4468	AverageCpuRender
+0x37a4480	AverageGpuRender
+0x37a44c0	CpuRenderSamples
+0x37a44d8	GpuRenderSamples
+0x37b27d0	[{ "name": "m_clientsInfo", "type": "CDedsecEventClientsInfoArrayContainer", "max_size": "sizeof(CDedsecEventClientsInfoArray)"},{ "name": "m_messageResolution", "type": "CDedsecEventMessageResolutionDataContainer", "max_size": "sizeof(CDedsecEventMessageResolutionData)"},{ "name": "m_searchArea", "type": "CDedsecGameplayBrickSearchAreaContainer", "max_size": "sizeof(CDedsecGameplayBrickSearchArea)"},{ "name": "m_vehicleGoTo", "type": "CDedsecGameplayBrickVehicleGotoContainer", "max_size": "sizeof(CDedsecGameplayBrickVehicleGoto)"}
+0x37b3b40	Max dist between player and hackabale to enable hack ex: Steam pipe explode
+0x37d5b58	locstridOffTrackMessageTitle
+0x37d5ba8	locstridOffTrackMessageBody
+0x37d5f38	bAllowRaceRestartAtEndOfRace
+0x37d5fc0	bShowRaceCentralAtEndOfRace
+0x37d7778	archShadowVehicle
+0x37de078	CRaceSetupHelper::ClearExplodedPipes
+0x37de1b0	CRaceSetupHelper::SpawnShadowRacer
+0x37f2aa0	fTimeAheadOfPlayerToTriggerEvent
+0x38018d8	CCloDescription
+0x382c670	CRenderBaseConfig
+0x382c700	CRenderShaderConfig
+0x382c790	CRenderQualityConfig
+0x382c820	CRenderEnvironmentConfig
+0x382c940	CRenderPostFxConfig
+0x382c9d0	CRenderDepthPassConfig
+0x382ca60	CRenderTextureConfig
+0x382caf0	CRenderTextureResolutionConfig
+0x382cb80	CRenderWaterConfig
+0x382cc10	CRenderParaboloidReflectionConfig
+0x382cd40	CRenderVegetationConfig
+0x382cdd0	CRenderTerrainConfig
+0x382ce60	CRenderGeometryConfig
+0x382cef0	CLODDitheringConfig
+0x382cf80	CRenderShadowConfig
+0x382d080	CRenderRoadConfig
+0x382d110	CEditorRenderConfig
+0x3835090	CUIMenuTileDescriptorLeaderboardAppEndOfSeason
+0x38350f0	CUIMenuTileDataLeaderboardAppEndOfSeason
+0x3835740	selEndOfSeasonTileId
+0x3835758	enumEndOfSeasonTileId
+0x3835840	fEndOfSeasonIntroDuration
+0x3837580	CUIMenuTileDataSettingsTabTextureResolution
+0x383bc78	uimenutileFullscreenResolutionSettingTile
+0x383bd08	uimenutileFieldOfViewSettingTile
+0x383be48	uimenutileTexturesResolutionSettingTile
+0x383be98	uimenutileShadowsSettingTile
+0x383beb8	uimenutileHeadlightShadowsSettingTile
+0x383c27c	HMSSAO
+0x383c288	HBAOPlus
+0x383c2ac	TXAA2
+0x383c2b4	TXAA4
+0x383c2bc	TXAA8
+0x3840200	{ "Fullscreen":%s,"Displays":%u,"Resolution":"%s","MonitorRefreshRate":"%u","VSync":"%s","FPSLimit":"%.0f","FOV":%.0f,"PixelDensity":%.2f,"MenuPosition":"%s","MultimonitorHUD":"%s","MultiGPU":%s }
+0x38402d0	{ "GraphicsQuality":"%s","Geometry":"%s","ExtraDetails":%u,"Terrain":"%s","Vegetation":"%s","TextureResolution":"%s","TextureFiltering":"%s","Shadows":"%s","HeadlightShadows":"%s","Water":"%s","Reflections":"%s","ScreenspaceReflections":"%s","Fog":"%s","DepthOfField":"%s","MotionBlur":"%s","Bloom":"%s","DynamicParticles":"%s","AmbientOcclusion":"%s","TemporalFiltering":"%s","MultisampleAA":"%s","PostProcessAA":"%s" }
+0x384f958	locstridQuitPartyOverrideLodId
+0x384f978	locstridQuitPartyConfirmationTitleLodId
+0x3852990	locstridOffline
+0x3855268	fOverlayAlpha
+0x385bee8	RenderStates
+0x385e670	uiShadowGroup
+0x385ebf8	Resolution of the grid for the vegetation batch processor.
+0x385ec38	fVegetationGridResolution
+0x38665b8	bExplodes
+0x38665c8	Explodes
+0x386d8c8	bExplodeOnSpawn
+0x3873140	bCastShadowCurrentGen
+0x3873158	bReceiveShadow
+0x3873178	bRenderInReflection
+0x3873190	bRenderInReflectionCurrentGen
+0x3873d80	UiCameraComponentFOVTypeEnum
+0x3873e10	selFOVType
+0x3873e20	UpdateSceneCameraFOV
+0x3879c50	lod%d
+0x3879c60	BoneLOD
+0x3879cc0	hidNodeNameLOD0
+0x3879cf8	bOverrideLODSphere
+0x3879d10	fLODSphereRadius
+0x387a038	_LOD0
+0x387a068	primitivelod
+0x387c328	fLodRatio
+0x387dac0	ProceduralShadowCasterConfig
+0x387ebc0	CProceduralShadowCasterComponent
+0x387ed68	CDiscProceduralShadowCaster
+0x387ee38	CProceduralShadowCasterConfig
+0x387f2a0	Use special mode to fill light leaks in shadow behind geometry.
+0x387f310	Priority of the shadow caster.
+0x387f380	Explicit config for the procedural shadow.
+0x387f408	proceduralshadowconfigShadowCasterConfig
+0x387f488	Radius of the shadow caster (cm).
+0x387f4b0	Radial distance over which the shadow will fade (cm).
+0x387f4e6	Smaller values make a sharper shadow.
+0x387f520	Shadow will start to fade at this angle (degrees).
+0x387f553	The angle is between the shadow caster plane the and light direction.
+0x387f5b8	Intensity of the shadow.
+0x387f5d1	0.0f = No shadow.
+0x387f5e3	1.0 = Full shadow..
+0x387f5f8	fShadowIntensity
+0x387f610	In gameplay mode, how much to raise the shadow caster when light becomes parallel to the surface (cm).
+0x387f690	In cinematic fill mode, how much to raise the shadow caster when light becomes parallel to the surface (cm).
+0x387f720	ProceduralShadowParams
+0x387f740	Tag that will be used to reference this procedural shadow setup in the GraphicKit editor.
+0x387f7e0	proceduralshadowconfig
+0x3883d10	LOD0Distance
+0x388c0d8	CFireUiPlayer::RenderInternal
+0x388c0f8	CFireUiPlayer::PostRenderInternal
+0x388c528	CFireUiRenderBase::Mask
+0x388c540	CFireUiRenderBase::Masked
+0x388f758	fSpecialLodKillScale
+0x388f798	specialLodKillScale
+0x3894a68	fLayerRenderingOrder
+0x38950d0	CInterfaceFireLayer::RenderInternal
+0x38950f8	CInterfaceFireLayer::PostRenderInternal
+0x389d390	TreeLODAgressivity
+0x389d3a8	PlantLODAgressivity
+0x389d490	ShadowLeavesRatio
+0x38ab650	Changelist information was registered without a changelist number or label. Please make sure the application has access to changelist information for Bloomberg. Callstack resolution with Perforce might not work without this information.
+0x38b3430	CTagProceduralShadow
+0x38b3708	tagcategoryProceduralShadowTagCategory
+0x38b3780	ProceduralShadow
+0x38b3b60	WorldOffsetX
+0x38b3b70	WorldOffsetY
+0x38b6ae8	dofile
+0x38bf558	camera_fov
+0x38c1c10	CameraFOV
+0x38c1c20	fFramingFOV
+0x38c1c30	fFramingInterpSpeedFOV
+0x38c1d38	LensDOF
+0x38c1d40	bLensDOFEnabled
+0x38c1db0	DofTargetSelector
+0x38c2968	vectorFov
+0x38c2978	vectorFovSpeedRange
+0x38c2990	fFovInterpSpeed
+0x38c29a0	vec2FovSpeedShiftMin
+0x38c29b8	vec2FovSpeedShiftMed
+0x38c29d0	vec2FovSpeedShiftMax
+0x38c29e8	vectorFovSpeedShiftRange
+0x38c2a08	vectorFovSpeedBlurFactor
+0x38c2a28	vec2FovAccelRange
+0x38c2a40	vec2FovAccelCffs
+0x38c2a58	vec2FovAccelPows
+0x38c2a70	vec2FovAccelShift
+0x38c2a88	vec2FovAccelLag
+0x38c2a98	vec2FovPitchDownAngles
+0x38c2ab0	vec2FovPitchUpAngles
+0x38c2ac8	vectorFovPitchCoeff
+0x38c2ae0	fFovMaxVertical
+0x38c2af0	fFovMaxHorizontal
+0x38c3418	vec2TargetMidOffset
+0x38c3660	bTransfertFieldOfView
+0x38c4cf0	fOverlapFactor
+0x38c9670	%s shader does not support damage.
+0x38ca7e8	CLongRangeShadowVolumeComponent
+0x38d6b28	CSkyRendererResource
+0x38d6ed0	fSunStaticShadowThresholdAngle
+0x38d8320	fFakeEarthShadowHeightProjection
+0x38d8348	fFakeEarthShadowHeightSmooth
+0x38d8448	Sun Shadow
+0x38d8460	Angle at which the sun shadow projector starts to lag behind the sun light (in degrees).
+0x38d84c0	fSunShadowInertiaStartAngle
+0x38d84f0	Minimum angle the sun shadow projector will use, to avoid horizontal shadows (in degrees).
+0x38d8550	fSunShadowInertiaEndAngle
+0x38d8570	Maximum lag between sun light and shadow directions, in degrees.
+0x38d85d0	Maximum speed used to make shadow direction catch up with sun light direction, in degrees per second.
+0x38d8650	Min/Max camera angular velocities that affect sun shadow direction catchup speed.
+0x38d86d0	Min/Max camera translation speeds that affect sun shadow direction catchup speed.
+0x38d8748	Angle between sun shadow direction updates, in degrees.
+0x38d8820	Shadow color of the moon
+0x38d8840	clrMoonShadowColor
+0x38d8858	Shadow intensity relatively to moon intensity
+0x38d8888	fMoonShadowIntensity
+0x38d9228	Exposure value used for rendering when image was captured.
+0x38d92f8	SSAO intensity
+0x38d9308	fSSAOIntensity
+0x38d93a8	engine\shaders\Textures\SkyResource.bin
+0x38e13d0	Used if impact will cause an auto explode behaviour when they come in contact with this part.
+0x38e1430	bUseAutoExplodeOnVehicleContact
+0x38e1450	Delay on the auto explode feature so it's not exploding on contact.
+0x38e1498	fAutoExplodeOnVehicleContactDelay
+0x38e6cb8	vehicle_exploded_broad
+0x38e6cd0	vehicle_exploded_uni
+0x38eb4c0	isRenderThreadBound
+0x38eb4d8	renderCurrent
+0x38eb4e8	renderMin
+0x38eb4f8	renderMax
+0x38eb540	shadowDrawCallCnt
+0x38eb580	fovAngle
+0x38f3e70	CRenderConfig
+0x38f4050	RenderProfile
+0x39041f8	Reference fov (degrees) used by traffic parameters.
+0x3904230	fFadeFovReference
+0x3904248	Distance factor to add when camera fov is changing.
+0x3904280	fFadeFovDistance
+0x3905398	fFOVPercentage
+0x39053a8	ValidateFOVPercentage
+0x39053c0	EnterFOV
+0x39053d0	LeaveFOV
+0x39085a0	EndOfTrialMainMenuContinueGameMessageSettings
+0x39085d0	EndOfTrialMainMenuContinueGameMessage
+0x39085f8	EndOfTrialIngameTimeReachedMessageSettings
+0x3908628	EndOfTrialIngameTimeReachedMessage
+0x3908650	EndOfTrialNotBoughtBackToMainMenuMessageSettings
+0x3908688	EndOfTrialIngameNotBoughtBackToMainMenuMessage
+0x3908c10	bCanExplode
+0x3908c38	fPreExplodeMinTime
+0x3908c50	fPreExplodeMaxTime
+0x3908c68	fPreExplodeTotalTime
+0x3912280	engine\settings\DefaultRenderConfig.xml
+0x39122a8	engine\settings\OverrideRenderConfig.xml
+0x3912d48	StandOffset
+0x391ac20	List of feu files to load. [Note that the order of the list defines the rendering order, i.e. entry 0 is in the back and X-1 is in the front.]
+0x391dd70	CRealtreeRenderData
+0x391dd88	CSceneShadowVolumeOcclusionTest
+0x391e3f0	Layers with a smaller value are rendered first.
+0x391e420	iRenderingOrder
+0x391e718	fSelfShadowCoef
+0x391e828	How much the ambient light is affected by the sun shadow.
+0x391e868	fAmbientSunShadow
+0x391e8e0	Enables dynamic shadow for the sun.
+0x391f05b	Beam: Volumetric spotlight beam. Currently only one of these can render at a time.
+0x391fd60	The beam samples its light's shadowmap to cast shadows through the beam.  Ignored if the effect is linked to a fluid simulation.
+0x391fde8	bBeamShadowProjection
+0x39218b0	Shadow
+0x3921e58	Minimum size of objects rendered in the slice, in meters.
+0x3922310	Light can project shadow on particle systems.
+0x3922340	bParticlesShadow
+0x39223f0	Light is included in the global illumination bake (affects geometry in the GI generation render).
+0x39224a0	Light's direct influence is also baked into the GI (not just its bounce).  Not yet supported by GPU-baked GI (the light will be absent from the main render and from the GPU-baked GI).
+0x39229e8	iShadowFadeFactorCurveIndex
+0x3922a08	Distance at which the light stops casting shadows.
+0x3922a40	fCastShadowMaxDistance
+0x3922a58	fCastShadowFadeDistance
+0x3922a70	ratio over which the shadow intensity will fade to zero.
+0x3922ab0	fShadowFadeOutRatio
+0x3922ac8	Multiplier for the omni/spot shadow depth bias global setting.
+0x3922b08	fShadowDepthBiasScale
+0x3922b20	Multiplier for the omni/spot slope scaled shadow depth bias global setting.
+0x3922b70	fShadowSlopeScaledDepthBiasScale
+0x3922ba0	If enabled, the shadow bias will get divided by the light radius.
+0x3922be8	bRadiusAffectsShadowBias
+0x3922c08	Distance over which to fade the shadow near the light.
+0x3922c40	Shadow Near Fade Range
+0x3922c58	fShadowVerticalFadeRange
+0x3922c80	If enabled, shadow will be projected in the direction of the local Y axis.
+0x3922ccc	If disabled, shadow will be projected downwards.
+0x3922d00	bOrientedOmniShadow
+0x3922d20	Angle at which the shadow starts to fade out.
+0x3922d4f	A negative value deactivates the shadow fade.
+0x3922d80	angShadowInnerAngle
+0x3922da0	Angle at which the shadow is completely faded out.
+0x3922e08	angShadowOuterAngle
+0x3923ee8	Used to tweak the selection of cubemaps to be rendered.
+0x3924d58	CScenePostFxFXAA
+0x3924e18	CScenePostFxSSAO
+0x3924e30	CSceneProceduralShadowCaster
+0x3924ea8	CSceneRendererConfig
+0x3926028	SceneProceduralShadowCaster
+0x3926048	ProceduralShadowPlane
+0x3926060	ProceduralShadowOrigin
+0x3926078	ProceduralShadowFactors
+0x3926090	ProceduralShadowFactors2
+0x3926b90	CSceneGeometryLOD
+0x3927048	bCastsShadows
+0x39272a8	iSubdivLODBias
+0x3928138	Use the top-down shadow map to spawn above obstacles.
+0x3928410	Detects collision using the Zbuffer or the top-down shadow map.
+0x3929410	BoundingBoxMax_LodIndex
+0x392cd78	CFrameJob::ExecuteRenderListDraw
+0x392cdb8	Device3D::CRenderDevice::AddGPUAsParent
+0x392ce08	CTextureTXAAResolveJob
+0x392d920	CWetnessOccluderRendererHelper OccluderTexture
+0x392d950	CWetnessOccluderRendererHelper Write Staging
+0x392d980	CWetnessOccluderRendererHelper Read Staging
+0x392d9b0	CWetnessOccluderRendererHelper::Lock
+0x392d9d8	CWetnessOccluderRendererHelper::Memcpy
+0x392da00	CWetnessOccluderRendererHelper::Unlock
+0x392e150	filePreIntegratedSkinShadow
+0x392e218	WorldTextures\TextureRenderResourceStandardNormalMap
+0x392e250	WorldTextures\TextureRenderResourcePuddleNormalMap
+0x392ed60	RealTreeLOD
+0x392eda0	LevelLOD
+0x392ee28	RealTreeSimRenderData
+0x392ef00	VegetationLOD
+0x392f5f8	g_ResolutionFull
+0x392f610	g_ResolutionHalf
+0x392f628	g_HBAO0
+0x392f630	g_HBAO1
+0x392f638	MSSAORandomTexture
+0x392f650	HBAORandomTexture
+0x392f6b8	HMSSAOTextures
+0x392f7c8	SSAOTexture
+0x392f838	HalfHBAO
+0x392f870	FinalSSAO
+0x392f880	HMSSAO_FINAL
+0x392f890	HMSSAO_DEBUG
+0x392f8a0	HMSSAO_D1
+0x392f8b0	HMSSAO_D2
+0x392f8c0	HMSSAO_AO4
+0x392f8d0	HMSSAO_B4X
+0x392f8e0	HMSSAO_B4Y
+0x392f8f0	HBAO_AO2
+0x392f900	HMSSAO_AO2
+0x392f910	HMSSAO_B2
+0x392f920	HMSSAO_AO1
+0x392f960	PostEffect_HMSSAO
+0x392f9b8	LONG_RANGE_SSAO
+0x392fa10	HALFRESAO_SEPARATED_HBAO
+0x392fa30	HALFRESHBAO
+0x3930a4f	>HMSSAO_HBAO_2
+0x3930a60	HMSSAO_B2X
+0x3930a70	HMSSAO_B2Y
+0x3930a80	HMSSAO_6X6_COMB_2
+0x3930a98	HMSSAO_BX_2
+0x3930aa8	HMSSAO_BY_2
+0x3930ab8	Apply SSAO
+0x3930dd8	SsaoParams0
+0x3930de8	SsaoParams1
+0x3930df8	SsaoParams2
+0x3930e50	DeferredFXHBAO
+0x3930e80	AOResolution
+0x3930ec8	DeferredFXSSAO
+0x3930ef0	DeferredFxSSAO_SSAO
+0x3930f08	DeferredFxSSAO_Blur1
+0x3930f20	DeferredFxSSAO_Blur2
+0x3930f38	DeferredFxSSAO_Blit
+0x3930f50	DeferredFxSSAO_DepthDownsample
+0x3930f70	PostEffect_SSAO
+0x3931088	SSAO Downsample 0
+0x39310a0	SSAO Downsample 1
+0x39310b8	PostFxBlur_SSAOGaussian
+0x39310d0	PostFxBlur_SSAORadial
+0x39310e8	PostFxBlur_SSAODiamond
+0x3931100	PostFxBlur_SSAODirectional
+0x3931120	PostFxBlur_SSAOGaussian2Pass
+0x3931760	ClothWrinkleRender
+0x3931fc8	SeparableDOFFilter
+0x3932028	dofSampler
+0x3932080	DOFIntensity
+0x3932090	DOFTextures
+0x395f520	FXAAPostFX
+0x395f5b0	PostEffect_FXAA
+0x395f5c0	PostFxFXAA
+0x395f868	ViewportResolution
+0x395fde8	BloomRender
+0x39603a8	RENDER_WEIGHTS
+0x39604b8	PostFxHDRLightingRenderer ComputeLuminance Tile
+0x39604e8	PostFxHDRLightingRenderer ComputeLuminance Sum
+0x3960610	CPostFxHDRLightingRenderer::MultiGpuMarkBeginReadWriteBuffers
+0x3960650	CPostFxHDRLightingRenderer::MultiGpuMarkEndWriteBuffers
+0x3960b80	PostFxRenderer_DownsampleSource
+0x39613c8	SSAOPostFX
+0x39617b8	CFrameRendererBase::PrepareFrameJobTemporalFiltering
+0x3961ff8	ConfettiRendering
+0x3962b44	SHADOW
+0x3962d00	SplineLoftDeleteUnusedLOD
+0x3962d38	SplineLoftRenderer
+0x3962e10	CSplineLoftRenderer::ComputeDefaultBatchBitmasks
+0x3962e48	CSplineLoftRenderer::ProcessBuildRequests
+0x3962e78	CSplineLoftRenderer::DeleteUnusedResources
+0x3962ea8	CSplineLoftRenderer::ProcessPrimitive
+0x3962ed0	CSplineLoftRenderer::CSplineLoftRenderer
+0x3962f00	CSplineLoftRenderer VB
+0x3962f18	CSplineLoftRenderer IB
+0x3962f48	TXAAMotionField
+0x3962f78	TXAAResolve
+0x3962f88	TXAAMotionVector
+0x3962fa0	CFrameTextureManager TXAA Feedback
+0x3963ac8	CullShadowSphere
+0x3963ae0	CullShadowConePosition
+0x3963af8	CullShadowConeDirection
+0x3963b10	CullShadowConeParams
+0x3963b28	FSMRenderCameraDirection
+0x3963bf8	VisNodesLodRefPoint
+0x3963d40	GeometryLODs
+0x3963d98	BuildingLODComputePoints
+0x3963df8	TreeLODs
+0x3963f78	BuildingLODRefPoints
+0x39641d8	BuildingLODRefPointsRW
+0x3964378	COMPUTE_BUILDINGS_LOD
+0x39644c8	ComputeBuildingLODs
+0x39646e0	WaterSplineRendering
+0x3964860	SUNSHADOW
+0x3964870	SHADOW_CSM_3SLICES
+0x3964888	NVIDIA_SHADOWS_USE_CASCADES
+0x3964990	WaterRendererDepth
+0x39649a8	WaterRendererColor
+0x3965170	AmbientOcclusionVolumeRendererVertexBuffer
+0x39651a0	AmbientOcclusionVolumeRendererIndexBuffer
+0x3965c08	ClusterRendererBuildBatches
+0x3965c40	ClusterRendererMergeBatches
+0x3965c78	CClusterRendererProcessBatchesJob
+0x3965cb8	ClusterRendererFillInstanceData
+0x3965cf0	ClusterRendererCreateRenderJobs
+0x3965d28	RenderBuildingLowResBatches
+0x3965ef0	CClusterRenderer::ProcessVisibleInstances
+0x3965f20	CClusterRenderer::ProcessBatches
+0x3966338	SortSimulationRenderJobs
+0x3966468	LongRangeShadowTileDebug
+0x3966538	DownsampleInvResolution
+0x3966580	SunShadowMaskTexture
+0x3966598	SunShadowMaskTextureMS
+0x39666a8	SUN_SHADOW_MASK
+0x39666f0	SAMPLE_SHADOW
+0x3966700	SAMPLE_SHADOW_HIRESFILTERING
+0x3966738	SAMPLE_LONGRANGESHADOW_ONLY
+0x39667b0	PROCEDURAL_SHADOW_CASTER
+0x39667d0	DEBUG_SHADOW_SLICE_COLOR
+0x3966ca8	CEnvironmentSampleRenderer::CreateVB
+0x3966cd0	CEnvironmentSampleRenderer::DoRender
+0x3966cf8	CEnvironmentSampleRenderer::CreateRenderJob
+0x3967560	CFluidSimulationRenderer::MultiGpuMarkBeginReadWriteWindTextures
+0x39675a8	CFluidSimulationRenderer::Copy
+0x3967eb8	FogVolumeRender
+0x3968008	FogVolumeRenderer_DepthDownscale
+0x3968030	FogVolumeRenderer_Raymarch
+0x3968110	FogVolumeRenderer_Apply
+0x3968320	ParticleSpotShadowTexture
+0x3968370	ParticleSpotShadowTextureSize
+0x39683e0	ShadowOcclusionTexture
+0x39683f8	ShadowOcclusionProjMatrix
+0x3968558	TreeBatchRender_CS
+0x39686d8	engine\shaders\CustomSemantics.inc.fx
+0x3968730	engine\shaders\
+0x39687f0	DeltaBeforeSSAO
+0x3968800	DeltaBeforeSSAOAlpha
+0x3968c20	ShadowAlpha
+0x3968c30	ShadowAlphaX
+0x3968c40	ShadowX
+0x3968c48	ShadowDeltaAlphaX
+0x3968c60	ShadowDeltaX
+0x3968cf8	CFrameRendererBase::PostRenderViewActiveViewport
+0x3968d30	CFrameRendererBase::PostRenderAllActiveViewports_Threaded
+0x3968d70	CFrameRendererBase::ProcessMissingRessources_Threaded
+0x3968de8	MultiSamplingDepthResolveForNvShadows
+0x3968e48	CShaderHandlerManager::BeginFrame
+0x3968e70	SchedulePostRenderAllActiveViewports
+0x3968ec0	InstanceRender
+0x3968ed0	RenderMainPassObjects
+0x3968f00	EndOfProccessAllRenderJobs
+0x3968f20	EndOfViewportExecute
+0x3968f38	EndOfPostViewportParents
+0x3968f80	SunAndRainShadowVisibility
+0x3968fa0	RenderRainOccluder
+0x3968fb8	RenderShadow
+0x3968fc8	ShadowOcclusionTestResults
+0x3968fe8	LongRangeShadowVisibility
+0x3969020	CFrameRendererBase::RenderSoftwareOcclusionBuffer
+0x3969058	CFrameRendererBase::ComputeViewportVisibility
+0x3969088	CFrameRendererBase::PrepareActiveViewport
+0x39690b8	CFrameRendererBase::UpdateBinkManager
+0x39690e0	CFrameRendererBase::PrepareShadowFrameGraph
+0x3969110	CShadowRenderer::RenderShadow
+0x3969130	CFrameRendererBase::PrepareMainPassSceneRenderContext
+0x3969168	FrameRendererBase::ExecuteClearShadowTextures
+0x3969198	CFrameRendererBase::StartShadowDatabaseQueries
+0x39691c8	CFrameRendererBase::PrepareTreeSimulation
+0x39691f8	CFrameRendererBase::RenderMainPassSceneObjects
+0x3969228	CFrameRendererBase::PrepareFrameGraphPart1
+0x3969258	CFrameRendererBase::ScheduleFluidSimulationExecute
+0x3969290	CFrameRendererBase::PrepareLongRangeShadowVisibility
+0x39692c8	CFrameRendererBase::PrepareFrameGraphPart2
+0x39692f8	CFrameRendererBase::PrepareReflectionVisibility
+0x3969328	CFrameRendererBase::ProcessAllRenderJobs
+0x3969358	CFrameRendererBase::ScheduleExecuteFrameGraphPart1
+0x3969390	CFrameRendererBase::ScheduleExecuteFrameGraphPart2
+0x39693c8	CFrameRendererBase::RenderLongRangeShadow
+0x39693f8	CFrameRendererBase::PrepareFrameGraphPart3
+0x3969428	CFrameRendererBase::ScheduleEndOfExecuteJobGroupChain
+0x3969460	CFrameRendererBase::EndOfViewportExecuteJobGroupChain
+0x3969498	CFrameRendererBase::SchedulePostRenderViewActiveViewport
+0x39694d8	CFrameRendererBase::PrepareReflectionFrameGraph
+0x3969508	CDynamicCubeMapReflectionRenderer::ScheduleExecuteReflection
+0x3969548	CVegetationDisplacementRenderer::Execute
+0x3969578	CFrameRendererBase::ExecuteFrameGraphPart1
+0x39695a8	CFrameRendererBase::ExecuteFrameGraphPart2
+0x39695d8	CFrameRendererBase::ExecuteFrameGraphPart3
+0x3969628	CFluidSimulationRenderer::Execute
+0x3969650	CFrameRendererBase::ExecuteBlendShapes
+0x3969678	PrimaryRenderTargetTexture
+0x39696b8	DepthRenderTargetTexture
+0x39696f0	FireUiPrimitivesRenderer
+0x3969728	CFrameRendererBase::ExecuteOcclusionDebugTextureUpdate
+0x3969990	FakeEarthShadowPlane
+0x39699a8	SunShadowDirection
+0x3969a70	PreIntegratedSkinShadowTexture
+0x3969b88	ShaderDebugOutputBuffer
+0x3969c98	GPUParticlesRender
+0x3969de0	RAINSTREAK_RENDER
+0x3969f28	CIngameMapRenderer::ClearFrameJobsAndAllocator
+0x3969f58	IngameMapRenderer ResetVolatileTexture
+0x396a158	LightEffectRendererCreateRenderJobs
+0x396a198	LightEffectRendererFillVB
+0x396a238	USE_SHADOWMAP
+0x396a440	CLightEffectRenderer
+0x396a458	CLightEffectRenderer::CreateVB
+0x396b448	LightShadowTexture
+0x396b460	LightShadowTextureNV
+0x396b6d0	ShadowMaskBlur
+0x396b6e0	ShadowMaskTexture
+0x396b6f8	ShadowMaskTextureMS
+0x396b710	NVidiaShadowMask
+0x396b728	NVidiaShadowMaskMS
+0x396b9b8	SunShadowUpVec
+0x396b9c8	SunShadowRightVec
+0x396ba10	ShadowMaskBlur0
+0x396ba20	ShadowMaskBlur1
+0x396ba98	ShadowMaskBlurV
+0x396baa8	ShadowMaskBlurH
+0x396bab8	ShadowMaskBlurV1
+0x396bad0	ShadowMaskBlurH1
+0x396bae8	ShadowMaskBlurV2
+0x396bb00	ShadowMaskBlurH2
+0x396bb4c	LODEF
+0x396bb58	VERYLODEF
+0x396bbe8	SHADOWMASK
+0x396bc08	NVIDIA_SHADOWS
+0x396bc18	LONGRANGESHADOW
+0x396bc98	LODDithering
+0x396bce8	LongRangeShadowVolume
+0x396bd00	LongRangeShadowVolumeHeightInfo
+0x396bd20	LongRangeShadowVolumePosScaleBiasHS
+0x396bd48	LongRangeShadowVolumePosScaleBiasWS
+0x396bd70	LongRangeShadowMatrix
+0x396bd88	LongRangeShadowHalfTexelSize
+0x396bda8	LongRangeShadowTextureSize
+0x396bdc8	LongRangeShadowTexture
+0x396bde0	LongRangeShadow
+0x396bdf0	LongRangeShadowVolumePosScaleBias
+0x396be18	LongRangeShadowVolumeUvScaleBias
+0x396be40	LongRangeShadowVolumeTexture
+0x396be60	LAST_SHADOW_SAMPLE_INDEX
+0x396be80	Long-Range Shadow Visibility
+0x396bea0	ExecuteRenderLongRangeShadow
+0x396bec0	LongRangeShadowAlpha
+0x396c138	CProgrammaticLUTGenerator::CreateHBAONoiseTexture
+0x396c170	CProgrammaticLUTGenerator::CreateSSAONoiseTexture
+0x396c270	RainRenderer
+0x396c680	Reflection_LightProbeRenderer%s
+0x396ca80	CParaboloidReflectionRenderer::ExecuteReflection
+0x396cab8	CParaboloidReflectionRenderer::ClearFrameJobsAndAllocator
+0x396cca0	ForwardLightingCreateRenderJobs
+0x396cfe0	CSceneGraphicObjectInstanceRenderer::Render
+0x396d010	CSceneGraphicObjectInstanceRenderer::RenderInternal
+0x396d060	CSceneGraphicObjectInstanceRenderer::RenderShadowInternal
+0x396d130	SHADOW_OCCLUSION
+0x396d198	PIXEL_SHADOW_SAMPLING
+0x396d1d8	PROJECTED_SHADOW
+0x396d228	ParticleRendererComputeVBSize
+0x396d260	ParticleRendererCreateRenderJobs
+0x396d2a8	ScheduleCreateRenderJobsCallbackJob
+0x396d2d0	CSceneParticleEmitterRenderer::CreateVertexBuffersCallbackJob
+0x396d310	CSceneParticleEmitterRenderer::CreateStruturedBuffersCallbackJob
+0x396d5a8	SSPRWResolution
+0x396d728	ShadowReceiverExtents
+0x396d740	StaticShadowMap
+0x396d750	SHADOW_PARABOLOID
+0x396d768	ShadowReceiverExtentsDownsample_%d
+0x396d790	ShadowMap%d
+0x396d7a0	Shadow%d
+0x396d7b0	ShadowAlpha%d
+0x396d7c0	SunShadow%d
+0x396d7d0	SunShadowAlpha%d
+0x396d7e8	Shadow Visibility
+0x396d800	Sun Shadow Visibility
+0x396d818	Spot Shadow Visibility
+0x396d830	Omni Shadow Visibility
+0x396d848	Rain Shadow Visibility
+0x396d860	RainOcclusionShadow
+0x396d878	RainOcclusionShadowDelta
+0x396d898	RainOcclusionShadowAlphaDelta
+0x396d8b8	RainOcclusionShadowAlpha
+0x396d8d8	CShadowRenderer::BlendShapeExecute
+0x396d930	CShadowRenderer::CopyExtentsToStagingTexture
+0x396d960	CShadowRenderer::GetExtentsResults
+0x396d9a0	CShadowRenderer InitializeNVShadows
+0x396d9c8	CShadowRenderer::RenderShadowSlice
+0x396d9f0	ShadowVolumeOcclusionTest
+0x396da10	ShadowDirection
+0x396da20	ShadowVolumeOcclusionTestVB
+0x396da40	ShadowVolumeOcclusionTestIB
+0x396da70	CShadowVolumeOcclusionTestRenderer::RefreshOcclusionTestResults
+0x396dab0	CShadowVolumeOcclusionTestRenderer::PrepareOcclusionTestRenderJobs
+0x396dbb8	SkyRenderer
+0x396e078	USE_SELF_SHADOW
+0x396e0c8	RENDER_OFFSCREEN_CLOUDLAYERS
+0x396e248	CL_ShadowCoef
+0x396e440	SplinePrimitiveDeleteUnusedLOD
+0x396e478	SplinePrimitiveRenderer
+0x396e490	CSceneSplinePrimitiveRenderer::ProcessBuildRequests
+0x396e4c8	CSplinePrimitiveRenderer::DeleteUnusedResources
+0x396e4f8	CSplinePrimitiveRenderer::ProcessPrimitive
+0x396e528	CSplinePrimitiveRenderer::CSplinePrimitiveRenderer
+0x396e6c8	CTerrainRenderer::RenderInternal
+0x396eec8	FacettedShadowCastParams
+0x396ef80	RainOcclusionShadowMapSize
+0x396f0b0	RainOcclusionShadowMap
+0x396f140	CGPGPUVisibilityTestRenderer::CreateVB
+0x396f168	CGPGPUVisibilityTestRenderer::MemCopyVB
+0x396f190	CGPGPUVisibilityTestRenderer::CreateRenderJob
+0x396f258	VFShadowParams
+0x396f2b0	VFPrevWorldToVolumetricShadowMatrix
+0x396f340	VFShadowVolumeTexture
+0x396f3f0	VFSunShadowDirection
+0x396f828	FillShadowVolume
+0x396f840	VFPrevShadowVolumeTexture
+0x396f860	VFShadowTexture
+0x396f9b8	DownSampleShadow
+0x396f9f0	VolumetricFog_SunShadowExtractHiZMax
+0x396fa18	VolumetricFog_BlurXShadow
+0x396fa38	VolumetricFog_BlurYShadow
+0x396fa58	VolumetricFog_FillShadowVolume
+0x396fb98	DOWNSAMPLE_SHADOW
+0x396fbb0	BLURX_SHADOW
+0x396fbc0	BLURY_SHADOW
+0x396fbd0	USE_HIZ_SHADOWMAP
+0x396fbe8	FILLSHADOWVOLUME
+0x396fc00	USE_SUNSHADOW
+0x396fc30	DISABLE_TEMPORAL_SHADOW_REPROJECTION
+0x396fd40	ShadowVolumetricTexture[0]
+0x396fd60	ShadowVolumetricTexture[1]
+0x396fde8	WaterShader
+0x3970580	FirstLowEndLOD
+0x39705d0	LOD_Distance
+0x39705e0	LOD_Distance_LowEnd
+0x39705f8	LOD #%d
+0x3970758	K:\Code\GraphicsRenderer\Resources\LightProbesResource.cpp
+0x3970928	Shader_Name
+0x3971f90	EndOfESRAM
+0x3972378	BoneLODDistance
+0x39727c0	ResolutionFactor
+0x3972b20	WindOffset
+0x39732a0	MaterialLODParams
+0x39732e8	ShadowZOffset
+0x39739a8	ELodDistanceStart
+0x39739c0	ELodDistanceLod1
+0x39739d8	ELodDistanceKill
+0x39739f0	m_lod0Geom
+0x3974098	Texture resolution
+0x39740b0	uiResolution
+0x39740f0	Number of mipmap levels to render. Others will be generated in the TexCompiler.
+0x3974220	Camera elevation angle when rendering the impostor, in degrees.
+0x3974790	DEBUG_CLUSTERS_LOD
+0x39747e0	CTreeRendererScheduler::ExecuteSimulateTrees
+0x3974880	ImpostorRenderer::SynchRendering
+0x39748a8	CTreeRenderer::LockTreeAttachmentDataSB
+0x39748d0	RenderCollectedTrees
+0x39748e8	CTreeRenderer::UnlockTreeAttachmentDataSB
+0x3974918	ImpostorRenderer::FlushImpostors
+0x3974ae0	CHBAOplusApplyJob
+0x3974af8	TXAAResolveExecute
+0x3974e08	SEPARABLE_DOF_FILTER
+0x3974e50	VIEW_DOF
+0x3974e88	CinematicDOF
+0x3976c58	CSceneRenderer::RenderLooped_Threaded
+0x3976c80	CSceneRenderer::CallPrivateDataDestructors
+0x3976ce0	CSceneRenderer::Finish_Threaded
+0x3976d00	CSceneRenderer::Flip_Threaded
+0x3976d20	CSceneRenderer::Render_Threaded
+0x3976db0	CSceneRenderer::StartGpuCapture
+0x3976dd0	K:\code\graphicsrenderer\renderer\scenerenderer.cpp
+0x3976e40	CSceneRenderer::StopGpuCapture
+0x3977900	engine/shaders/materialdescriptors/
+0x3977970	engine\shaders\parameters
+0x3977a08	Change shadow fade range.
+0x3977a28	SunShadowFadeRange
+0x3977a40	Enable Cascaded Shadow Maps instead of Facetted Shadow Maps.
+0x3977a80	EnableCSMShadows
+0x3977ac0	Change shadow range for cascade 0.
+0x3977ae8	SunShadowRangeCSM0
+0x3977b00	Change shadow range for cascade 1.
+0x3977b28	SunShadowRangeCSM1
+0x3977b40	Change shadow range for cascade 2.
+0x3977b68	SunShadowRangeCSM2
+0x3977b80	Change shadow range for cascade 3.
+0x3977ba8	SunShadowRangeCSM3
+0x3977bc0	Change simple shadow map size
+0x3977be0	ShadowMapSize
+0x3977bf0	CascadedShadowMapSize
+0x3977c08	RainShadowMapSize
+0x3977c20	Enable soft shadows everywhere.
+0x3977c40	SoftShadows
+0x3977c50	Enable using of 16-bit shadows.
+0x3977c80	Disable the shadow.
+0x3977c98	DisableShadow
+0x3977ca8	Snap sun shadow or not
+0x3977cc0	SunShadowSnap
+0x3977cd0	Disable the shadow generation.
+0x3977cf0	DisableShadowGeneration
+0x3977d08	Disable shadow generation on terrain.
+0x3977d30	DisableShadowGenTerrain
+0x3977d48	Change the leaves shadow ratio.
+0x3977d68	LeavesShadowRatio
+0x3977d80	Enable some predicates to optimize the shadow pass.
+0x3977dd0	Controls the minimum projected ratio to skip objects in the shadow.
+0x3977e30	The renderer will use only one slice of shadow to render leaf. Ex: if it touch slice 1 and 2, it will only use the 2.
+0x3977ec0	Change shadow depth bias.
+0x39780c0	Distance between the view camera and the shadow culling camera.
+0x3978100	ShadowCullingCameraDistanceCSM
+0x3978120	Distance between the view camera and the shadow render camera.
+0x3978160	ShadowRenderCameraDistanceCSM0
+0x3978180	ShadowRenderCameraDistanceCSM1
+0x39781a0	ShadowRenderCameraDistanceCSM2
+0x39781c0	ShadowRenderCameraDistanceCSM3
+0x39781e0	Cascaded shadow dither UV distance (0.0-0.5)
+0x3978210	ShadowDitherUVDistanceCSM
+0x3978230	Cascaded shadow long-range shadow UV fade distance (0.0-0.5).
+0x3978270	ShadowLongRangeFadeUVDistanceCSM
+0x39782a0	Minimum scaling factor for the shadow blur kernel in cascade 0.
+0x39782e0	ShadowBlurKernelMinSizeCSM0
+0x3978300	Minimum scaling factor for the shadow blur kernel in cascade 1.
+0x3978340	ShadowBlurKernelMinSizeCSM1
+0x3978360	Minimum scaling factor for the shadow blur kernel in cascade 2.
+0x39783a0	ShadowBlurKernelMinSizeCSM2
+0x39783c0	Minimum scaling factor for the shadow blur kernel in cascade 3.
+0x3978400	ShadowBlurKernelMinSizeCSM3
+0x3978420	Maximum scaling factor for the shadow blur kernel in cascade 0.
+0x3978488	ShadowBlurKernelMaxSizeCSM0
+0x39784b0	Maximum scaling factor for the shadow blur kernel in cascade 1.
+0x3978518	ShadowBlurKernelMaxSizeCSM1
+0x3978540	Maximum scaling factor for the shadow blur kernel in cascade 2.
+0x39785a8	ShadowBlurKernelMaxSizeCSM2
+0x39785d0	Maximum scaling factor for the shadow blur kernel in cascade 3.
+0x3978638	ShadowBlurKernelMaxSizeCSM3
+0x39786ab	Used to select between min and max shadow blur kernel size.
+0x39786e8	ShadowGrazingAngleCSM
+0x3978800	Maximum number of static shadow map in the pool.
+0x3978838	MaxStaticShadowMaps
+0x3978850	Maximum number of dynamic shadow map in the pool.
+0x3978888	MaxDynamicShadowMaps
+0x39788a0	Size of the static shadow maps in texels.
+0x39788d0	StaticShadowMapSize
+0x39788f0	Always update new static shadow maps to avoid popping shadows, instead of doing only one update per frame.
+0x3978960	AlwaysUpdateNewStaticShadowMaps
+0x3978980	Enables screen-space sun shadow bilateral blurring.
+0x39789b8	ShadowBilateralBlur
+0x39789d0	Number of samples in each pass of the screen-space sun shadow bilateral filter.
+0x3978a20	ShadowBilateralBlurNumSamples
+0x3978a40	Number of passes for the screen-space sun shadow bilateral filter (1 pass = 1 horizontal + 1 vertical).
+0x3978aa8	ShadowBilateralBlurNumPasses
+0x3978ac8	Depth threshold for the bilateral shadow filtering.
+0x3978b00	ShadowBilateralBlurDepthThreshold
+0x3978b30	Minimum visible pixel coverage before shadow map is rendered (0.0-1.0).
+0x3978b78	ShadowOmniSpotMinCoverage
+0x3978b98	Reflection shadow depth bias
+0x3978bb8	ReflectionShadowZBias
+0x3978bd0	shader
+0x3978bd8	Shaders
+0x3978be0	Allow spots to cast shadows
+0x3978c00	SpotsCastShadows
+0x3978c18	Size of the CSM shadow map in texels.
+0x3978c40	CSMShadowMapSize
+0x3978c58	Long-range shadow volume texture is disable.
+0x3978c88	LRShadowDisable
+0x3978c98	Long-range shadow volume bias in the Z direction.
+0x3978cd0	LRShadowZBias
+0x3978ce0	Long-range shadow volume bias in the direction of the object XY normal.
+0x3978d28	LRShadowXYBias
+0x3978d40	Long-range shadow volume texture density, in pixels per square meter.
+0x3978d88	LRShadowDensity
+0x3978da0	Number of shadow map samples used to find shadow volume height by dichotomy.
+0x3978df0	LRShadowNumSamples
+0x3978e10	Minimum supported height for the long-range shadow volume, in meters.
+0x3978e58	LRShadowMinHeight
+0x3978e70	Maximum supported height for the long-range shadow volume, in meters.
+0x3978eb8	LRShadowMaxHeight
+0x3978ed0	Size the shadow volume texture tile updated each frame.
+0x3978f08	LRShadowTileSize
+0x3978f20	Maximum size of the long-range shadow volume texture.
+0x3978f58	LRShadowMaxTextureSize
+0x3978f70	Minimum radius an object must have to be rendered in the long-range shadow volume.
+0x3978fc8	LRShadowCullMinObjectRadius
+0x3978ff0	Minimum projected size an object must have to be rendered in the long-range shadow volume.
+0x3979050	LRShadowCullMinProjectedSize
+0x3979070	Distance between the viewpoint and the center of each tile when rendering the shadow map.
+0x39790d0	LRShadowCullViewDistance
+0x39790f0	Kill LOD scale modifier when rendering the shadow map.
+0x3979128	LRShadowKillDistanceScale
+0x3979150	Specifies that the long-range shadow volume should cover onlt the terrain area.
+0x39791a0	LRShadowCoverOnlyTerrainArea
+0x39791c0	Depth bias when rendering objects in the long range shadow map.
+0x3979200	LRShadowDepthBias
+0x3979220	Slope scale depth bias when rendering objects in the long range shadow map
+0x3979270	LRShadowSlopeScaleDepthBias
+0x3979290	Enables procedural shadow caster for sun light.
+0x39792c0	ProceduralShadowEnabled
+0x39792d8	Enables procedural shadow caster for omni and spot lights.
+0x3979318	ProceduralShadowOmniSpotEnabled
+0x3979338	Max number of procedural shadow casters during gameplay.
+0x3979378	ProceduralShadowMaxGameplayCount
+0x39794f0	UseCompactFPRenderTarget
+0x3979690	Use SSAO
+0x39796a0	UseSSAO
+0x39796a8	SSAO Quality Level (0-5)
+0x39796c8	SSAOQualityLevel
+0x39796e0	For SSAO downsample
+0x39796f8	SSAODownsample
+0x3979748	Change the Detail Objects LOD scale. 0 means no detail object.
+0x39797a8	Change the Kill LOD scale.
+0x39797c8	KillLodScale
+0x39797d8	Lower bound zoom LOD scale.
+0x3979808	Change the LOD scale.
+0x3979820	LodScale
+0x3979830	Change the LOD max.
+0x3979844	LodMax
+0x3979850	Change the clusters LOD scale.
+0x3979870	ClustersLodScale
+0x39798c8	Change the realtrees LOD scale.
+0x39798e8	RealTreesLodScale
+0x3979920	Minimum LOD for RealTree Leaves in the reflection
+0x3979958	RealtreeReflectionMinLODLeaf
+0x3979978	Minimum LOD for RealTree Trunks in the reflection
+0x39799b0	RealtreeReflectionMinLODTrunk
+0x3979ab0	Minimum diameter in metres for objects rendering in the rain occlusion map.  Objects smaller than this, other than dedicated rain occluders, are culled.
+0x3979c30	Distance where we switch from high res to LOD0 low res building.
+0x3979c78	BuildingLowResLOD0Distance
+0x3979c98	Distance where we switch from LOD0 to LOD1 low res building.
+0x3979cd8	BuildingLowResLOD1Distance
+0x3979ea0	Disables the conversion of facades to low res building in shadow when building is not visible in main pass.
+0x3979f10	DisableShadowFacadeToLowResConversion
+0x3979f88	DensityLodScale
+0x3979f98	DensityLodScales
+0x3979fb0	Disables lod dithering
+0x3979fc8	DisableLODDithering
+0x397a3d0	Enable HighQuality DOF in game.
+0x397a3f0	HighQualityEnvironmentDOF
+0x397acf8	Minimum projected anti-portal size for shadows.
+0x397ad28	AntiPortalMinSizeShadows
+0x397b1f0	Paraboloid reflection downward render.
+0x397b218	ParaboloidReflectionRenderDownward
+0x397b298	Enable/Disable shadow sampling in the paraboloid reflection.
+0x397b2d8	ParaboloidReflectionSampleShadow
+0x397b8a0	Scaling factor for tree LODs.
+0x397b8c0	TreeLeavesClusterLODScale
+0x397b948	Change the vegetation LOD scale.
+0x397b970	VegetationLodScale2
+0x397b988	Change the terrain LOD scale.
+0x397b9a8	TerrainLodScale
+0x397bbe0	X Resolution
+0x397bbf0	ResolutionX
+0x397bc00	Y Resolution
+0x397bc10	ResolutionY
+0x397bc88	TextureResolutionQuality
+0x397bd48	LodDitheringQuality
+0x397be20	RenderSplashes
+0x397be30	RenderRain
+0x397be80	0 = No Antialiasing / 1 = FXAA / 2 = SMAA / 3 = SMAA-T2x / 4 = Temporal+FXAA / 5 = Temporal+SMAA / 6 = Temporal+SMAA-T2x
+0x397bf10	0 = off / 1 = AlchemyAO / 2 = OsirisSSAO / 3 = HBAO / 4 = ToyStory / 5 = HMSSAO / 6 = SSBC / 7 = HBAO+
+0x397bf90	Set HeadlightShadows level: 0 = OFF / 1 = Only your car / 2..4 = 2..4 cars
+0x397bfe0	HeadlightShadowsLevel
+0x397c188	Max shaders to preload
+0x397c1a0	MaxShadersToPreload
+0x397c1b8	Max shaders to preload per frame
+0x397c1e0	MaxShadersToPreloadPerFrame
+0x397c370	Use monitor aspect ratio to avoid stretching UI rendering in fullscreen
+0x397c420	Enable/Disable computation of widescreen FOV.
+0x397c450	WidescreenFOV
+0x397c538	RenderQuality
+0x397c898	Update the rendering camera.
+0x397c8b8	UpdateRenderCamera
+0x397c930	Display only objects visible in the specified sun shadow slice (0-3, -1 to disable).
+0x397c988	DebugShadowCamera
+0x397ccb8	Disable not instanced RealTree rendering.
+0x397cd08	Disable instanced RealTree rendering.
+0x397cd50	Disable cluster RealTree rendering.
+0x397cdd8	Control last LOD index present in depth pass
+0x397ce08	ClustersZPassMaxLOD
+0x397ce20	Error Tolerance for terrain compiler at lod 1
+0x397ce50	TerrainCompilerLOD1Tolerance
+0x397ce70	Error Tolerance for terrain compiler at lod 2
+0x397cea0	TerrainCompilerLOD2Tolerance
+0x397cec0	Error Tolerance for terrain compiler at lod 3
+0x397cef0	TerrainCompilerLOD3Tolerance
+0x397d070	TextureResolution
+0x397d0b8	LodDithering
+0x397d360	Render 2D certainly to back buffer
+0x397d388	Render2DToBackbuffer
+0x397d3f0	set FOV scale, default is 1.0
+0x397d410	FovScale
+0x397d4f8	MultithreadedRenderEnabled
+0x397d540	LODErrorTolerances
+0x397d558	LODDistances
+0x397d698	LOD transition distance scale factor for roads
+0x397d6c8	RoadLODDistanceScale
+0x397d6f0	AllowScreenResolution
+0x397dd40	RenderConfig
+0x397de08	m_useWidescreenFOV
+0x397dec0	m_clustersZPassMaxLOD
+0x397df98	-resolution
+0x397e080	shaderoptions
+0x397e0e0	generateshaderids
+0x397e328	shaderoption
+0x397f830	CShaderFamily
+0x397f848	SCommonShaderOption
+0x397f8b8	BufferRenderResource IB
+0x397f8d0	BufferRenderResource VB
+0x397f8e8	BufferRenderResource
+0x397fab0	CTextureRenderResourceUpdateFromCommand::Execute
+0x397fb00	%sShadersCRC__%d%02d.crc
+0x397fb20	BuildShaderPart
+0x397fb60	ShaderFamily
+0x397fb70	ShaderFamilies
+0x397fb80	ShaderIDs
+0x397fc00	-%dof%d
+0x397fc40	engine\shaders\meta\CommonOptions.xml
+0x397fd00	engine\shaders\usage.bin
+0x397fdf0	CShaderVariationGenerator::GenerateAllVariations
+0x39806d8	engine\shaders\SamplerStates.xml
+0x3980760	shadergamma20
+0x39807b8	lowresolution
+0x3980978	CShaderOption
+0x3980a88	LODBitMasks
+0x3980a98	LODBitMaskCount
+0x3980ae0	ShaderOption
+0x3980af0	ShaderOptions
+0x3980bd0	Device3D::CRenderDeviceD3D11::~CRenderDeviceD3D11
+0x3980e68	Device3D::CRenderDeviceD3D11::FrameCleanup
+0x3980ea0	Using WARP software rasterizer - rendering performance will be diminished
+0x3980ef0	Device3D::CRenderDeviceD3D11::Initialize
+0x3983ff0	mipmaplodbias
+0x3984488	%srenderdoc.dll
+0x39844d0	RenderDoc DLL cannot be loaded!
+0x39844f0	CRenderDocManager::CRenderDocManager
+0x3984520	K:\Code\platforms\d3d11_x64\GraphicsToolbox\RenderDoc\RenderDocManager.cpp
+0x3984570	RENDERDOC_GetAPI
+0x3984588	RenderDoc API is not compatible (expecting version %d).
+0x39845c0	RenderDoc version %d.%d.%d successfully initialized!
+0x3984688	engine\shaders\obj_editor\
+0x39846a8	engine\shaders\obj\
+0x3984a20	VertexShader
+0x3984a30	PixelShader
+0x3984d10	BinkDoFrame (preloaded)
+0x3984d28	BinkDoFrame (streamed)
+0x3986b00	Name[%S],Id[%llu],Type[%s],Ip[%s],gameplayPeerId[%d],NameResolution[%s]
+0x398d200	EndOfMatchReport
+0x399c4f8	CSessionResolutionParam
+0x399f0a8	HackExplode
+0x39a0ce0	SoundOfSilence
+0x39a0eb8	StatHackExplode
+0x39b3ad8	PixelShadowSampling
+0x39c46c8	Impulse strength applied to vehicle when its engine explodes
+0x39c4730	Use this instead of real mass of vehicle for impulse applied to vehicle when its engine explodes if vehicle mass is lower than this.
+0x39d2d80	bUseContactNormalInsteadOfChassisUpVec
+0x39d48d8	fBoxShapeForwardOffset
+0x39fd658	RenderAudioLauncher
+0x39fd670	AK::SoundEngine::RenderAudio
+0x3a09678	MapTargetTextBackShadowWestPC
+0x3a09728	MapTargetTextBackShadowEastPC
+0x3a097a0	IngameMapTextureRenderResource
+0x3a0e5c8	dropShadowText
+0x3a0f178	PoweredOff
+0x3a10be8	LeftShadow
+0x3a10c48	RightShadow
+0x3a10db0	ShadowLeftFacing
+0x3a10dc8	ShadowRightFacing
+0x3a182a0	CUIMenuTileLeaderboardAppEndOfSeason
+0x3a21400	FilterBodyBackgroundShadow
+0x3a23858	FocusShadow
+0x3a24028	AcceptButtonShadow
+0x3a240b0	BackButtonShadow
+0x3a24138	ContextualButtonShadow
+0x3a29058	Width of internal texture used to render the worldmap
+0x3a290b0	Height of internal texture used to render the worldmap
+0x3a29108	Width of internal texture used to render the minimap
+0x3a29160	Height of internal texture used to render the minimap
+0x3a2bce8	Don't Scale (Keep Original Size Regardless of Resolution)
+0x3a2be30	FOVFactor
+0x3a2be40	Affects how much impact the FOV has on the scale
+0x3a2be78	fFOVFactor
+0x3a2c568	RenderSpecificOptions
+0x3a2c580	ThreeDRenderSpecificOptions
+0x3a2c660	This option will allow the UI element to render over the minimap and world map...
+0x3a2c780	This option will allow the UI element to render under the minimap and world map...
+0x3a2dc30	locstridQuickHackLodID
+0x3a2dc48	locstridRightHackLodID
+0x3a2dc60	locstridLeftHackLodID
+0x3a2dc78	locstridDownHackLodID
+0x3a2dc90	locstridUpHackLodID
+0x3a2dca8	locstridHoldFeedbackLodID
+0x3a33d58	-noshaderreports
+0x3a3f8d0	resolutionX
+0x3a3f8e0	resolutionY
+0x3a6cc90	m_fFOV
+0x3a6ccc8	m_fPrevFOV
+0x3a6cd38	m_fOverrideReturnDelay
+0x3a6cd50	m_fOverrideReturnTime
+0x3a6cdf0	m_fOverrideReturnTimer
+0x3a6ce08	m_fOverrideReturnAngVelSign
+0x3a6ce28	m_fOverrideReturnPrevLerpParam
+0x3a6d650	SChaseSpeedFOVEffectConfig
+0x3a6d6d0	SChaseSpeedFOVEffectInitData
+0x3a6d6f0	SChaseSpeedFOVEffectUpdateData
+0x3a6d710	SChaseSpeedFOVEffectState
+0x3a6dbc8	SFOVEffectState
+0x3a6dbd8	m_fFOVDelta
+0x3a6dcb0	m_SpeedBasedFOV
+0x3a6df68	m_fOverRevAmount
+0x3a6e348	m_fOverRevCounter
+0x3a6feb8	m_Data.m_fCenterLowSpeedOffset
+0x3a70040	m_Data.m_fFovEndSpeed
+0x3a70058	m_Data.m_fStartFov
+0x3a70070	m_Data.m_fEndFov
+0x3a70088	m_Data.m_fFOVCurveCenterX
+0x3a700a8	m_Data.m_fFOVCurveCenterY
+0x3a70208	m_Data.m_fFovPosCatchUpRate
+0x3a70228	m_Data.m_fFovNegCatchUpRate
+0x3a70eb8	m_fOverrevTime
+0x3a71048	m_fOverrevCounter
+0x3a740c0	The previous FOV when blending, to ensure consistent blending of FOV
+0x3a75338	The speed at which the FOV blend begins
+0x3a75360	The speed at which the FOV blend ends
+0x3a75388	FOV change at the begin speed
+0x3a753a8	FOV change at the end speed
+0x3a75420	The proportion of the FOV between narrowest and widest where the curve flattens
+0x3a75a10	Change in FOV to apply
+0x3a75af0	Speed-based FOV config
+0x3a75c60	Speed-based FOV state
+0x3a7f790	The position of the wheel in the model, and relative to the CoM, for line check and rendering purposes
+0x3a81f10	rendering
+0x3a81f48	rendering fire text
+0x3a81f70	mask rendering
+0x3a8866f	8alphaMultiplier,8redMultiplier,8greenMultiplier,8blueMultiplier,8alphaOffset,8redOffset,8greenOffset,8blueOffset,8rgb
+0x3a8877c	, redOffset=
+0x3a88789	redOffset
+0x3a8aa58	_fireRenderOptions
+0x3a8b533	fireRenderOptions
+0x3a8c644	getrenderingtime
+0x3a8ceb0	screenResolutionX
+0x3a8cec8	screenResolutionY
+0x3ab09c0	[G4::SystemDetection::GearGraphics] EAL_LOG_ERROR: Could not retreive current resolution width
+0x3ab0a70	[G4::SystemDetection::GearGraphics] EAL_LOG_ERROR: Could not retreive current resolution height
+0x3ab0ae0	[G4::SystemDetection::GearGraphics] EAL_LOG_ERROR: Could not retreive current resolution bit per pixel
+0x3ab0b60	[G4::SystemDetection::GearGraphics] EAL_LOG_ERROR: Could not retreive current resolution refresh rate
+0x3ab0ea0	[G4::SystemDetection::GearGraphics] EAL_LOG_ERROR: Could not parse adapter name, will not be able to detect Shader Model.
+0x3ab0f20	GL_EXT_gpu_shader4
+0x3ab0f50	GL_ATI_shader_texture_lod
+0x3ab0f88	GL_ARB_fragment_shader
+0x3ab17b0	[G4::SystemDetection::Hardware] EAL_LOG_ERROR: Could not delete rendering context
+0x3ab1810	[G4::SystemDetection::Hardware] EAL_LOG_ERROR: Could not release rendering context
+0x3ab5370	firstFloatBlockScaleAndOffsetIndex
+0x3ae07f0	staticDOFsSize
+0x3ae0cd8	relativeToEndOfClip
+0x3ae10f8	numBonesPerLod
+0x3ae1228	lodNames
+0x3ae1740	staticDOFsIdx
+0x3ae1898	numDynamicTransformDOFs
+0x3ae18c8	numStaticTransformDOFs
+0x3ae35f8	shadowBufferIndex
+0x3ae41c0	enableSSAO
+0x3ae5030	horGridOffset
+0x3ae5198	vertGridOffset
+0x3ae66e8	handOffsetLS
+0x3ae7430	initializedOffset
+0x3aefbc0	loData
+0x3af74e0	fovyDegrees
+0x3b04670	autoBuildLodOnDynamicBodyAdded
+0x3b04828	autoBuildLodOnMeshBodyAdded
+0x3b04a18	lodAccuray
+0x3b05270	lodVariantTable
+0x3b05940	hknpLodMeshShape::LevelOfDetailInfo
+0x3b07028	hknpLodShapeIndex
+0x3b07d08	hknpLodShape
+0x3b092b8	lodFlags
+0x3b0b8c0	lodTypeToVariant
+0x3b0b8e0	lodManagerCinfo
+0x3b0b958	hknpLodBodyFlags::Enum
+0x3b0ba30	hknpLodMeshShape
+0x3b0ce18	hknpLodManagerCinfo
+0x3b11050	hknpLodManager
+0x3b118a8	LodQuery
+0x3b118b8	LodTarget
+0x3b118e0	LodQueryAndTarget
+0x3b13600	LodChanged
+0x3b182f0	hkp6DofConstraintData::Blueprints
+0x3b18d48	CONSTRAINT_TYPE_6DOF
+0x3b18ff0	angularConstrainedDOF
+0x3b199a0	hkp6DofConstraintData
+0x3b21fe8	hkxMaterialShader
+0x3b22510	shaders
+0x3b23670	hkxMaterialShader::ShaderType
+0x3b24480	hkxMaterialShaderSet
+0x3b24680	shadowCaster
+0x3b279b0	Invalid sRGB rendering intent specified
+0x3b33518	RealTreeLib::RTcGlobalRenderData
+0x3b33540	RealTreeLib::RTcRenderDataNode
+0x3b33560	RealTreeLib::RTcRenderDataLeaves
+0x3b335a8	RealTreeLib::RTsShaderConstants
+0x3b33618	RealTreeNodeLODStencil
+0x3b33807	;RealTree Render Skeleton
+0x3b33978	RealTreeLib::RTcKillLOD
+0x3b33990	RealTreeLib::RTcLODNodes
+0x3b339b0	RealTreeLib::RTcLODLeaves
+0x3b33bd8	RealTreeLib::RTcRenderDataLOD
+0x3b33c20	RTNodeLOD
+0x3b33d28	RTLeavesLOD
+0x3b33e08	Shader_Tree\Default.xml
+0x3b77850	 m_pNullRenderer.
+0x3b86438	DynamicType::IsAKindOf
+0x3c08988	JobConnectEndPoint::WaitForURLResolution
+0x3e20790	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CProceduralShadowCasterComponent,struct UTDS::xxxUpdate>(void)
+0x3e25580	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CEngine,struct UTDS::xxxEndOfFrame>(void)
+0x3e2c810	const char *__cdecl CombineClassAndFunctionNamesIntoStringImpl<class CHeadlightShadowsManager,struct UTDS::xxxUpdate>(void)
+0x3e8b820	.?AVhknpLodShape@@
+0x3e8b848	.?AVhknpLodMeshShape@@
+0x3e8d5a8	.?AVhknpLodManager@@
+0x3e8d610	.?AU?$MemberSlot@VhknpLodManager@@P81@EAAXPEAVhknpWorld@@PEBUhknpBodyId@@H@Z@?$hkSignal3@PEAVhknpWorld@@PEBUhknpBodyId@@H@@
+0x3e91258	.?AVhkp6DofConstraintData@@
+0x3e98048	.?AVhkxMaterialShader@@
+0x3e983f8	.?AVhkxMaterialShaderSet@@
+0x824cee3	6LOD 
+0x8447035	?RenderAudio@SoundEngine@AK@@YA?AW4AKRESULT@@XZ
+0x844acb0	GFSDK_SSAO_CreateContext_D3D11
+0x844acd0	GFSDK_SSAO_D3D11.win64.dll
+0x844acee	GFSDK_ShadowLib_GetDLLVersion
+0x844ad0e	GFSDK_ShadowLib_Create
+0x844ad26	GFSDK_ShadowLib_DX11.win64.dll
+0x844ad48	GFSDK_TXAA_DX11_ResolveFromMotionVectors
+0x844ad74	GFSDK_TXAA_DX11_InitializeContext
+0x844ad98	GFSDK_TXAA_DX11_ReleaseContext
+0x844adb8	GFSDK_Txaa.win64.dll
+0x844c80a	?_BADOFF@std@@3_JB
+0x844ecb2	BinkDoFrame
+0x85727a4	foVu42
+0x88cfc78	F7foV
+0x8919357	*lODB
+0x8b19456	a)ZfovTf
+0x91192e4	MflOD0
+0x9165720	?vhFOv
+0x954c9cc	FOv!M-r
+0x95fc145	?loD,
+0x9b8ee55	.;!9Fovp
+0x9c2dfce	BZFoV
+0x9feebfa	DoF0\3"y.
+0xa2697dd	CFov!;,
+0xa2b9138	aE/lOd@
+0xa493c92	rpFOV
+0xa650f79	dOFC5t*
+0xa82d3dd	3FoVF
+0xab0b2d7	lODTF>-pJkfsX
+0xabec3c9	.zfOv
+0xac22040	Lod '{H
+0xaf30966	?fOv&
+0xaf4341d	n1kfov
+0xb11666b	Loddr
+0xb91ef40	-|MwMLod
+0xba7086c	sALOd
+0xbab01f9	VdoF5
+0xbd16264	LodoM0p
+0xbdca412	jVdoF
+0xc08d800	1dofP
+0x35b5990	EndOfSeason
+0x37d0020	ShadowRacer
+0x3a182c8	LeaderboardAppEndOfSeason
+0x3b77818	Null Renderer
